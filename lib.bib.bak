@@ -1,0 +1,294 @@
+% This file was created with JabRef 2.9.2.
+% Encoding: ISO8859_3
+
+@ARTICLE{Esarey_trapping_nonlinear_waves,
+  author = {Esarey, Eric and Pilloff, Mark},
+  title = {Trapping and acceleration in nonlinear plasma waves},
+  journal = {Physics of Plasmas (1994-present)},
+  year = {1995},
+  volume = {2},
+  pages = {1432-1436},
+  number = {5},
+  doi = {http://dx.doi.org/10.1063/1.871358},
+  url = {http://scitation.aip.org/content/aip/journal/pop/2/5/10.1063/1.871358}
+}
+
+@ARTICLE{Fub_PRL_downramp,
+  author = {Fubiani, G. and Esarey, E. and Schroeder, C. B. and Leemans, W. P.},
+  title = {Improvement of electron beam quality in optical injection schemes
+	using negative plasma density gradients},
+  journal = {Phys. Rev. E},
+  year = {2006},
+  volume = {73},
+  pages = {026402},
+  month = {Feb},
+  doi = {10.1103/PhysRevE.73.026402},
+  issue = {2},
+  numpages = {8},
+  publisher = {American Physical Society},
+  url = {http://link.aps.org/doi/10.1103/PhysRevE.73.026402}
+}
+
+@PHDTHESIS{Hidding_PhD,
+  author = {Bernhard Hidding},
+  title = {En Route: Elektronenbeschleuniger der nächsten Generation auf Laser-Plasma-Basis},
+  school = {Heinrich-Heine-Universität Düsseldorf},
+  year = {2008}
+}
+
+@ARTICLE{Kim_trapping_parabolic_density,
+  author = {Kim, J. U. and Hafz, N. and Suk, H.},
+  title = {Electron trapping and acceleration across a parabolic plasma density
+	profile},
+  journal = {Phys. Rev. E},
+  year = {2004},
+  volume = {69},
+  pages = {026409},
+  month = {Feb},
+  doi = {10.1103/PhysRevE.69.026409},
+  issue = {2},
+  numpages = {5},
+  publisher = {American Physical Society},
+  url = {http://link.aps.org/doi/10.1103/PhysRevE.69.026409}
+}
+
+@PHDTHESIS{Kirby_PhD,
+  author = {Neil Allen Kirby},
+  title = {Properties of trapped electron bunches in a Plasma wakefield accelerator},
+  school = {Stanford University},
+  year = {2009}
+}
+
+@ARTICLE{Kostyukov_multidim_trapping,
+  author = {Kostyukov,I. and Nerush, E. and Pukhov, A. and Seredov, V.},
+  title = {A multidimensional theory for electron trapping by a plasma wake
+	generated in the bubble regime},
+  journal = {New Journal of Physics},
+  year = {2010},
+  volume = {12},
+  pages = {045009},
+  number = {4},
+  abstract = {We present a theory for electron self-injection in nonlinear, multidimensional
+	plasma waves excited by a short laser pulse in the bubble regime
+	or by a short electron beam in the blowout regime. In these regimes,
+	which are typical for electron acceleration in the last impressive
+	experiments, the laser radiation pressure or the electron beam charge
+	pushes out plasma electrons from some region, forming a plasma cavity
+	or a bubble with a huge ion charge. The plasma electrons can be trapped
+	in the bubble and accelerated by the plasma wakefields up to a very
+	high energy. We derive the condition of the electron trapping in
+	the bubble. The developed theory predicts the trapping cross section
+	in terms of the bubble radius and the bubble velocity. It is found
+	that the dynamic bubble deformations observed in the three-dimensional
+	(3D) particle-in-cell (PIC) simulations influence the trapping process
+	significantly. The bubble elongation reduces the gamma-factor of
+	the bubble, thereby strongly enhancing self-injection. The obtained
+	analytical results are in good agreement with the 3D PIC simulations.},
+  url = {http://stacks.iop.org/1367-2630/12/i=4/a=045009}
+}
+
+@ARTICLE{Kostyukov_phenomenological_interaction_bubble,
+  author = {Kostyukov, I. and Pukhov, A. and Kiselev, S.},
+  title = {Phenomenological theory of laser-plasma interaction in ?bubble? regime},
+  journal = {Physics of Plasmas (1994-present)},
+  year = {2004},
+  volume = {11},
+  pages = {5256-5264},
+  number = {11},
+  doi = {http://dx.doi.org/10.1063/1.1799371},
+  url = {http://scitation.aip.org/content/aip/journal/pop/11/11/10.1063/1.1799371}
+}
+
+@ARTICLE{Lu_nonlinear_rel_wakefield,
+  author = {Lu, W. and Huang, C. and Zhou, M. and Tzoufras, M. and Tsung, F.
+	S. and Mori, W. B. and Katsouleas, T.},
+  title = {A nonlinear theory for multidimensional relativistic plasma wave
+	wakefields},
+  journal = {Physics of Plasmas},
+  year = {2006},
+  volume = {13},
+  pages = {056709+},
+  number = {5},
+  abstract = {{A nonlinear kinetic theory for multidimensional plasma wave wakes
+	with phase velocities near the speed of light is presented. This
+	theory is appropriate for describing plasma wakes excited in the
+	so-called blowout regime by either electron beams or laser pulses
+	where the plasma electrons move predominantly in the transverse direction.
+	The theory assumes that all electrons within a blowout radius are
+	completely expelled. These radially expelled electrons form a narrow
+	sheath just beyond the blowout radius which is surrounded by a region
+	which responds weakly (linearly). This assumption is reasonable when
+	the spot size of the electron beam and laser are substantially less
+	than the blowout radius. By using this theory one can predict the
+	wakefield amplitudes and blowout radius in terms of the electron
+	beam or laser beam parameters, as well as predict the nonlinear modifications
+	to the wake's wavelength and wave form. For the laser case, the laser
+	spot size must also be properly matched in order for a narrow sheath
+	to form. The requirements for forming a spherical wave form, i.e.,
+	"bubble," are also discussed. The theory is also used to show when
+	linear fluid theory breaks down and how this leads to a saturation
+	of the logarithmic divergence in the linear Green's function. {\copyright}2006
+	American Institute of Physics}},
+  citeulike-article-id = {1261879},
+  citeulike-linkout-0 = {http://scitation.aip.org/getabs/servlet/GetabsServlet?prog=normal\&id=PHPAEN000013000005056709000001\&idtype=cvips\&gifs=yes},
+  citeulike-linkout-1 = {http://link.aip.org/link/?PHP/13/056709},
+  citeulike-linkout-2 = {http://dx.doi.org/10.1063/1.2203364},
+  doi = {10.1063/1.2203364},
+  keywords = {bubble, lwfa, review, theory, ucla},
+  posted-at = {2009-02-13 18:13:33},
+  priority = {2},
+  publisher = {AIP},
+  url = {http://dx.doi.org/10.1063/1.2203364}
+}
+
+@ARTICLE{Lu_multigev_bunches_3D,
+  author = {{Lu}, W. and {Tzoufras}, M. and {Joshi}, C. and {Tsung}, F.~S. and
+	{Mori}, W.~B. and {Vieira}, J. and {Fonseca}, R.~A. and {Silva},
+	L.~O. },
+  title = {Generating multi-GeV electron bunches using single stage laser wakefield
+	acceleration in a 3D nonlinear regime},
+  journal = {Physical Review Special Topics Accelerators and Beams},
+  year = {2007},
+  volume = {10},
+  pages = {061301},
+  number = {6},
+  month = jun,
+  eid = {061301},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://adsabs.harvard.edu/abs/2007PhRvS..10f1301L},
+  doi = {10.1103/PhysRevSTAB.10.061301},
+  eprint = {physics/0612227},
+  keywords = {Laser-plasma acceleration of electrons and ions, Nonlinear phenomena:
+	waves wave propagation and other interactions, Particle-in-cell method}
+}
+
+@PHDTHESIS{Oz_PhD,
+  author = {Erdem Oz},
+  title = {Physics of particle trapping in ultrarelativistic plasma wakes},
+  school = {College of Letters, Arts and Sciences},
+  year = {2007},
+  abstract = {The accelerator at the Stanford Linear Accelerator Center is the world's
+	largest linear accelerator. The electron beam produced here is unique;
+	it is an ultra-relativistic, 28.5 GeV, and ultra-intense (rms bunch
+	length and spot size (~ 10-50 microns) electron beam. Its radial
+	field is so intense that it can field ionize and create a plasma
+	as it traverses a neutral gas. It also creates a very large amplitude
+	(10s of GV/m) plasma wave. When the plasma wave (wake) amplitude
+	is so large, some of the plasma electrons can gain enough forward
+	momentum that they might catch-up with the wave, i.e. get trapped
+	in the wave. This is called wave breaking. Wave breaking has been
+	of fundemental interest for many years and is important in plasma-based
+	accelerators. In the SLAC experiment we observed trapping although
+	1-D cold relativistic wave breaking theory predicts wave breaking
+	to occur for waves with much higher amplitudes. We attribute this
+	to the uniqueness of the plasma source and field ionization. The
+	plasma source is a heat pipe oven where a hot Lithium (Li) gas is
+	confined at the edges by a helium (He) buffer gas. The plasma wake
+	traps electrons in the He-Li transition regions of the oven. The
+	lithium plasma electrons support the wake, however, the higher ionization
+	potential helium electrons are ionized as the beam is focused by
+	the Li ions and can be trapped inside the wake with a lower wave
+	amplitude.; As the wake amplitude is increased in the experiment,
+	the onset of trapping is observed as a sudden increase both in the
+	total number of electrons leaving the plasma and in the visible radiation
+	they emit. The experimentally inferred trapping threshold is at a
+	wake amplitude of 36 GV/m, and is in good agreement with predictions
+	of an analytical model and detailed particle in cell simulations
+	of the experiment. These electrons are measured to gain 10s of GeV
+	energiesand simulations show that these electrons reach energies
+	(>28.5 GeV) exceeding the electron beam driver. Experiments suggest
+	and simulations show that these electrons also form ultra short (a
+	few microns long) bunches. The properties of these trapped electron
+	bunches if optimized can be useful for many applications such as
+	high brightness radiation sources that are used to investigate the
+	properties of molecules in biological cells.; In this thesis, the
+	onset of trapping of electrons that are ionized inside a highly relativistic,
+	three dimensional plasma wake and their properties is investigated
+	with theory simulation and experiment.}
+}
+
+@PHDTHESIS{Pak_PhD,
+  author = {Arthur Pak},
+  title = {Injection of Tunnel Ionized Electrons into Laser-Produced Wakes},
+  school = {University of California},
+  year = {2010}
+}
+
+@ARTICLE{Phukov_MTV_lwfaraey,
+  author = {Pukhov, A. and Meyer-ter-Vehn, J.},
+  title = {Laser wake field acceleration: the highly non-linear broken-wave
+	regime},
+  journal = {Applied Physics B},
+  year = {2002},
+  volume = {74},
+  pages = {355-361},
+  number = {4-5},
+  doi = {10.1007/s003400200795},
+  issn = {0946-2171},
+  keywords = {PACS: 52.38.Kd; 52.35.-g; 41.75.Ht},
+  language = {English},
+  publisher = {Springer-Verlag},
+  url = {http://dx.doi.org/10.1007/s003400200795}
+}
+
+@ARTICLE{Ruth_lwfa,
+  author = {Ruth, R. D. and Chao, A. W.},
+  title = {Plasma laser accelerator: Longitudinal dynamics, the plasma/laser
+	interaction, and a qualitative design},
+  journal = {AIP Conference Proceedings},
+  year = {1982},
+  volume = {91},
+  pages = {94-111},
+  number = {1},
+  doi = {http://dx.doi.org/10.1063/1.33806},
+  url = {http://scitation.aip.org/content/aip/proceeding/aipcp/10.1063/1.33806}
+}
+
+@ARTICLE{Ruth_pwfa,
+  author = {Ruth, R. D. and Chao, W. D. and Morton, P. L. and Wilson, P. B.},
+  title = {A plasma wakefield accelerator},
+  journal = {Particle Accelerators},
+  year = {1985},
+  volume = {17},
+  pages = {171--189},
+  citeulike-article-id = {1363679},
+  keywords = {pwfa, pwfa-theory},
+  posted-at = {2007-06-04 21:09:38},
+  priority = {2}
+}
+
+@INPROCEEDINGS{Tzoufras_physpic_beamloading,
+  author = {Tzoufras, M. and Lu, W. and Tsung, F.S. and Huang, C. and Mori, W.B.
+	and Vieira, J. and Fonseca, R.A. and Silva, L.O.},
+  title = {The physical picture of beam loading in the blowout regime},
+  booktitle = {Particle Accelerator Conference, 2007. PAC. IEEE},
+  year = {2007},
+  pages = {3061-3063},
+  month = {June},
+  doi = {10.1109/PAC.2007.4440668},
+  keywords = {electron beams;particle beam bunching;particle beam dynamics;plasma
+	accelerators;plasma-beam interactions;wakefield accelerators;beam
+	charge;beam loading;blowout regime;electron beam propagation;electron
+	bunch;laser wakefield accelerators;plasma electrons;plasma structure;plasma
+	wakefield accelerators;Acceleration;Electron accelerators;Electron
+	beams;Laser beams;Laser theory;Optical propagation;Particle beams;Plasma
+	accelerators;Plasma properties;Shape}
+}
+
+@ARTICLE{Tzoufras_beamloading,
+  author = {Tzoufras, M. and Lu, W. and Tsung, F. S. and Huang, C. and Mori,
+	W. B. and Katsouleas, T. and Vieira, J. and Fonseca, R. A. and Silva,
+	L. O.},
+  title = {Beam Loading in the Nonlinear Regime of Plasma-Based Acceleration},
+  journal = {Phys. Rev. Lett.},
+  year = {2008},
+  volume = {101},
+  pages = {145002},
+  month = {Sep},
+  doi = {10.1103/PhysRevLett.101.145002},
+  issue = {14},
+  numpages = {4},
+  publisher = {American Physical Society},
+  url = {http://link.aps.org/doi/10.1103/PhysRevLett.101.145002}
+}
+
