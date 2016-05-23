@@ -1,23 +1,23 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.2.3)  14 APR 2015 14:38
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.5.16)  23 MAY 2016 17:57
 entering extended mode
 **main.tex
-(C:\Users\Knetsch\Promotion\Thesis\v1_OnProgress\main.tex
+(C:\Users\Knetsch\Promotion\Thesis\Thesis\main.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
 croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
-lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
-ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
- lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
-german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
-ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
-an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
-ishmax, welsh, loaded.
-("C:\Program Files\MiKTeX 2.9\tex\latex\thesis\thesis.cls"
+lician, german, german-x-2009-06-19, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, lao, latin, lat
+vian, lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerm
+an, ngerman-x-2009-06-19, nynorsk, oriya, panjabi, pinyin, polish, portuguese, 
+romanian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swis
+sgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, u
+senglishmax, welsh, loaded.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\thesis\thesis.cls"
 Document Class: thesis 1996/25/01 1.0g LaTeX document class (wm).
 \hours=\count79
 \minutes=\count80
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\bk10.clo"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\bk10.clo"
 File: bk10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count81
@@ -36,39 +36,39 @@ File: bk10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip45
 \bibindent=\dimen102
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\inputenc.sty"
 Package: inputenc 2008/03/30 v1.1d Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\latin1.def"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\latin1.def"
 File: latin1.def 2008/03/30 v1.1d Input encoding file
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\fontenc.sty"
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.def"
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\cite\cite.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\cite\cite.sty"
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 373.
 Package: cite 2010/09/10  v 5.3
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.sty"
 Package: babel 2008/07/08 v3.8m The Babel package
 
 *************************************
 * Local config file bblopts.cfg used
 *
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
 File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\babel\germanb.ldf"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\germanb.ldf"
 Language: germanb 2008/06/01 v2.6m German support from the babel system
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.def"
 File: babel.def 2008/07/08 v3.8m Babel common definitions
 \babel@savecnt=\count90
 \U@D=\dimen103
@@ -76,10 +76,10 @@ File: babel.def 2008/07/08 v3.8m Babel common definitions
 \l@austrian = a dialect from \language\l@german 
 Package babel Info: Making " an active character on input line 102.
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\babel\germanb.ldf"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\germanb.ldf"
 Language: germanb 2008/06/01 v2.6m German support from the babel system
 ))
-(C:\Users\Knetsch\Promotion\Thesis\v1_OnProgress\main.aux)
+(C:\Users\Knetsch\Promotion\Thesis\Thesis\main.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
@@ -99,53 +99,53 @@ LaTeX Font Info:    External font `cmex10' loaded for size
  [1
 
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-(C:\Users\Knetsch\Promotion\Thesis\v1_OnProgress\main.toc)
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] (C:\Users\Knetsch\Promoti
+on\Thesis\Thesis\main.toc)
 \tf@toc=\write3
-
-(C:\Users\Knetsch\Promotion\Thesis\v1_OnProgress\theory\theory.tex [2
+ (C:\Users\Knetsch\Promotion\Thesis\Thesis\theory\theory.tex [2
 
 ]
 Kapitel 1.
-) (C:\Users\Knetsch\Promotion\Thesis\v1_OnProgress\simulations\simulations.tex
+) (C:\Users\Knetsch\Promotion\Thesis\Thesis\simulations\simulations.tex
 [3
 
 ]
 Kapitel 2.
 [4
 
-]) (C:\Users\Knetsch\Promotion\Thesis\v1_OnProgress\experiment\experiment.tex [
-5]
+]) (C:\Users\Knetsch\Promotion\Thesis\Thesis\experiment\experiment.tex
+[5]
 Kapitel 3.
 )
 No file main.bbl.
 [6
 
-] (C:\Users\Knetsch\Promotion\Thesis\v1_OnProgress\main.aux) ) 
+] (C:\Users\Knetsch\Promotion\Thesis\Thesis\main.aux) ) 
 Here is how much of TeX's memory you used:
- 1148 strings out of 493921
- 13587 string characters out of 3147244
- 67309 words of memory out of 3000000
- 4470 multiletter control sequences out of 15000+200000
+ 1148 strings out of 494045
+ 13617 string characters out of 3145930
+ 68168 words of memory out of 3000000
+ 4469 multiletter control sequences out of 15000+200000
  9162 words of font info for 21 fonts, out of 3000000 for 9000
- 841 hyphenation exceptions out of 8191
+ 715 hyphenation exceptions out of 8191
  25i,7n,24p,246b,203s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files
-/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t1.enc}<C:/Program Files/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
-ublic/amsfonts/cm/cmmi5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
-fonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
-cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb>
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Progra
-m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/
-MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1000.pfb><C:/Program Files/MiKTeX 2.
-9/fonts/type1/public/cm-super/sfrm1200.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
-ype1/public/cm-super/sfrm1728.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
-ic/cm-super/sfsl0900.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-sup
-er/sfsl1000.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfsl12
-00.pfb>
-Output written on main.pdf (6 pages, 186658 bytes).
+{C:/Program Files (x86)/
+MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t1.enc}<C:/Program Files (x86)/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files (x86)/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files (x86)/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files (x86)/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmr5.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pub
+lic/cm-super/sfrm1000.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public
+/cm-super/sfrm1200.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm
+-super/sfrm1728.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-su
+per/sfsl0900.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super
+/sfsl1000.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sf
+sl1200.pfb>
+Output written on main.pdf (6 pages, 186447 bytes).
 PDF statistics:
  78 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
