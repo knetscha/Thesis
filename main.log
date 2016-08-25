@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.5.16)  23 MAY 2016 17:57
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.5.16)  29 JUL 2016 19:51
 entering extended mode
 **main.tex
 (C:\Users\Knetsch\Promotion\Thesis\Thesis\main.tex
@@ -100,35 +100,35 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] (C:\Users\Knetsch\Promoti
-on\Thesis\Thesis\main.toc)
+on\Thesis\Thesis\main.toc [2
+
+])
 \tf@toc=\write3
- (C:\Users\Knetsch\Promotion\Thesis\Thesis\theory\theory.tex [2
-
-]
+ (C:\Users\Knetsch\Promotion\Thesis\Thesis\theory\theory.tex [3]
 Kapitel 1.
-) (C:\Users\Knetsch\Promotion\Thesis\Thesis\simulations\simulations.tex
-[3
-
-]
-Kapitel 2.
 [4
 
-]) (C:\Users\Knetsch\Promotion\Thesis\Thesis\experiment\experiment.tex
+]) (C:\Users\Knetsch\Promotion\Thesis\Thesis\simulations\simulations.tex
 [5]
+Kapitel 2.
+[6
+
+]) (C:\Users\Knetsch\Promotion\Thesis\Thesis\experiment\experiment.tex
+[7]
 Kapitel 3.
 )
 No file main.bbl.
-[6
+[8
 
 ] (C:\Users\Knetsch\Promotion\Thesis\Thesis\main.aux) ) 
 Here is how much of TeX's memory you used:
  1148 strings out of 494045
  13617 string characters out of 3145930
- 68168 words of memory out of 3000000
+ 70168 words of memory out of 3000000
  4469 multiletter control sequences out of 15000+200000
  9162 words of font info for 21 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 25i,7n,24p,246b,203s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 25i,7n,24p,246b,224s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/
 MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t1.enc}<C:/Program Files (x86)/MiK
 TeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files (x86)/MiKTe
@@ -145,9 +145,9 @@ lic/cm-super/sfrm1000.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public
 per/sfsl0900.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super
 /sfsl1000.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sf
 sl1200.pfb>
-Output written on main.pdf (6 pages, 186447 bytes).
+Output written on main.pdf (8 pages, 204429 bytes).
 PDF statistics:
- 78 PDF objects out of 1000 (max. 8388607)
+ 86 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
