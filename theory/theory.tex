@@ -42,12 +42,74 @@ This theorem is so important, it clearly needs a subsection. But where ?
 
 
 \subsection{Trapping in PWFA}
-The blowout regime inherits an excellent wake field distribution to efficiently accelerate electrons due to the large accelerating fields of the order of $10^{10} \mathrm{V/m}$ and the strong focusing fields in the back of the bubble. Energy can easily be transferred from an driver bunch to a trailing witness electron bunch, which has been sucessfully shown in two-bunch experiments at SLAC. A chirped electron bunch was accelerated to 42 GeV in the linear accelerator, rotated in a magnetic chicane, where the central part of the electron beam was cut out by a collimator and rotated back so that two seperate electron bunches where trailing on the same orbit. In the subsequent plasma stage the wakefields accelerated the witness bunch to up to 84 GeV in only ??? m of acceleration. This external injection scheme was very successfull and has been further studied during the entire experimental period of FACET. With such high fields 
-Even though the fields are DAMN
+%The blowout regime inherits an excellent wake field distribution to efficiently accelerate electrons due to the large accelerating fields of the order of $10^{10} \mathrm{V/m}$ and the strong focusing fields in the back of the bubble. Energy can easily be transferred from an driver bunch to a trailing witness electron bunch, which has been sucessfully shown in two-bunch experiments at SLAC. A chirped electron bunch was accelerated to 42 GeV in the linear accelerator, rotated in a magnetic chicane, where the central part of the electron beam was cut out by a collimator and rotated back so that two seperate electron bunches where trailing on the same orbit. In the subsequent plasma stage the wakefields accelerated the witness bunch to up to 84 GeV in only ??? m of acceleration. This external injection scheme was very successfull and has been further studied during the entire experimental period of FACET. With such high fields 
+%Even though the fields are DAMN
+
+In order to derive an expression for the trapping condition of a single electron in PWFA, one has to start with the equation of motion for such a single electron. 
+\begin{equation}
+F=\frac{d\vec{p}}{dt}=q(\vec{E}\times \vec{B})
+\end{equation}
+with the electron charge $q$ electric field $\vec{E}$ and magnetic field $\vec{B}$
+
+This leads to the single particle electron hamiltonian $ H=\gamma m c^2+\Phi$ with the temporal derivative.
+\begin{align}
+\frac{dH}{dt}&=\frac{d}{dt} (\gamma m_e c^2)+\frac{d}{dt}(q\Phi)\\
+&=\vec{v}\frac{d\vec{p}}{dt}+\frac{d}{dt}(q\Phi)\\
+&=q\vec{v}(-\nabla \Phi-\frac{\partial \vec{A}}{\partial t})+\frac{\vec{v}\times\vec{B}}{c}+\frac{d}{dt}(q\Phi)\\
+&=q(\frac{d}{dt}\Phi-\vec{v}\vec{\nabla}\Phi-\vec{v}\frac{\partial \vec{A}}{\partial t})\\
+&=q(\frac{\partial \Phi}{\partial t}-\vec{v}\frac{\partial \vec{A}}{\partial t})
+\end{align}
+
+If one assumes now, that the wake fields are constant during the trapping process, then 
+
+\begin{equation}
+(\frac{\partial}{\partial t}+v_\mathrm{\phi} \frac{\partial}{\partial z} ) f =   f ( z-v_\mathrm{\phi} t)
+\end{equation}\begin{equation}
+(\frac{\partial}{\partial t}+v_\mathrm{\phi} \frac{\partial}{\partial z} ) f =0 \ \forall \   f (\vec{r}, z-v_\mathrm{\phi} t)
+\end{equation}
+which is especially true for the hamiltonian.
+\begin{align*}
+\frac{d}{dt}H&=q(\frac{\partial \Phi}{\partial t}-\vec{v}\frac{\partial \vec{A}}{\partial t})\\
+&=-q v_\mathrm{\phi}(\frac{\partial \Phi}{\partial z}-\vec{v} \frac{\partial \vec{A}}{\partial z}) 
+\end{align*}
+
+Since $H-v_\mathrm{\phi}P_z=\mathrm{const.}$
+
+\begin{align}
+H-v_\mathrm{\phi}P_z &= \mathrm{const.}\\
+\gamma m c^2+\Psi-v_\mathrm{\phi}p_z-v_\mathrm{\phi}qA_z &= \mathrm{const.}\\
+\gamma+\frac{q \Phi}{m c^2}-v_\mathrm{\phi} \frac{p_z}{mc^2} &= \mathrm{const.}\\
+\gamma - v_\mathrm{\phi} \frac{p_z}{mc^2}- \underbrace{\frac{q}{mc^2}(\Phi-v_\mathrm{\phi}A_z)}_{\bar{\Psi}}  &= \mathrm{const.} 
+\end{align}
+$\bar{\Psi}$ is the trapping potential, that determines the potential difference for an electron in a potential that moves with a phase velocity $v_\mathrm{\phi}$ with respect to the laboratory frame. It is valid for small as for relativistic velocities.
+With the trapping potential one can calculate if an electron inside the plasma wake will be accelerated or not i.e. if electrons will be able to catch up with the wake's velocity during the propagation of the wake or if it will slip out of the potential.
+From the prior calculations a general formula can be determined, that compares
+
+\begin{equation}
+\label{eq:Trapping_Potential_Pre}
+\Delta \bar{\Psi}= \bar{\Psi}_\mathrm{i}-\bar{\Psi}_\mathrm{f}=\gamma_\mathrm{f}-\gamma_\mathrm{i}-\gamma_f\frac{v_\mathrm{\phi}v_\mathrm{f}}{c^2}+\gamma_\mathrm{i}\frac{v_\mathrm{\phi}v_\mathrm{i}}{c^2} 
+\end{equation}
+
+In order to honor the name "trapping potential" i.e. to apply this derivation to make predictions of the electron trapping behavior in the plasma wake, it is necessary to define a trapping condition. 
+An obvious and conventional choice is that an electron should catch up with the wake's velocity so that 
+$v_\mathrm{f}=v_\mathrm{\phi}$.
+Equation \ref{eq:Trapping_Potential_Pre} consequently simplifies to 
+\begin{equation}
+\label{eq:Trapping_Potential_Raw}
+\Delta \bar{\Psi}= \gamma_\mathrm{\phi}-\gamma_\mathrm{i}-\gamma_\mathrm{\phi}\frac{v_\mathrm{\phi}^2}{c^2}+\gamma_\mathrm{i}\frac{v_\mathrm{\phi}v_\mathrm{i}}{c^2} 
+\end{equation}
+Equation \ref{eq:Trapping_Potential_Raw} can be further separated into different physical cases:
+\subsubsection{luminal wakefield, electron injected  at rest}
+In this case the plasma wake travels with a phase velocity near the speed of light, which is the case for beam-driven scenarios with high $\gamma$ driver beams ($v_\mathrm{\phi} \approx c$), and electrons starting inside the wake initially at rest ($v_\mathrm{i} \approx \ 0$).
+Here Equation \ref{eq:Trapping_Potential_Raw} simplifies to
+\begin{equation}
+\Delta \bar{\Psi}=-1
+\end{equation}
+Examples of this case are the underdense photocathode, or Trojan Horse injection, or wakefield induced ionization injection.
+\subsubsection{sublimunal wakefield, electron injected at rest}
 \section{laser ionisation description}
 (see diss by Ihar Shchatsinin FU Berlin)
-\section{laser ionisation description}
-(see diss by Ihar Shchatsinin FU Berlin)
+	
 \subsection{Keldysh Parameter}
 
 With $E_{bind}$ being the binding energy and $U_p=\frac{q^2 I}{2 m_e \epsilon_0 c \omega^2}$ being the ponderomotive energy 
