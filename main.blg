@@ -1,0 +1,28 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: main.aux
+The style file: apsrev4-1.bst
+Illegal, another \bibdata command---line 73 of file main.aux
+ : \bibdata
+ :         {lib}
+I'm skipping whatever remains of this command
+Illegal, another \bibstyle command---line 74 of file main.aux
+ : \bibstyle
+ :          {plain}
+I'm skipping whatever remains of this command
+Illegal, another \bibdata command---line 75 of file main.aux
+ : \bibdata
+ :         {lib}
+I'm skipping whatever remains of this command
+Database file #1: lib.bib
+Warning--I didn't find a database entry for "Hidding_PRL_2012"
+Warning--I didn't find a database entry for "MartinezdelaOssa2014231"
+Warning--I didn't find a database entry for "PakPRL2010PhysRevLettshort"
+Warning--I didn't find a database entry for "DTH"
+merlin.mbs apsrev4-1.bst 2010-07-25 4.21a (PWD, AO, DPC) hacked
+Control: key (0) 
+Control: author (72) initials jnrlst
+Control: editor formatted (1) identically to author
+Control: production of article title (-1) disabled
+Control: page (0) single
+Control: year (1) truncated
+Control: production of eprint (0) enabled
+(There were 3 error messages)

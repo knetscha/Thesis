@@ -4,6 +4,9 @@
 \usepackage[latin1]{inputenc}% erm\"oglich die direkte Eingabe der Umlaute 
 \usepackage[T1]{fontenc} % das Trennen der Umlaute
 \usepackage{cite}
+\usepackage{graphicx}
+\usepackage{subfig}
+\usepackage{caption}
 \usepackage{amssymb,amsmath}
 %\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
  %   T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
@@ -23,6 +26,12 @@
 
 \maketitle
 \tableofcontents
+
+\begin{figure}
+\includegraphics[width=1.0\textwidth]{experiment/images/raw/waveplate_calibration.pdf}
+\end{figure}
+
+
 $$I=\hat{I}_{x,y}W_\mathrm{Laser}/(2\sqrt{\pi}\sigma_t(\Delta x_\mathrm{res}\times10^-6)^2)$$
 In order to derive an expression for the trapping condition of a single electron in PWFA, one has to start with the equation of motion for such a single electron. 
 \begin{equation}
@@ -72,8 +81,14 @@ H-v_\mathrm{\phi}P_z&=const.\\
 \end{align*}
 
 \begin{align*}
-\Psi_f-Psi_i=\gamma_f-\gamma_i-v_\mathrm{\phi}\frac{\gamma_f m v_f}{mc^2}
+\Psi_f-\Psi_i=\gamma_f-\gamma_i-v_\mathrm{\phi}\frac{\gamma_f m v_f}{mc^2}
 \end{align*}
+
+\begin{align*}
+Q'(z)=\int_{-\infty}^{\infty}1- exp(W_\mathrm{ADK}(z,t))\ dt
+\end{align*}
+
+\cite{Oz_PhD}
 
 \bibliography{lib}
 \bibliographystyle{plain}    

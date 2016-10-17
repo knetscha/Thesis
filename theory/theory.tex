@@ -27,9 +27,6 @@ Maybe mention landau damping? Then of course, Tajima,Dawson. Also MTV and Rosenz
 \section{Descriptions for the blowout regime}
 Lotov, Suk, breakdown of fluid theory
 Q-tilde and resonant wake excitation.
-\subsection{Trapping conditions}
-Basic calculations for the trapping potential are shown.
-The particle movement must be solved in 3D and in 1D. Make a picture of the comparisons.
 
 
 \section{Accelerator physics}
@@ -41,7 +38,7 @@ W_r =\partial_r W_z
 This theorem is so important, it clearly needs a subsection. But where ?
 
 
-\subsection{Trapping in PWFA}
+\section{Electron Trapping in plasma accelerators}
 %The blowout regime inherits an excellent wake field distribution to efficiently accelerate electrons due to the large accelerating fields of the order of $10^{10} \mathrm{V/m}$ and the strong focusing fields in the back of the bubble. Energy can easily be transferred from an driver bunch to a trailing witness electron bunch, which has been sucessfully shown in two-bunch experiments at SLAC. A chirped electron bunch was accelerated to 42 GeV in the linear accelerator, rotated in a magnetic chicane, where the central part of the electron beam was cut out by a collimator and rotated back so that two seperate electron bunches where trailing on the same orbit. In the subsequent plasma stage the wakefields accelerated the witness bunch to up to 84 GeV in only ??? m of acceleration. This external injection scheme was very successfull and has been further studied during the entire experimental period of FACET. With such high fields 
 %Even though the fields are DAMN
 
@@ -99,17 +96,33 @@ Equation \ref{eq:Trapping_Potential_Pre} consequently simplifies to
 \Delta \bar{\Psi}= \gamma_\mathrm{\phi}-\gamma_\mathrm{i}-\gamma_\mathrm{\phi}\frac{v_\mathrm{\phi}^2}{c^2}+\gamma_\mathrm{i}\frac{v_\mathrm{\phi}v_\mathrm{i}}{c^2} 
 \end{equation}
 Equation \ref{eq:Trapping_Potential_Raw} can be further separated into different physical cases:
-\subsubsection{luminal wakefield, electron injected  at rest}
+\subsection{luminal wakefield, electron injected  at rest}
 In this case the plasma wake travels with a phase velocity near the speed of light, which is the case for beam-driven scenarios with high $\gamma$ driver beams ($v_\mathrm{\phi} \approx c$), and electrons starting inside the wake initially at rest ($v_\mathrm{i} \approx \ 0$).
 Here Equation \ref{eq:Trapping_Potential_Raw} simplifies to
 \begin{equation}
 \Delta \bar{\Psi}=-1
 \end{equation}
-Examples of this case are the underdense photocathode, or Trojan Horse injection, or wakefield induced ionization injection.
-\subsubsection{sublimunal wakefield, electron injected at rest}
+Examples of this case are the underdense photocathode, or Trojan Horse injection\cite{Hidding_PRL_2012}, or wakefield induced ionization injection\cite{MartinezdelaOssa2014231}.
+\subsection{subluminal wakefield, electron injected at rest}
+
+\begin{equation}
+\label{eq:Trapping_Potential_DTH}
+\Delta \bar{\Psi}=\gamma_\mathrm{\phi}(1-\frac{v_\mathrm{\phi}^2}{c^2})-1=\gamma_\mathrm{\phi}^{-1}-1
+\end{equation}
+This formula can for example be applied to ionization injection in LWFA\cite{PakPRL2010PhysRevLettshort} or beam-driven ionization injection schemes in which the wake's phase velocity is retarded such as the Downramp-assisted Trojan Horse (DTH)\cite{DTH}, which this work has as special focus on. In latter case mathematically strictly speaking $\frac{d H}{dt}\neq0 $, but for small changes $\frac{dH}{dt}\approx 0$ during the injection process of the electrons, equation \ref{eq:Trapping_Potential_DTH} can still be applied.
+\subsection{subluminal wakefield, electrons at rest}
+
+\subsection{superluminal wakefield}
+There are physical situations imaginable in which the wake or at least part of the wake move with a phase velocity faster than the speed of light. This is the case for example when a beam driven wake traverses an electron density upramp.
+From the previous deductions it seems obvious, that trapping electrons in such a superluminal wakefield is not possible, as $\gamma_\mathrm{\phi}^{-1}$ becomes complex for $v\mathrm{\phi}>c$.
+
+However, if the superluminosity is only transient as with a short density upramp, the phase velocity will return to $c$ right after the transition. In this case trpping can be possible, but the mathematic tool presented in this section is insufficient to describe the trapping and the phase velocity after the transition is setting the demand on the potential.
+\subsection{From the Trapping Potential to the Current Profile - velocity bunching at it's max.}
+
+
 \section{laser ionisation description}
 (see diss by Ihar Shchatsinin FU Berlin)
-	
+
 \subsection{Keldysh Parameter}
 
 With $E_{bind}$ being the binding energy and $U_p=\frac{q^2 I}{2 m_e \epsilon_0 c \omega^2}$ being the ponderomotive energy 
@@ -122,3 +135,17 @@ $\gamma < 1$ tunnel ionisation or BSI
 
 \subsection{ADK theory}
 Tunnel ionization is great
+	
+	
+\section{Influence of the ionization behaviour}
+	Here it is to be described how for TH the co-moving frame is advantagous. dependence of ionization front to 
+	create witness beams.
+	Image of Ionization front.
+	
+	
+	\subsection{Rake injection}
+	It could be discussed here how a witness generation might be different for the wake electric fields.
+	For example, there is no movement of the release position in xi. But the release won't happen in the potential minimum.
+	
+	\section{Downramp assisted Trojan Horse}
+	

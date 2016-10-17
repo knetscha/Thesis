@@ -1,4 +1,4 @@
-\select@language {german}
+\select@language {english}
 \contentsline {chapter}{\numberline {1.}Theory}{4}
 \contentsline {section}{\numberline {1.1}The history of wakefield acceleration}{4}
 \contentsline {section}{\numberline {1.2}Plasma physics}{4}
@@ -13,28 +13,35 @@
 \contentsline {subsection}{\numberline {1.3.1}history of PWFA}{5}
 \contentsline {section}{\numberline {1.4}The blowout regime}{5}
 \contentsline {section}{\numberline {1.5}Descriptions for the blowout regime}{5}
-\contentsline {subsection}{\numberline {1.5.1}Trapping conditions}{5}
 \contentsline {section}{\numberline {1.6}Accelerator physics}{5}
 \contentsline {subsection}{\numberline {1.6.1}Panowsky-Wenzel Theorem}{5}
-\contentsline {subsection}{\numberline {1.6.2}Trapping in PWFA}{5}
-\contentsline {subsubsection}{luminal wakefield, electron release at rest}{7}
-\contentsline {section}{\numberline {1.7}laser ionisation description}{7}
-\contentsline {subsection}{\numberline {1.7.1}Keldysh Parameter}{7}
-\contentsline {subsection}{\numberline {1.7.2}ADK theory}{7}
-\contentsline {chapter}{\numberline {2.}Simulations}{8}
-\contentsline {section}{\numberline {2.1}Start-to-End simulations for a Trojan Horse at FlashForward experiment}{8}
-\contentsline {section}{\numberline {2.2}The trapping potential}{8}
-\contentsline {section}{\numberline {2.3}plasma density profile optimisation}{8}
-\contentsline {subsection}{\numberline {2.3.1}Density Downramp facilitated Trojan Horse Acceleration}{8}
-\contentsline {subsection}{\numberline {2.3.2}density transition injection suppression}{9}
-\contentsline {section}{\numberline {2.4}Laser Beam shaping for optimisation}{9}
-\contentsline {subsection}{\numberline {2.4.1}my beamloading description}{9}
-\contentsline {subsection}{\numberline {2.4.2}beamloading in theory}{9}
-\contentsline {subsection}{\numberline {2.4.3}beamshaping in reality}{9}
-\contentsline {section}{\numberline {2.5}Magnetic Field facilitated Trojan Horse Acceleration}{9}
-\contentsline {chapter}{\numberline {3.}Experiment}{10}
-\contentsline {section}{\numberline {3.1}FACET}{10}
-\contentsline {subsection}{\numberline {3.1.1}The FACET experimental setup}{10}
-\contentsline {subsection}{\numberline {3.1.2}Plasma glow diagnostic}{10}
-\contentsline {section}{\numberline {3.2}FlashForwad}{10}
-\contentsline {section}{\numberline {3.3}Clara}{10}
+\contentsline {section}{\numberline {1.7}Electron Trapping in plasma accelerators}{5}
+\contentsline {subsection}{\numberline {1.7.1}luminal wakefield, electron injected at rest}{7}
+\contentsline {subsection}{\numberline {1.7.2}subluminal wakefield, electron injected at rest}{7}
+\contentsline {subsection}{\numberline {1.7.3}subluminal wakefield, electrons at rest}{7}
+\contentsline {subsection}{\numberline {1.7.4}superluminal wakefield}{7}
+\contentsline {subsection}{\numberline {1.7.5}From the Trapping Potential to the Current Profile - velocity bunching at it's max.}{7}
+\contentsline {section}{\numberline {1.8}laser ionisation description}{7}
+\contentsline {subsection}{\numberline {1.8.1}Keldysh Parameter}{8}
+\contentsline {subsection}{\numberline {1.8.2}ADK theory}{8}
+\contentsline {section}{\numberline {1.9}Influence of the ionization behaviour}{8}
+\contentsline {subsection}{\numberline {1.9.1}Rake injection}{8}
+\contentsline {section}{\numberline {1.10}Downramp assisted Trojan Horse}{8}
+\contentsline {chapter}{\numberline {2.}Simulations}{9}
+\contentsline {section}{\numberline {2.1}Start-to-End simulations for a Trojan Horse at FlashForward experiment}{9}
+\contentsline {section}{\numberline {2.2}The trapping potential}{9}
+\contentsline {section}{\numberline {2.3}plasma density profile optimisation}{9}
+\contentsline {subsection}{\numberline {2.3.1}Density Downramp facilitated Trojan Horse Acceleration}{9}
+\contentsline {subsection}{\numberline {2.3.2}density transition injection suppression}{10}
+\contentsline {section}{\numberline {2.4}Laser Beam shaping for optimisation}{10}
+\contentsline {subsection}{\numberline {2.4.1}my beamloading description}{10}
+\contentsline {subsection}{\numberline {2.4.2}beamloading in theory}{10}
+\contentsline {subsection}{\numberline {2.4.3}beamshaping in reality}{10}
+\contentsline {section}{\numberline {2.5}Magnetic Field facilitated Trojan Horse Acceleration}{10}
+\contentsline {chapter}{\numberline {3.}The FACET E210 Experiment}{11}
+\contentsline {section}{\numberline {3.1}The FACET experimental setup}{11}
+\contentsline {subsection}{\numberline {3.1.1}Laser energy calibration}{11}
+\contentsline {section}{\numberline {3.2}Electro Optical Sampling (EOS)}{12}
+\contentsline {section}{\numberline {3.3}Torch kick}{12}
+\contentsline {section}{\numberline {3.4}Ionization test}{12}
+\contentsline {section}{\numberline {3.5}Plasma glow diagnostic}{12}
