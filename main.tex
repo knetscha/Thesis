@@ -1,28 +1,46 @@
 \documentclass{thesis}
-\bibliographystyle{apsrev4-1}
-\usepackage[latin1]{inputenc}% erm\"oglich die direkte Eingabe der Umlaute 
-\usepackage[T1]{fontenc} % das Trennen der Umlaute
-\usepackage{cite}
+
+%\usepackage[latin1]{inputenc}% erm\"oglich die direkte Eingabe der Umlaute 
+%\usepackage[T1]{fontenc} % das Trennen der Umlaute
+%\usepackage{cite}
+%\usepackage{graphicx}
+%\usepackage{subfig}
+%\usepackage{caption}
+%\usepackage{standalone}% Need standalone package
+%\usepackage{amssymb,amsmath}
+%\usepackage{pdfpages}
+\usepackage{dsfont}
 \usepackage{graphicx}
-\usepackage{subfig}
+\usepackage{placeins}
+\usepackage{amsmath}
+\usepackage{cite}
+\usepackage{wasysym}
+\usepackage{longtable}
+\usepackage{siunitx}
+\usepackage{wrapfig}
+\usepackage{geometry}
+\usepackage{color}
+\usepackage{hyperref}
 \usepackage{caption}
-\usepackage{amssymb,amsmath}
-%\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
- %   T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+\usepackage{enumitem}
+
 \usepackage[english,english]{babel}   
 \title{Trapping and Beamloading in hybrid Plasma Wakefield Accelerator schemes}
 \author{Alexander Knetsch}
 
 \date{\today}
 \begin{document}
-%sds\cite{Oz_PhD}
+%sds \cite{Oz_PhD}
 \maketitle
 \tableofcontents
-
+\chapter{theory}
 \input{./theory/theory.tex}
-\input{./simulations/simulations.tex}
+%\input{./simulations/simulations.tex}
+\chapter{experiment}
 \input{./experiment/experiment.tex}
+\cite{Esarey_trapping_nonlinear_waves}
+%\include{./experiment/experiment.tex}
+\bibliographystyle{unsrt}
 \bibliography{lib}
-\bibliographystyle{plain}    
-\bibliography{lib}
+%\bibliographystyle{plain}    
 \end{document}
