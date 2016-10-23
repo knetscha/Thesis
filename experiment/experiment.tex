@@ -38,12 +38,14 @@ Manta Cameras: \cite{GigE125_datasheet}
 
 All measured losses in optical components combined with the fitted functions for the waveplate energies (see figure \ref{img:LaserEnergyCalib}) combined give the on target energy applicable by axilens and OAP respecively.
 \begin{align*}
- W_\mathrm{Laser}^\mathrm{OAP} &= W_\mathrm{Laser}^\mathrm{Laserroom}\times 1.25\times10^{-2}\\ &\times\big( 0.994 \cos^2(\frac{2\pi}{180} (\phi_{pol}^{main}+66.9)) +1.16\times 10^{-3}\big)\\
-  &\times \big(0.998 \cos^2(\frac{2\pi}{180}(\phi_\mathrm{pol}^\mathrm{probe}-17.8 )) +1.62\times 10^{-3}\big)
+ W_\mathrm{Laser}^\mathrm{OAP} &= W_\mathrm{Laser}^\mathrm{Laserroom}\times 1.25\times10^{-2}\\ 
+ &\times\big( 0.994 \cos^2((\phi_{pol}^{main}+66.9\degree)) +1.16\times 10^{-3}\big)\\
+  &\times \big(0.998 \cos^2((\phi_\mathrm{pol}^\mathrm{probe}-17.8\degree )) +1.62\times 10^{-3}\big)
 \end{align*}
 
 \begin{align}
- W_\mathrm{Laser}^\mathrm{Axilens} &= W_\mathrm{Laser}^\mathrm{Laserroom}\times 0.253\\ &\times\big( 0.994 \cos^2(\frac{2\pi}{180} (\phi_\mathrm{pol}^\mathrm{main}+66.9)) +1.16\times 10^{-3}\big)\\
+ W_\mathrm{Laser}^\mathrm{Axilens} &= W_\mathrm{Laser}^\mathrm{Laserroom}\times 0.253\\
+  &\times\big( 0.994 \cos^2((\phi_\mathrm{pol}^\mathrm{main}+66.9\degree)) +1.16\times 10^{-3}\big)\\
 \end{align}
 This means that for a typical laser energy output of $500\, \mathrm{mJ}$ a maximum energy of $6.2\, \mathrm{mJ}$ on OAP target and $125.9\,\mathrm{mJ}$ on axilens could be used.
 

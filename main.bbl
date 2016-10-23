@@ -1,4 +1,24 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{RevModPhys.81.1229}
+E.~Esarey, C.~B. Schroeder, and W.~P. Leemans.
+\newblock Physics of laser-driven plasma-based electron accelerators.
+\newblock {\em Rev. Mod. Phys.}, 81:1229--1285, Aug 2009.
+
+\bibitem{PhysRevLett.56.1252}
+Pisin Chen, J.~J. Su, J.~M. Dawson, K.~L.~F. Bane, and P.~B. Wilson.
+\newblock Energy transfer in the plasma wake-field accelerator.
+\newblock {\em Phys. Rev. Lett.}, 56:1252--1255, Mar 1986.
+
+\bibitem{PhysRevSTAB.6.034202}
+Klaus Floettmann.
+\newblock Some basic features of the beam emittance.
+\newblock {\em Phys. Rev. ST Accel. Beams}, 6:034202, Mar 2003.
+
+\bibitem{Book_Fundamentals_Rosenzweig}
+J.~B. Rosenzweig.
+\newblock {\em Fundamentals of Beam Physics}.
+\newblock Oxford: Oxford University Press, 2003.
 
 \bibitem{Hidding_PRL_2012}
 B.~Hidding, G.~Pretzler, J.~B. Rosenzweig, T.~K\"onigstein, D.~Schiller, and
@@ -41,10 +61,5 @@ Bernd~Richard Steffen.
 \newblock {\em Electro-Optic Methods for Longitudinal Bunch Diagnostics at
   FLASH}.
 \newblock PhD thesis, University of Hamburg, 2007.
-
-\bibitem{Esarey_trapping_nonlinear_waves}
-Eric Esarey and Mark Pilloff.
-\newblock Trapping and acceleration in nonlinear plasma waves.
-\newblock {\em Physics of Plasmas (1994-present)}, 2(5):1432--1436, 1995.
 
 \end{thebibliography}
