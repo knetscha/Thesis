@@ -1,17 +1,4 @@
-%\documentclass{thesis}
-%\bibliographystyle{apsrev4-1}
-%\usepackage[latin1]{inputenc}% erm\"oglich die direkte Eingabe der Umlaute 
-%\usepackage[T1]{fontenc} % das Trennen der Umlaute
-%\usepackage{cite}
-%\usepackage{graphicx}
-%\usepackage{subfig}
-%\usepackage{caption}
-%\usepackage{amssymb,amsmath}
-%%\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
-% %   T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
-%\usepackage[english,english]{babel}   
 
-%\chapter{Theory}
 \section{The history of wakefield acceleration}
 Tajima Dawson great Idee, MTV bubble regime, same time PWFA von Rosenzweig... first linear measurements for PWFA
 \section{Plasma physics}
@@ -24,14 +11,36 @@ scattering can be talked about
 There are different types of plasmas, but we are only handling with thin, cold  weakly coupled plasmas
 \subsection{electromagnetic waves in plasmas}
 dispersion relation needs to be talked about. Especially the dispersion relation of lasers during ionization should get some insight here. One has to look into ionization defocussing.  
-\subsection{fluid model of plasmas}
+
+Wavebreaking limit: \begin{equation}
+E_\mathrm{WB}=cm_\mathrm{e}\omega_\mathrm{P}/q_\mathrm{e}\simeq 96 \sqrt{n_\mathrm{e}(\mathrm{cm}^{-3})}
+\end{equation}
+
+\subsection{laser ionisation description}
+(see diss by Ihar Shchatsinin FU Berlin)
+
+\subsection{Keldysh Parameter}
+
+With $E_{bind}$ being the binding energy and $U_p=\frac{q^2 I}{2 m_e \epsilon_0 c \omega^2}$ being the ponderomotive energy 
+\begin{equation}
+\gamma=\sqrt{\frac{E_{bind}}{2U_p}}
+\end{equation}
+
+$\gamma >1 $ -> Multiphoton Ionisation\\
+$\gamma < 1$ tunnel ionisation or BSI
+
+\subsection{ADK theory}
+Tunnel ionization is great
+	
+
+
 \subsection{waves in plasmas}
-So far everything still flows nicely with working along Chen and Mulser. However now the turn needs to be taken.
+So far everything still flows niocely with working along Chen and Mulser. However now the turn needs to be taken.
 The reason is wavebreaking
 \subsection{wavebreaking}
 Wavebreaking gives us the the ideal way to go from plasma description to blowout description.
 \section{PWFA theory}
-\subsection{history of PWFA}
+\subsection{History of PWFA}
 A short historic overview is given. 
 Maybe mention landau damping? Then of course, Tajima,Dawson. Also MTV and Rosenzweig should be mentioned.
 \section{The linear regime}
@@ -59,8 +68,11 @@ Q-tilde and resonant wake excitation.
 Acc. physics should clearly be introduced. Emittance, brightness, twiss parameter need to be defined. Floettmann\cite{PhysRevSTAB.6.034202}. A good book should be used here. Don't know which one,yet. TBD.
 
 Use Jamies book \cite{Book_Fundamentals_Rosenzweig}
-
+\subsection{Courant-Snyder coefficients, brightness and emittance}
 \subsection{Panowsky-Wenzel Theorem}
+
+original paper:  \cite{Panowsky_Wenzel_original}
+
  \begin{equation}
 W_r =\partial_r W_z
 \end{equation} 
@@ -125,47 +137,37 @@ Equation \ref{eq:Trapping_Potential_Pre} consequently simplifies to
 \Delta \bar{\Psi}= \gamma_\mathrm{\phi}-\gamma_\mathrm{i}-\gamma_\mathrm{\phi}\frac{v_\mathrm{\phi}^2}{c^2}+\gamma_\mathrm{i}\frac{v_\mathrm{\phi}v_\mathrm{i}}{c^2} 
 \end{equation}
 Equation \ref{eq:Trapping_Potential_Raw} can be further separated into different physical cases:
-\subsection{luminal wakefield, electron injected  at rest}
+\subsection*{luminal wakefield, electron injected  at rest}
 In this case the plasma wake travels with a phase velocity near the speed of light, which is the case for beam-driven scenarios with high $\gamma$ driver beams ($v_\mathrm{\phi} \approx c$), and electrons starting inside the wake initially at rest ($v_\mathrm{i} \approx \ 0$).
 Here Equation \ref{eq:Trapping_Potential_Raw} simplifies to
 \begin{equation}
 \Delta \bar{\Psi}=-1
 \end{equation}
 Examples of this case are the underdense photocathode, or Trojan Horse injection\cite{Hidding_PRL_2012}, or wakefield induced ionization injection\cite{MartinezdelaOssa2014231}.
-\subsection{subluminal wakefield, electron injected at rest}
+\subsection*{subluminal wakefield, electron injected at rest}
 
 \begin{equation}
 \label{eq:Trapping_Potential_DTH}
 \Delta \bar{\Psi}=\gamma_\mathrm{\phi}(1-\frac{v_\mathrm{\phi}^2}{c^2})-1=\gamma_\mathrm{\phi}^{-1}-1
 \end{equation}
 This formula can for example be applied to ionization injection in LWFA\cite{PakPRL2012} or beam-driven ionization injection schemes in which the wake's phase velocity is retarded such as the Downramp-assisted Trojan Horse (DTH)\cite{DTH}, which this work has as special focus on. In latter case mathematically strictly speaking $\frac{d H}{dt}\neq0 $, but for small changes $\frac{dH}{dt}\approx 0$ during the injection process of the electrons, equation \ref{eq:Trapping_Potential_DTH} can still be applied.
-\subsection{subluminal wakefield, electrons at rest}
+\subsection*{subluminal wakefield, electrons at rest}
 
-\subsection{superluminal wakefield}
+\subsection*{superluminal wakefield}
 There are physical situations imaginable in which the wake or at least part of the wake move with a phase velocity faster than the speed of light. This is the case for example when a beam driven wake traverses an electron density upramp.
 From the previous deductions it seems obvious, that trapping electrons in such a superluminal wakefield is not possible, as $\gamma_\mathrm{\phi}^{-1}$ becomes complex for $v_\mathrm{\phi}>c$.
 
 However, if the superluminosity is only transient as with a short density upramp, the phase velocity will return to $c$ right after the transition. In this case trpping can be possible, but the mathematic tool presented in this section is insufficient to describe the trapping and the phase velocity after the transition is setting the demand on the potential.
-\subsection{From the Trapping Potential to the Current Profile - velocity bunching at it's max.}
+\subsection{Trapping position}
 \subsubsection{emittance preservation}
 why don't you ... look at space charge effect to estimate required gamma/acceleration and focusing forces for emittance preservation ? Try looking at Pak's thesis and this emittance paper that claims one needs a fast acceleration, but knows nothing about Trojan Horse yet.
-
-\section{laser ionisation description}
-(see diss by Ihar Shchatsinin FU Berlin)
-
-\subsection{Keldysh Parameter}
-
-With $E_{bind}$ being the binding energy and $U_p=\frac{q^2 I}{2 m_e \epsilon_0 c \omega^2}$ being the ponderomotive energy 
-\begin{equation}
-\gamma=\sqrt{\frac{E_{bind}}{2U_p}}
-\end{equation}
-
-$\gamma >1 $ -> Multiphoton Ionisation\\
-$\gamma < 1$ tunnel ionisation or BSI
-
-\subsection{ADK theory}
-Tunnel ionization is great
-	
+\section{Injection methods in PWFA}
+\subsection{Downramp injection}
+\subsection{Plasma Torch}
+\subsection{Transverse injection ?}
+\subsection{ionization injection}
+	It could be discussed here how a witness generation might be different for the wake electric fields.
+	For example, there is no movement of the release position in xi. But the release won't happen in the potential minimum.
 	
 \section{Influence of the ionization behaviour}
 	Here it is to be described how for TH the co-moving frame is advantagous. dependence of ionization front to 
@@ -173,11 +175,16 @@ Tunnel ionization is great
 	Image of Ionization front.
 	
 	
-	\subsection{Rake injection}
-	It could be discussed here how a witness generation might be different for the wake electric fields.
-	For example, there is no movement of the release position in xi. But the release won't happen in the potential minimum.
-\section{Trojan Horse}
+	%\subsection{Rake injection}
+
+\subsection{Trojan Horse injection}
 \label{sec:Theory_TrojanHorse}
 	
-\section{Downramp assisted Trojan Horse}
+\subsection{Downramp assisted Trojan Horse}
+
+\section{numerical modeling of Trojan Horse injection}
+
+\subsection{Movement of ionization front}
+\subsection{emittance growth from space charge}
+\subsection{Laser parameter variations}
 	

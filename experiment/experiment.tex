@@ -1,17 +1,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 %\chapter{The FACET E210 Experiment}
 In 2014 the experimental campaign  for demonstrating the proof-of-concept of Trojan Horse injection (see \ref{sec:Theory_TrojanHorse}) started at the Facility for Advanced Accelerator Experimental Tests (FACET) at the SLAC national laboratory as the experiment E210. It was a collaborative effort with researchers from the University of Hamburg, University of California Los Angeles (UCLA), University of Strathclyde Glasgow and Radiabeam technology with a devoted support from the SLAC personnel. The FACET experiments had to be designed to be non-excluding, which led to a fruitful joint learning process between several groups.
 It is fair to say that E210 was one of the most complex and accuracy-wise most demanding experiments conducted so far at FACET. 
@@ -21,6 +10,11 @@ The timing requirements between the electron beam and the pre-ionization laser a
 For finding the synchronization ($t_0$) as well as fine-alignment between electron beam and injection laser, a newly observed effect on the plasma glow described in \ref{sec:Plasma_Glow} was measured and applied.
 
 \section{The FACET experimental setup}
+\subsection{LINAC}
+\subsection{The FACET laser system}
+Good description of FACET laser system in \cite{Green_FACET_Laser_PIOP}
+\subsection{Imaging spectrometer}
+
 \subsection{Laser energy calibration}
 The FACET laser system ...
 The energy that can be used on target of the OAP is controlled at two points in the laser-beamline.
@@ -39,7 +33,7 @@ Manta Cameras: \cite{GigE125_datasheet}
 All measured losses in optical components combined with the fitted functions for the waveplate energies (see figure \ref{img:LaserEnergyCalib}) combined give the on target energy applicable by axilens and OAP respecively.
 \begin{align*}
  W_\mathrm{Laser}^\mathrm{OAP} &= W_\mathrm{Laser}^\mathrm{Laserroom}\times 1.25\times10^{-2}\\ 
- &\times\big( 0.994 \cos^2((\phi_{pol}^{main}+66.9\degree)) +1.16\times 10^{-3}\big)\\
+ &\times\big( 0.994 \cos^2((\phi_{pol}^{main}-5.11\degree)) +1.16\times 10^{-3}\big)\\
   &\times \big(0.998 \cos^2((\phi_\mathrm{pol}^\mathrm{probe}-17.8\degree )) +1.62\times 10^{-3}\big)
 \end{align*}
 
@@ -52,26 +46,59 @@ This means that for a typical laser energy output of $500\, \mathrm{mJ}$ a maxim
 
 \section{Electro Optical Sampling (EOS)}
 \label{sec:EOS}
-In order to measure the relative time-of-arrival between electron bunch and laser pulse, a non-destructive shot-to-shot diagnostic was necessary. Electro-optical sampling is an excellent choice for sub-picosecond electron bunches \cite{YanX_EOS_PRL2000}.
-An externally applied electric field to crystals like GaP and ZnTe induces a birefringence in the optical axis of the material. This effect is called the pockels, or electro-optic effect. In this experiment the crystal is  located in close proximity (few mm distance) to the electron beam axis. Due to the high $\gamma_\mathrm{b} \approx 42000$ , the beam electric field is strongly lorenz-contracted and can be assumed to temporally only extend for the length of the electron beam. Consequently the electric field applied to the crystal and with that the induced birefringence are only active while the electron beam passes by the crystal. 
-A linear polarized laser pulse, traversing the crystal at the same time will change its polarization and is analyzed by a polarizing filter.
+Electro-optical sampling is a method that allows for determining time-differences in Time-of-arrival between a laser-pulse and a Thz-source, as e.g. an ultra relativistic electron-beam, by exploiting the properties of optically anisotropic crystals and has been shown to be able to measure sub-picosecond electron bunches \cite{YanX_EOS_PRL2000}.
 
-The crystal plate is oriented perpendicular to the electron beam axis to minimize temporal overlap and the laser has an $\approx 40°$ angle with the electron beam which enables a correlation between signal position i.e. the part of the laser with rotated polarization and relative timing.
+Electromagnetic waves, propagating through anisotropic crystals perceive a difference in dielectric permitivity $\epsilon_\mathrm{r}$, depending on entrance angle and polarization of the wave, which is why in a more general way the dielectric properties need to be addresses with the dielectric permitivity tensor  $\hat{\epsilon}$.
+This is equivalent to a polarization-depending index of refraction, a property known as birefringence, which leads to a polarization-dependent phase velocity of light inside the crystal. 
+A laser at the correct incident angle with respect to an anisotropic crystal will therefore notice a phase shift between different planes of polarization which leads to an overall change in the laser polarization, depending on the phase shift strength and the crystal size. 
+Electro-optical crystals change the orientation of the dielectric permitivity tensor when an external electric field $\vec{E}_\mathrm{ext.}$ is applied.
+The strength of this effect can be illustrated by taylor-expanding the impermeability tensor 
+\begin{equation}
+\hat{\eta}=\hat{\epsilon}^{-1}
+\end{equation}
+for small external electric fields $\vec{E}\mathrm{ext.}$ to
+\begin{equation}
+\eta_{ij}=\eta_{ij}(0)+r_{ijk}E_k+s_{ijkl}E_k E_l+...\ .
+\end{equation}
+The linear dependency on the electric field strength is called Kerr-effect with $r_{ijk}$ being the Kerr-coefficient. 
+The Pockels effect with the Pockels coefficient $s_{ijkl}$ describes quadratic dependency.
+In the context of this work and the described experiment only two elctro-optical crystals were used, GaP and ZnTe. 
+As both of them are packed in a zincblende geometry, which does not obtain an inversion center, the electro-optic effect is dominated by the Kerr-effect.
 
-The entire ladder supports a YAG crystal to find the electron beam axis, a $500\ \mathrm{µm}$ thick ZnTe for broad timing scans and GaP with $100\ \mathrm{µm}$ thickness for fine resolution.
-A detailed description of the physics involved in the application of electro-optical crystals as TOA and bunch length diagnostic can be found in \cite{BerndSteffenPhD}.
+\subsection*{EOS setup}
+In order to measure the relative time-of-arrival between electron bunch and laser pulse an Electro optical sampling (EOS) was set up as a non-destructive shot-by-shot diagnostic.
+
+In this experiment the crystal is located in close proximity (few mm distance) to the electron beam axis. Due to the high $\gamma_\mathrm{b} \approx 42000$ , the beam electric field is strongly lorenz-contracted and can be assumed to temporally only extend for the length of the electron beam. Consequently the electric field applied to the crystal and with that the induced birefringence are only active while the electron beam passes by the crystal.  
+Figure \ref{img:EOS_Setup} depicts the setup.
+A linear polarized laser pulse (red), a pickup of the probe beam, traverses the crystal with an angle of $~ 45\degree$ with respect to the electron beam axis (green). The laser beam is collimated with a transverse diameter of $~ 1 cm $ and completely illuminates the crystal. For a better signal-to-noise ratio, an additional polarizing filter was installed prior to the picnic basket chamber. After the chamber follows a cross-polarized filter, which can remotely be rotated for alignment purposes.
+
+During the measurement only the polarization of that transverse part of the laser which propagates through the crystal at the very moment in which the electron beam' electric field induces the birefringence will be rotated and not be filtered by the polarizing filter further  downstream the laser beam path. As a result the signal has the form of a line as seen in figure \ref{img:EOS_Signal} with a horizontal position linearly corresponding to the relative TOA.
 
 \begin{figure}[htbp]
 \includegraphics[width=0.5\textwidth]{experiment/images/edited/EOS_setup.pdf}
 \caption{Setup of upstream electro-optical sampling inside the picnic basket chamber. Electron beam (green) and EOS laser (red) co-propagate in a small angle }
 \label{img:EOS_Setup}
 \end{figure}
+
+The crystal plate is oriented perpendicular to the electron beam axis to minimize temporal overlap and the laser has an $\approx 40°$ angle with the electron beam which enables a correlation between signal position i.e. the part of the laser with rotated polarization and relative timing.
+
+The entire ladder supports a YAG crystal to find the electron beam axis, a $500\ \mathrm{µm}$ thick ZnTe for broad timing scans and GaP with $100\ \mathrm{µm}$ thickness for fine resolution.
+A detailed description of the physics involved in the application of electro-optical crystals as TOA and bunch length diagnostic can be found in \cite{BerndSteffenPhD}.
+
+
 \begin{figure}
 \includegraphics[width=1.0\textwidth]{experiment/images/edited/EOS_Signal.pdf}
-%\caption{}
-\label{img:EOS_ZnTe}
+\caption{EOS signal}
+\label{img:EOS_Signal}
 \end{figure}
+\subsection*{EOS calibration}
 
+\begin{figure}
+\includegraphics[width=1.0\textwidth]{experiment/images/raw/20370_EOS_calibration.pdf}
+\caption{Typical EOS calibration}
+\label{img:EOS_Calib}
+\end{figure}
+For the calibration of the EOS timing, scans were performed 
 
 %\section{Torch kick}
 %\begin{figure}[htbp]
@@ -100,7 +127,7 @@ During the data acquisition the electron beam charge was $3.1\pm \ 0.17\ \mathrm
 
 \begin{figure}[htbp]
 \includegraphics[width=0.5\textwidth]{experiment/images/edited/Plasma_Glow_roll.pdf}
-\caption{Plasma glow in 4 torr $\mathrm{H}_2$ measured by vertical camera in cube 3. The injection laser off-axis parabola roll is scanned. The vertical plasma position is evaluated by the focus diagnostic.}
+\caption{Plasma glow in 7.8 torr $\mathrm{H}_2$ ( $n_\mathrm{e}=5\times10^{17}\mathrm{cm}^{-3} $) measured by vertical camera in cube 3. The injection laser off-axis parabola roll is scanned. The vertical plasma position is evaluated by the focus diagnostic.}
 \label{img:PlasmaGlowRoll}
 \end{figure}
 
@@ -108,3 +135,5 @@ During the data acquisition the electron beam charge was $3.1\pm \ 0.17\ \mathrm
 
 \subsection*{Result:}
 With the 
+\section{Result: Plasma Torch injection}
+\section{Result: Trojan Horse injection}

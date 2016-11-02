@@ -75,6 +75,21 @@
   url = {http://link.aps.org/doi/10.1103/PhysRevE.73.026402}
 }
 
+@ARTICLE{Green_FACET_Laser_PIOP,
+  author = {S Z Green and E Adli and C I Clarke and S Corde and S A Edstrom and
+	A S Fisher and J Frederico and J C Frisch and S Gessner and S Gilevich
+	and P Hering and M J Hogan and R K Jobe and M Litos and J E May and
+	D R Walz and V Yakimenko and C E Clayton and C Joshi and K A Marsh
+	and N Vafaei-Najafabadi and P Muggli},
+  title = {Laser ionized preformed plasma at FACET},
+  journal = {Plasma Physics and Controlled Fusion},
+  year = {2014},
+  volume = {56},
+  pages = {084011},
+  number = {8},
+  url = {http://stacks.iop.org/0741-3335/56/i=8/a=084011}
+}
+
 @PHDTHESIS{Hidding_PhD,
   author = {Bernhard Hidding},
   title = {En Route: Elektronenbeschleuniger der nächsten Generation auf Laser-Plasma-Basis},
@@ -319,6 +334,19 @@
   url = {http://link.aps.org/doi/10.1103/PhysRevLett.104.025003}
 }
 
+@ARTICLE{Panowsky_Wenzel_original,
+  author = {Panofsky, W. K. H. and Wenzel, W. A.},
+  title = {Some Considerations Concerning the Transverse Deflection of Charged
+	Particles in Radio-Frequency Fields},
+  journal = {Review of Scientific Instruments},
+  year = {1956},
+  volume = {27},
+  pages = {967-967},
+  number = {11},
+  doi = {http://dx.doi.org/10.1063/1.1715427},
+  url = {http://scitation.aip.org/content/aip/journal/rsi/27/11/10.1063/1.1715427}
+}
+
 @ARTICLE{Phukov_MTV_lwfaraey,
   author = {Pukhov, A. and Meyer-ter-Vehn, J.},
   title = {Laser wake field acceleration: the highly non-linear broken-wave
@@ -340,7 +368,6 @@
   title = {Fundamentals of Beam Physics},
   publisher = {Oxford: Oxford University Press},
   year = {2003},
-  editor = {Oxford Scholarship Online},
   author = {Rosenzweig, J. B.},
   owner = {knetsch},
   timestamp = {2016.10.23}

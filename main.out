@@ -5,32 +5,41 @@
 \BOOKMARK [2][-]{subsection.1.2.2}{time scales}{section.1.2}% 5
 \BOOKMARK [2][-]{subsection.1.2.3}{plasma definition}{section.1.2}% 6
 \BOOKMARK [2][-]{subsection.1.2.4}{electromagnetic waves in plasmas}{section.1.2}% 7
-\BOOKMARK [2][-]{subsection.1.2.5}{fluid model of plasmas}{section.1.2}% 8
-\BOOKMARK [2][-]{subsection.1.2.6}{waves in plasmas}{section.1.2}% 9
-\BOOKMARK [2][-]{subsection.1.2.7}{wavebreaking}{section.1.2}% 10
-\BOOKMARK [1][-]{section.1.3}{PWFA theory}{chapter.1}% 11
-\BOOKMARK [2][-]{subsection.1.3.1}{history of PWFA}{section.1.3}% 12
-\BOOKMARK [1][-]{section.1.4}{The linear regime}{chapter.1}% 13
-\BOOKMARK [1][-]{section.1.5}{The blowout regime}{chapter.1}% 14
-\BOOKMARK [1][-]{section.1.6}{Descriptions for the blowout regime}{chapter.1}% 15
-\BOOKMARK [1][-]{section.1.7}{Accelerator physics}{chapter.1}% 16
-\BOOKMARK [2][-]{subsection.1.7.1}{Panowsky-Wenzel Theorem}{section.1.7}% 17
-\BOOKMARK [1][-]{section.1.8}{Electron Trapping in plasma accelerators}{chapter.1}% 18
-\BOOKMARK [2][-]{subsection.1.8.1}{luminal wakefield, electron injected at rest}{section.1.8}% 19
-\BOOKMARK [2][-]{subsection.1.8.2}{subluminal wakefield, electron injected at rest}{section.1.8}% 20
-\BOOKMARK [2][-]{subsection.1.8.3}{subluminal wakefield, electrons at rest}{section.1.8}% 21
-\BOOKMARK [2][-]{subsection.1.8.4}{superluminal wakefield}{section.1.8}% 22
-\BOOKMARK [2][-]{subsection.1.8.5}{From the Trapping Potential to the Current Profile - velocity bunching at it's max.}{section.1.8}% 23
-\BOOKMARK [1][-]{section.1.9}{laser ionisation description}{chapter.1}% 24
-\BOOKMARK [2][-]{subsection.1.9.1}{Keldysh Parameter}{section.1.9}% 25
-\BOOKMARK [2][-]{subsection.1.9.2}{ADK theory}{section.1.9}% 26
-\BOOKMARK [1][-]{section.1.10}{Influence of the ionization behaviour}{chapter.1}% 27
-\BOOKMARK [2][-]{subsection.1.10.1}{Rake injection}{section.1.10}% 28
-\BOOKMARK [1][-]{section.1.11}{Trojan Horse}{chapter.1}% 29
-\BOOKMARK [1][-]{section.1.12}{Downramp assisted Trojan Horse}{chapter.1}% 30
-\BOOKMARK [0][-]{chapter.2}{experiment}{}% 31
-\BOOKMARK [1][-]{section.2.1}{The FACET experimental setup}{chapter.2}% 32
-\BOOKMARK [2][-]{subsection.2.1.1}{Laser energy calibration}{section.2.1}% 33
-\BOOKMARK [1][-]{section.2.2}{Electro Optical Sampling \(EOS\)}{chapter.2}% 34
-\BOOKMARK [1][-]{section.2.3}{Ionization test}{chapter.2}% 35
-\BOOKMARK [1][-]{section.2.4}{Plasma glow diagnostic}{chapter.2}% 36
+\BOOKMARK [2][-]{subsection.1.2.5}{laser ionisation description}{section.1.2}% 8
+\BOOKMARK [2][-]{subsection.1.2.6}{Keldysh Parameter}{section.1.2}% 9
+\BOOKMARK [2][-]{subsection.1.2.7}{ADK theory}{section.1.2}% 10
+\BOOKMARK [2][-]{subsection.1.2.8}{waves in plasmas}{section.1.2}% 11
+\BOOKMARK [2][-]{subsection.1.2.9}{wavebreaking}{section.1.2}% 12
+\BOOKMARK [1][-]{section.1.3}{PWFA theory}{chapter.1}% 13
+\BOOKMARK [2][-]{subsection.1.3.1}{History of PWFA}{section.1.3}% 14
+\BOOKMARK [1][-]{section.1.4}{The linear regime}{chapter.1}% 15
+\BOOKMARK [1][-]{section.1.5}{The blowout regime}{chapter.1}% 16
+\BOOKMARK [1][-]{section.1.6}{Descriptions for the blowout regime}{chapter.1}% 17
+\BOOKMARK [1][-]{section.1.7}{Accelerator physics}{chapter.1}% 18
+\BOOKMARK [2][-]{subsection.1.7.1}{Courant-Snyder coefficients, brightness and emittance}{section.1.7}% 19
+\BOOKMARK [2][-]{subsection.1.7.2}{Panowsky-Wenzel Theorem}{section.1.7}% 20
+\BOOKMARK [1][-]{section.1.8}{Electron Trapping in plasma accelerators}{chapter.1}% 21
+\BOOKMARK [2][-]{subsection.1.8.1}{Trapping position}{section.1.8}% 22
+\BOOKMARK [1][-]{section.1.9}{Injection methods in PWFA}{chapter.1}% 23
+\BOOKMARK [2][-]{subsection.1.9.1}{Downramp injection}{section.1.9}% 24
+\BOOKMARK [2][-]{subsection.1.9.2}{Plasma Torch}{section.1.9}% 25
+\BOOKMARK [2][-]{subsection.1.9.3}{Transverse injection ?}{section.1.9}% 26
+\BOOKMARK [2][-]{subsection.1.9.4}{ionization injection}{section.1.9}% 27
+\BOOKMARK [1][-]{section.1.10}{Influence of the ionization behaviour}{chapter.1}% 28
+\BOOKMARK [2][-]{subsection.1.10.1}{Trojan Horse injection}{section.1.10}% 29
+\BOOKMARK [2][-]{subsection.1.10.2}{Downramp assisted Trojan Horse}{section.1.10}% 30
+\BOOKMARK [1][-]{section.1.11}{numerical modeling of Trojan Horse injection}{chapter.1}% 31
+\BOOKMARK [2][-]{subsection.1.11.1}{Movement of ionization front}{section.1.11}% 32
+\BOOKMARK [2][-]{subsection.1.11.2}{emittance growth from space charge}{section.1.11}% 33
+\BOOKMARK [2][-]{subsection.1.11.3}{Laser parameter variations}{section.1.11}% 34
+\BOOKMARK [0][-]{chapter.2}{experiment}{}% 35
+\BOOKMARK [1][-]{section.2.1}{The FACET experimental setup}{chapter.2}% 36
+\BOOKMARK [2][-]{subsection.2.1.1}{LINAC}{section.2.1}% 37
+\BOOKMARK [2][-]{subsection.2.1.2}{The FACET laser system}{section.2.1}% 38
+\BOOKMARK [2][-]{subsection.2.1.3}{Imaging spectrometer}{section.2.1}% 39
+\BOOKMARK [2][-]{subsection.2.1.4}{Laser energy calibration}{section.2.1}% 40
+\BOOKMARK [1][-]{section.2.2}{Electro Optical Sampling \(EOS\)}{chapter.2}% 41
+\BOOKMARK [1][-]{section.2.3}{Ionization test}{chapter.2}% 42
+\BOOKMARK [1][-]{section.2.4}{Plasma glow diagnostic}{chapter.2}% 43
+\BOOKMARK [1][-]{section.2.5}{Result: Plasma Torch injection}{chapter.2}% 44
+\BOOKMARK [1][-]{section.2.6}{Result: Trojan Horse injection}{chapter.2}% 45
