@@ -2,6 +2,13 @@
 \section{The history of wakefield acceleration}
 Tajima Dawson great Idee, MTV bubble regime, same time PWFA von Rosenzweig... first linear measurements for PWFA
 \section{Plasma physics}
+There are several definitions of a plasma, but one of the most appealing one that we will follow in this work can be found in the classic 
+textbook by Francis F. Chen:
+"A plasma is a quasineutral gas of charged and neutral particles which
+exhibits collective behavior" \cite{Chen_book_Plasma}.
+
+
+
 An introduction into plasma physics is given by starting with chens definition. Topics are
 \subsection{debye shielding}
 \subsection{time scales}
@@ -65,10 +72,64 @@ Q-tilde and resonant wake excitation.
 
 
 \section{Accelerator physics}
-Acc. physics should clearly be introduced. Emittance, brightness, twiss parameter need to be defined. Floettmann\cite{PhysRevSTAB.6.034202}. A good book should be used here. Don't know which one,yet. TBD.
+In the previous chapters we examined the physics of the beam driven plasma wake excitation. 
+The ultimate goal as presented in this work is to advantageously make use of the fields in order to inject and accelerate a high quality secondary electron beam, which is conventionally called the witness beam. If there are no substantial advantages between  using the witness over the drive beam for a given application, it might not be worth the effort beyond a scholastic interest.
+In this section we will explain the basic electron beam behavior in an accelerator and from that determine the most important parameters. 
+\subsection{Single particle movement}
 
-Use Jamies book \cite{Book_Fundamentals_Rosenzweig}
+We start with the 
+\begin{equation}
+\vec{F}=\frac{d\vec{p}}{dt}=q(\vec{E}+\frac{\vec{v}}{c}\times\vec{B})
+\end{equation}
+
+Similar to the assumptions made in par-axial optics the electron can be expected to 
+follow a straight trajectory in the absence of any deflecting or accelerating force and any small change in that trajectory 
+can be expressed in a number of linear changes. 
+As in par-axial optics this gives the possibility to describe the electron beam trajectory with linear transformations, represented by a matrix formalism.
+This idea can be extrapolated to the entire phase-space information of an electron, so that equation
+\begin{equation}
+\begin{split}
+\Phi_\mathrm{f}&=\hat{R} \Phi_\mathrm{i} \\
+\begin{pmatrix}
+x_\mathrm{f}\\
+x'_\mathrm{f}\\
+y_\mathrm{f}\\
+y'_\mathrm{f}\\
+z_\mathrm{f}\\
+\delta_\mathrm{f}\\
+\end{pmatrix}
+&=
+\begin{pmatrix}
+R_{11}&R_{12}&R_{13}&R_{14}&R_{15}&R_{16}\\
+R_{21}&R_{22}&R_{23}&R_{24}&R_{25}&R_{26}\\
+R_{31}&R_{32}&R_{33}&R_{34}&R_{35}&R_{36}\\
+R_{41}&R_{42}&R_{43}&R_{44}&R_{45}&R_{46}\\
+R_{51}&R_{52}&R_{53}&R_{54}&R_{55}&R_{56}\\
+R_{61}&R_{62}&R_{63}&R_{64}&R_{65}&R_{66}\\
+\end{pmatrix}
+\begin{pmatrix}
+x_\mathrm{i}\\
+x'_\mathrm{i}\\
+y_\mathrm{i}\\
+y'_\mathrm{i}\\
+z_\mathrm{i}\\
+\delta_\mathrm{i}\\
+\end{pmatrix}
+\end{split}
+\end{equation}
+
+describes a complete linear transformation of an electron's phase space vector as a conservative force acts upon it, with the spatial components $x,y,z$, the transverse momenta $x'=\frac{p_\mathrm{x}}{p_\mathrm{z}},y'=\frac{p_\mathrm{y}}{p_\mathrm{z}}$ and the deviation  $\delta=\frac{\delta p_\mathrm{z}}{p_\mathrm{z}}$ from the design momentum $p_\mathrm{z}$
+The matrix $\mathbf{R}_\mathrm{m,n}= \frac{\delta \Phi_\mathrm{n}}{\delta \Phi_\mathrm{n}}$ is the Jacobian of this transformation and as that it requires $\mathrm{det}(\hat{R})=1$.
+
+
+Wiedemann:\cite{Wiedemann_accelerator}
+
+
+ Jamies book: \cite{Book_Fundamentals_Rosenzweig}
+\subsection{Liouville Theorem}
 \subsection{Courant-Snyder coefficients, brightness and emittance}
+Courand snyder paper:\cite{COURANT1958}
+Floettmann \cite{PhysRevSTAB.6.034202}
 \subsection{Panowsky-Wenzel Theorem}
 
 original paper:  \cite{Panowsky_Wenzel_original}
@@ -85,7 +146,7 @@ This theorem is so important, it clearly needs a subsection. But where ?
 
 In order to derive an expression for the trapping condition of a single electron in PWFA, one has to start with the equation of motion for such a single electron. 
 \begin{equation}
-F=\frac{d\vec{p}}{dt}=q(\vec{E}\times \vec{B})
+\vec{F}=\frac{d\vec{p}}{dt}=q(\vec{E}+\frac{\vec{v}}{c}\times\vec{B})
 \end{equation}
 with the electron charge $q$ electric field $\vec{E}$ and magnetic field $\vec{B}$
 

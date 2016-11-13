@@ -26,10 +26,36 @@
 
 \maketitle
 \tableofcontents
-
-\begin{figure}
-\includegraphics[width=1.0\textwidth]{experiment/images/raw/waveplate_calibration.pdf}
-\end{figure}
+\begin{equation}
+\begin{split}
+\Phi_\mathrm{f}&=R_\mathrm{i,j} \Phi_\mathrm{f} \\
+\begin{pmatrix}
+x_\mathrm{f}\\
+x'_\mathrm{f}\\
+y_\mathrm{f}\\
+y'_\mathrm{f}\\
+z_\mathrm{f}\\
+\delta_\mathrm{f}\\
+\end{pmatrix}
+&=
+\begin{pmatrix}
+R_{11}&R_{12}&R_{13}&R_{14}&R_{15}&R_{16}\\
+R_{21}&R_{22}&R_{23}&R_{24}&R_{25}&R_{26}\\
+R_{31}&R_{32}&R_{33}&R_{34}&R_{35}&R_{36}\\
+R_{41}&R_{42}&R_{43}&R_{44}&R_{45}&R_{46}\\
+R_{51}&R_{52}&R_{53}&R_{54}&R_{55}&R_{56}\\
+R_{61}&R_{62}&R_{63}&R_{64}&R_{65}&R_{66}\\
+\end{pmatrix}
+\begin{pmatrix}
+x_\mathrm{i}\\
+x'_\mathrm{i}\\
+y_\mathrm{i}\\
+y'_\mathrm{i}\\
+z_\mathrm{i}\\
+\delta_\mathrm{i}\\
+\end{pmatrix}
+\end{split}
+\end{equation}
 
 
 $$I=\hat{I}_{x,y}W_\mathrm{Laser}/(2\sqrt{\pi}\sigma_t(\Delta x_\mathrm{res}\times10^-6)^2)$$

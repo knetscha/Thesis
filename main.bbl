@@ -10,15 +10,25 @@ Pisin Chen, J.~J. Su, J.~M. Dawson, K.~L.~F. Bane, and P.~B. Wilson.
 \newblock Energy transfer in the plasma wake-field accelerator.
 \newblock {\em Phys. Rev. Lett.}, 56:1252--1255, Mar 1986.
 
-\bibitem{PhysRevSTAB.6.034202}
-Klaus Floettmann.
-\newblock Some basic features of the beam emittance.
-\newblock {\em Phys. Rev. ST Accel. Beams}, 6:034202, Mar 2003.
+\bibitem{Wiedemann_accelerator}
+Helmut Wiedemann.
+\newblock {\em Particle Accelerator Physics}, volume~3.
+\newblock Springer-Verlag, 2007.
 
 \bibitem{Book_Fundamentals_Rosenzweig}
 J.~B. Rosenzweig.
 \newblock {\em Fundamentals of Beam Physics}.
 \newblock Oxford: Oxford University Press, 2003.
+
+\bibitem{COURANT1958}
+E.D Courant and H.S Snyder.
+\newblock Theory of the alternating-gradient synchrotron.
+\newblock {\em Annals of Physics}, 3(1):1 -- 48, 1958.
+
+\bibitem{PhysRevSTAB.6.034202}
+Klaus Floettmann.
+\newblock Some basic features of the beam emittance.
+\newblock {\em Phys. Rev. ST Accel. Beams}, 6:034202, Mar 2003.
 
 \bibitem{Panowsky_Wenzel_original}
 W.~K.~H. Panofsky and W.~A. Wenzel.
@@ -49,6 +59,23 @@ A.~Pak, K.~A. Marsh, S.~F. Martins, W.~Lu, W.~B. Mori, and C.~Joshi.
 \newblock Injection and trapping of tunnel-ionized electrons into
   laser-produced wakes.
 \newblock {\em Phys. Rev. Lett.}, 104:025003, Jan 2010.
+
+\bibitem{DTH}
+Georg Wittig Henning Groth Yunfeng Xi Aihua Deng James Benjamin Rosenzweig
+  David Leslie Bruhwiler Johnathan Smith Dino Anthony Jaroszynski Zheng-Ming
+  Sheng Grace Gloria Manahan Guoxing Xia Steven Jamison Bernhard~Hidding
+  Alexander~Knetsch, Oliver~Karger.
+\newblock Downramp-assisted underdense photocathode electron bunch generation
+  in plasma wakefield accelerators.
+\newblock {\em Physical Review Letters}, 2016.
+
+\bibitem{Green_FACET_Laser_PIOP}
+S~Z Green, E~Adli, C~I Clarke, S~Corde, S~A Edstrom, A~S Fisher, J~Frederico,
+  J~C Frisch, S~Gessner, S~Gilevich, P~Hering, M~J Hogan, R~K Jobe, M~Litos,
+  J~E May, D~R Walz, V~Yakimenko, C~E Clayton, C~Joshi, K~A Marsh,
+  N~Vafaei-Najafabadi, and P~Muggli.
+\newblock Laser ionized preformed plasma at facet.
+\newblock {\em Plasma Physics and Controlled Fusion}, 56(8):084011, 2014.
 
 \bibitem{GigE125_datasheet}
 Allied Vision,

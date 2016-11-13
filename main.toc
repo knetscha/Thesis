@@ -17,17 +17,19 @@
 \contentsline {section}{\numberline {1.5}The blowout regime}{5}{section.1.5}
 \contentsline {section}{\numberline {1.6}Descriptions for the blowout regime}{5}{section.1.6}
 \contentsline {section}{\numberline {1.7}Accelerator physics}{6}{section.1.7}
-\contentsline {subsection}{\numberline {1.7.1}Courant-Snyder coefficients, brightness and emittance}{6}{subsection.1.7.1}
-\contentsline {subsection}{\numberline {1.7.2}Panowsky-Wenzel Theorem}{6}{subsection.1.7.2}
-\contentsline {section}{\numberline {1.8}Electron Trapping in plasma accelerators}{6}{section.1.8}
-\contentsline {subsection}{\numberline {1.8.1}Trapping position}{8}{subsection.1.8.1}
-\contentsline {subsubsection}{emittance preservation}{8}{section*.6}
-\contentsline {section}{\numberline {1.9}Injection methods in PWFA}{8}{section.1.9}
-\contentsline {subsection}{\numberline {1.9.1}Downramp injection}{8}{subsection.1.9.1}
-\contentsline {subsection}{\numberline {1.9.2}Plasma Torch}{8}{subsection.1.9.2}
-\contentsline {subsection}{\numberline {1.9.3}Transverse injection ?}{8}{subsection.1.9.3}
-\contentsline {subsection}{\numberline {1.9.4}ionization injection}{8}{subsection.1.9.4}
-\contentsline {section}{\numberline {1.10}Influence of the ionization behaviour}{8}{section.1.10}
+\contentsline {subsection}{\numberline {1.7.1}Single particle movement}{6}{subsection.1.7.1}
+\contentsline {subsection}{\numberline {1.7.2}Liouville Theorem}{6}{subsection.1.7.2}
+\contentsline {subsection}{\numberline {1.7.3}Courant-Snyder coefficients, brightness and emittance}{6}{subsection.1.7.3}
+\contentsline {subsection}{\numberline {1.7.4}Panowsky-Wenzel Theorem}{6}{subsection.1.7.4}
+\contentsline {section}{\numberline {1.8}Electron Trapping in plasma accelerators}{7}{section.1.8}
+\contentsline {subsection}{\numberline {1.8.1}Trapping position}{9}{subsection.1.8.1}
+\contentsline {subsubsection}{emittance preservation}{9}{section*.6}
+\contentsline {section}{\numberline {1.9}Injection methods in PWFA}{9}{section.1.9}
+\contentsline {subsection}{\numberline {1.9.1}Downramp injection}{9}{subsection.1.9.1}
+\contentsline {subsection}{\numberline {1.9.2}Plasma Torch}{9}{subsection.1.9.2}
+\contentsline {subsection}{\numberline {1.9.3}Transverse injection ?}{9}{subsection.1.9.3}
+\contentsline {subsection}{\numberline {1.9.4}ionization injection}{9}{subsection.1.9.4}
+\contentsline {section}{\numberline {1.10}Influence of the ionization behaviour}{9}{section.1.10}
 \contentsline {subsection}{\numberline {1.10.1}Trojan Horse injection}{9}{subsection.1.10.1}
 \contentsline {subsection}{\numberline {1.10.2}Downramp assisted Trojan Horse}{9}{subsection.1.10.2}
 \contentsline {section}{\numberline {1.11}numerical modeling of Trojan Horse injection}{9}{section.1.11}
