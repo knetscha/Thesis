@@ -6,11 +6,77 @@ There are several definitions of a plasma, but one of the most appealing one tha
 textbook by Francis F. Chen:
 "A plasma is a quasineutral gas of charged and neutral particles which
 exhibits collective behavior" \cite{Chen_book_Plasma}.
+Regarding the gas types we will conveniently assume them to be electrons, ions and neutral atoms and comment that other particles as well can fit the definition of a plasma, but such exotic compositions are beyond the scope of this work.
+\subsection*{Debye Shielding}
+The concept of \textit{quasi-neutrality} roots in the shielding behavior of the ions and electrons of charges inside the plasma. 
+A positive net charge e.g. originating from a difference in ion density $n_\mathrm{i}$ and electron density $n_\mathrm{e}$ at a temperature $T$
+would attract electrons and lead to an electron distribution 
+\begin{equation}
+f(u) \propto \exp(-\frac{1}{2}\mE v^2+\qE/( k_\mathrm{B}T)).
+\end{equation}
+
+With the Poisson Equation 
+\begin{align}
+\label{eqn:Poisson_plasma}
+\epsilon_0 \frac{d^2\Phi}{dx^2}&=-\qE(\nE-n_\mathrm{i})\\
+&=\qE \nE (\exp(\qE\Phi/(k_\mathrm{B}T))-1)\\
+&\approx \qE\nE(\qE\Phi/(k_\mathrm{B}T)+...)
+\end{align}
+we can now derive the potential in the plasma
+\begin{equation}
+\Phi = \Phi_0\exp(-|x|/\lambda_\mathrm{D})
+\end{equation}
+with the information about the range of the shielded Coulomb field embedded in the Debye Radius
+\begin{equation}
+\lambda_\mathrm{D}=\sqrt{\frac{\epsilon_0 k_\mathrm{B}T}{n_\mathrm{e}\qE^2}}.
+\end{equation}
+We can see that a plasma with an edge length $L>>\lambda_\mathrm{D}$ would have its Coulomb fields shielded and appear to an outside observer to be charge-neutral. 
 
 
 
-An introduction into plasma physics is given by starting with chens definition. Topics are
-\subsection{debye shielding}
+\subsection*{Plasma frequency}
+Electrons and ions in a plasma can be described as two fluids, each following the fluid dynamics and interacting via the Maxwell Equations and collisions.
+
+If the electron fluid is displaced with respect to the ion fluid this leads to strong electric fields, acting upon both as a restoring force, but as $m_\mathrm{i}>>\mE$, the electron response is much quicker which is why these kind of plasma oscillations are dominated by the electrons, while the ions can be considered inert.
+
+Starting from equation (\ref{eqn:Poisson_plasma}) with the relation of the electric field and its potential being $\vec{E}=-\nabla \Phi$ 
+\begin{equation}
+\epsilon_0 \nabla \vec{E}=\qE (n_\mathrm{i}-\nE)
+\end{equation}
+becomes for small perturbations $n'=\nE+\delta n$
+\begin{equation}
+\epsilon_0 \nabla \vec{E}=\qE \delta n).
+\end{equation}
+The solution to this differential equation is a harmonic density oscillation 
+\begin{equation}
+n(x,t)=\delta n \exp(i(kx-\wP t)).
+\end{equation}
+The characteristic frequency of this oscillation 
+\begin{equation}
+\omega_\mathrm{p}=\sqrt{\frac{n_\mathrm{e}q_\mathrm{e}^2}{\epsilon_0 m_\mathrm{e}}}
+\end{equation}
+is called the \textit{Plasma frequency} and is one of the most important parameters in plasma physics. 
+In the field of PWFA it is convenient to also consider the wavelength associated with the plasma oscillations, 
+the \textit{Plasma wavelength}
+\begin{equation}
+\lP=2\pi\frac{\wP}{c}.
+\end{equation}
+
+Typical values for example for a plasma density $\nE=1\times10^{17}\mathrm{cm}^{-3}$ are
+
+\begin{align*}
+\wP &\approx 56400 \sqrt{\nE [\mathrm{cm}^{-3}]} \approx 1.8\times10^{18}\ 1/s\\
+\lP & \approx 105.6 /\sqrt{\nE [10^{17} \mathrm{cm}^{-3} ]} [\mu\mathrm{m}] = 105.6\ \mu\mathrm{m}.
+\end{align*} 
+
+
+
+It is worth noting that the Debye Shielding assumes a thermalized plasma and is not the right idea of a plasma reaction to a rapid change in charge on a femtosecond timescale. 
+The more appropriate figure of merit in that case is the depth an electromagnetic wave with frequency $\omega$ can permeate the plasma fluid given by the skin depth 
+\begin{equation}
+\kP^{-1}=\frac{c}{\sqrt{\wP^2-\omega^2}}.
+\end{equation}
+
 \subsection{time scales}
 scattering can be talked about
 
@@ -63,7 +129,7 @@ behind the driving bunch, $E_\mathrm{max}^+$, to the maximum decelerating $E_\ma
 electric field acting upon drive beam electrons. Experimentally the transformer ratio is comparably easy access-able if one assumes the acceleration length for the witness beam and deceleration length for the drive beam to be equal and that the  witness beam is in accelerated at the peak accelerating field.
 Then it can be observed in the electron energy spectrum as the maximum energy gain of the witness beam divided by the maximum energy loss of the drive beam. In that sense the transformer ratio is a measure of efficiency with which the drive electron beam can transfer energy to the witness electron beam. 
 In the linear regime for a Gaussian drive beam 
-In \cite{PhysRevLett.56.1252} it is calculated and simulated that the transformer in the linear regime, which is otherwise limited to $R_\mathrm{trans}\leq 2$ for a Gaussian drive beam current profile, can reach up to $R_\mathrm{trans}\approx 6.12$ by applying a triangular shaped drive beam current.
+In \cite{PhysRevLett.56.1252} it is calculated and simulated that the transformer in the linear regime, which is otherwise limited to $R_\mathrm{trans}\leq 2$ for a symmetric drive beam current profile \cite{bane1984wake}, can reach up to $R_\mathrm{trans}\approx 6.12$ by applying a triangular shaped drive beam current.
 \section{The blowout regime}
 
 \section{Descriptions for the blowout regime}
@@ -88,6 +154,7 @@ can be expressed in a number of linear changes.
 As in par-axial optics this gives the possibility to describe the electron beam trajectory with linear transformations, represented by a matrix formalism.
 This idea can be extrapolated to the entire phase-space information of an electron, so that equation
 \begin{equation}
+\label{eqn:R_Matrix}
 \begin{split}
 \Phi_\mathrm{f}&=\hat{R} \Phi_\mathrm{i} \\
 \begin{pmatrix}
@@ -127,9 +194,58 @@ Wiedemann:\cite{Wiedemann_accelerator}
 
  Jamies book: \cite{Book_Fundamentals_Rosenzweig}
 \subsection{Liouville Theorem}
+When now considering an entire bunch of electrons it comes in handy to describe it as a smooth phase space distribution
+$f(\vec{r},\vec{p})$, which is conventionally normalized so that  
+\begin{equation}
+\label{eqn:f_int_1}
+\int^{\infty}_{-\infty}f(\vec{r},\vec{p})d\vec{r}d\vec{p}=1 .
+\end{equation}
+
+The Liouville Theorem states that if only conservative forces are applied to the bunch the total phase volume occupied by the distribution stays constant. This is mathematically equivalent to any transformation that maintains condition (\ref{eqn:f_int_1}), which can be expressed by Jacobian transformations of the kind described by equation (\ref{eqn:R_Matrix}).
+Of course $\hat{R}$ does not need to act upon the entire 6D-Phase space. In fact it is common to reduce the analysis and describe only changes in the transverse phase space, the so called \textit{trace space}, as the planes are mathematically independent and often beam-optics that only influence one plane such as quadropoles or dipoles are applied.
+
+In order to obtain a measure of the actual phase space volume the statistical moments of the distribution can be determined by evaluating the integral 
+\begin{equation}
+<x^n>=\int_{-\infty}^{\infty}f(\vec{r},\vec{p})x^n dx.
+\end{equation}
+%with the total time differentiate
+%\begin{align}
+%\frac{d f}{dt}&=\frac{\partial f}{\partial t}+\sum_i \frac{dx_i}{dt}\frac{\partial f}{\partial x_i}+\frac{dp_i}{dt}\frac{\partial f}{\partial p_i}
+%&=\frac{\partial f}{\partial t}+\sum_i()
+%\end{align}
 \subsection{Courant-Snyder coefficients, brightness and emittance}
-Courand snyder paper:\cite{COURANT1958}
-Floettmann \cite{PhysRevSTAB.6.034202}
+Courant and Snyder with their summary paper \cite{COURANT1958} have set the standard for defining the phase space volume in the trace space with an ellipse equation for its boundary
+\begin{equation}
+\label{eqn:CourandSnyderEllipse}
+\gamma <x^2>+2\alpha <x> <x'>+\beta <x'^2> =\epsilon.
+\end{equation}
+\begin{equation}
+\alpha =\frac{<x^2>}{\epsilon}, \gamma=\frac{<x'^2>}{\epsilon}, \alpha=\frac{<xx'>}{\epsilon}
+\end{equation}
+are the so called \textit{Courant Snyder parameters} and $\epsilon$ is the trace space emittance. 
+As $f(\vec{r},\vec{p})$ is considered to be smooth function, it might as well consist of a distribution that only approaches 0 so that it is difficult to draw a absolute volume edge as depicted in figure (\ref{img:TraceSpace}).
+Because of this and for the sake of simplicity in comparing the value with experimental data, it is useful to work with the rms values. So the \textit{rms trace space emittance} according to \cite{PhysRevSTAB.6.034202} is
+\begin{equation}
+\epsilon_\mathrm{tr,rms}=\sqrt{<x^2><x'^2>-<xx'>^2}.
+\end{equation}
+This can additionally be normalized to the \textit{normalized rms trace space emittance} into the form
+\begin{equation}
+\label{eqn:NormTraceSpaceEmitt}
+\epsilon_\mathrm{n,tr,rms}=\frac{p_\mathrm{z}}{\mE c}\sqrt{<x^2><x'^2>-<xx'>^2}
+\end{equation} 
+so that its value stays current during acceleration.
+ 
+The emittance is an important value, as it is invariant under conservative transformations and therefore an important 
+figure of merit for electron beam quality in general. 
+Definition (\ref{eqn:NormTraceSpaceEmitt}) will mostly be applied in the context of this work.
+
+\begin{figure}
+\label{img:TraceSpace}
+\begin{center}
+\includegraphics[width=0.6\textwidth]{theory/images/edited/TraceSpaceCourantSnyder.pdf}
+\end{center}
+\end{figure}
+Floettmann 
 \subsection{Panowsky-Wenzel Theorem}
 
 original paper:  \cite{Panowsky_Wenzel_original}
@@ -219,7 +335,10 @@ There are physical situations imaginable in which the wake or at least part of t
 From the previous deductions it seems obvious, that trapping electrons in such a superluminal wakefield is not possible, as $\gamma_\mathrm{\phi}^{-1}$ becomes complex for $v_\mathrm{\phi}>c$.
 
 However, if the superluminosity is only transient as with a short density upramp, the phase velocity will return to $c$ right after the transition. In this case trpping can be possible, but the mathematic tool presented in this section is insufficient to describe the trapping and the phase velocity after the transition is setting the demand on the potential.
-\subsection{Trapping position}
+\subsection{Trapping position and bunch compression}
+
+Anderson,Serafini:\cite{AndersonVelocBunchPPRSTAB2005,serafini2001velocity}
+
 \subsubsection{emittance preservation}
 why don't you ... look at space charge effect to estimate required gamma/acceleration and focusing forces for emittance preservation ? Try looking at Pak's thesis and this emittance paper that claims one needs a fast acceleration, but knows nothing about Trojan Horse yet.
 \section{Injection methods in PWFA}

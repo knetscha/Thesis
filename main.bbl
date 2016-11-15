@@ -1,5 +1,10 @@
 \begin{thebibliography}{10}
 
+\bibitem{Chen_book_Plasma}
+Francsis~F. Chen.
+\newblock {\em Introduction to Plasma Physics and Controlled Fusion}, volume~1.
+\newblock Plenum Press New York and London, 1974.
+
 \bibitem{RevModPhys.81.1229}
 E.~Esarey, C.~B. Schroeder, and W.~P. Leemans.
 \newblock Physics of laser-driven plasma-based electron accelerators.
@@ -9,6 +14,11 @@ E.~Esarey, C.~B. Schroeder, and W.~P. Leemans.
 Pisin Chen, J.~J. Su, J.~M. Dawson, K.~L.~F. Bane, and P.~B. Wilson.
 \newblock Energy transfer in the plasma wake-field accelerator.
 \newblock {\em Phys. Rev. Lett.}, 56:1252--1255, Mar 1986.
+
+\bibitem{bane1984wake}
+KL~Bane, Perry~B Wilson, and T~Weiland.
+\newblock Wake fields and wake field acceleration.
+\newblock In {\em AIP Conf. Proc.}, volume 127, pages 875--928, 1984.
 
 \bibitem{Wiedemann_accelerator}
 Helmut Wiedemann.
@@ -68,6 +78,19 @@ Georg Wittig Henning Groth Yunfeng Xi Aihua Deng James Benjamin Rosenzweig
 \newblock Downramp-assisted underdense photocathode electron bunch generation
   in plasma wakefield accelerators.
 \newblock {\em Physical Review Letters}, 2016.
+
+\bibitem{AndersonVelocBunchPPRSTAB2005}
+S.~G. Anderson, P.~Musumeci, J.~B. Rosenzweig, W.~J. Brown, R.~J. England,
+  M.~Ferrario, J.~S. Jacob, M.~C. Thompson, G.~Travish, A.~M. Tremaine, and
+  R.~Yoder.
+\newblock Velocity bunching of high-brightness electron beams.
+\newblock {\em Phys. Rev. ST Accel. Beams}, 8:014401, Jan 2005.
+
+\bibitem{serafini2001velocity}
+L~Serafini and M~Ferrario.
+\newblock Velocity bunching in photo-injectors.
+\newblock In {\em AIP conference proceedings}, pages 87--106. IOP INSTITUTE OF
+  PHYSICS PUBLISHING LTD, 2001.
 
 \bibitem{Green_FACET_Laser_PIOP}
 S~Z Green, E~Adli, C~I Clarke, S~Corde, S~A Edstrom, A~S Fisher, J~Frederico,
