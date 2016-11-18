@@ -309,18 +309,24 @@ In order to honor the name "trapping potential" i.e. to apply this derivation to
 An obvious and conventional choice is that an electron should catch up with the wake's velocity so that 
 $v_\mathrm{f}=v_\mathrm{\phi}$.
 Equation \ref{eq:Trapping_Potential_Pre} consequently simplifies to 
-\begin{equation}
+\begin{align}
 \label{eq:Trapping_Potential_Raw}
-\Delta \bar{\Psi}= \gamma_\mathrm{\phi}-\gamma_\mathrm{i}-\gamma_\mathrm{\phi}\frac{v_\mathrm{\phi}^2}{c^2}+\gamma_\mathrm{i}\frac{v_\mathrm{\phi}v_\mathrm{i}}{c^2} 
-\end{equation}
+\Delta \bar{\Psi}&= \gamma_\mathrm{\phi}-\gamma_\mathrm{i}-\gamma_\mathrm{\phi}\frac{v_\mathrm{\phi}^2}{c^2}+\gamma_\mathrm{i}\frac{v_\mathrm{\phi}v_\mathrm{i}}{c^2} 
+\end{align}
 Equation \ref{eq:Trapping_Potential_Raw} can be further separated into different physical cases:
 \subsection*{luminal wakefield, electron injected  at rest}
 In this case the plasma wake travels with a phase velocity near the speed of light, which is the case for beam-driven scenarios with high $\gamma$ driver beams ($v_\mathrm{\phi} \approx c$), and electrons starting inside the wake initially at rest ($v_\mathrm{i} \approx \ 0$).
 Here Equation \ref{eq:Trapping_Potential_Raw} simplifies to
 \begin{equation}
+\label{eqn:Trapping_Potential_TH}
 \Delta \bar{\Psi}=-1
 \end{equation}
 Examples of this case are the underdense photocathode, or Trojan Horse injection\cite{Hidding_PRL_2012}, or wakefield induced ionization injection\cite{MartinezdelaOssa2014231}.
+
+\subsection*{luminal wakefield, electron injected  with v $\neq 0$}
+\begin{equation}
+\Delta \bar{\Phi}= -\gamma_\mathrm{i}(1-\frac{v_\mathrm{i}v_\phi}{c^2})\approx -\gamma_\mathrm{i}(1-\frac{v_\mathrm{i}}{c})
+\end{equation}
 \subsection*{subluminal wakefield, electron injected at rest}
 
 \begin{equation}
@@ -328,7 +334,6 @@ Examples of this case are the underdense photocathode, or Trojan Horse injection
 \Delta \bar{\Psi}=\gamma_\mathrm{\phi}(1-\frac{v_\mathrm{\phi}^2}{c^2})-1=\gamma_\mathrm{\phi}^{-1}-1
 \end{equation}
 This formula can for example be applied to ionization injection in LWFA\cite{PakPRL2012} or beam-driven ionization injection schemes in which the wake's phase velocity is retarded such as the Downramp-assisted Trojan Horse (DTH)\cite{DTH}, which this work has as special focus on. In latter case mathematically strictly speaking $\frac{d H}{dt}\neq0 $, but for small changes $\frac{dH}{dt}\approx 0$ during the injection process of the electrons, equation \ref{eq:Trapping_Potential_DTH} can still be applied.
-\subsection*{subluminal wakefield, electrons at rest}
 
 \subsection*{superluminal wakefield}
 There are physical situations imaginable in which the wake or at least part of the wake move with a phase velocity faster than the speed of light. This is the case for example when a beam driven wake traverses an electron density upramp.
@@ -336,6 +341,47 @@ From the previous deductions it seems obvious, that trapping electrons in such a
 
 However, if the superluminosity is only transient as with a short density upramp, the phase velocity will return to $c$ right after the transition. In this case trpping can be possible, but the mathematic tool presented in this section is insufficient to describe the trapping and the phase velocity after the transition is setting the demand on the potential.
 \subsection{Trapping position and bunch compression}
+Assuming that the longitudinal wake field 
+$\frac{\partial E_\mathrm{z}}{\partial r} = 0 $ for a sufficiently wide radius the trapping behaviour can be seen in 1D only.
+In the blowout regime the acceleration gradient is to a good degree linear in $\xi$ with
+\begin{equation}
+\label{eqn:linear_blowout_Ez}
+E_\mathrm{z}(\xi)=\frac{1}{2}\kP\xi.
+\end{equation}
+One should keep in mind that the origin of the coordinate system has been shifted so that $\xi=0$ is at the zero-crossing of the electric field.
+Integrating erquation \ref{eqn:linear_blowout_Ez} gives the linear potential
+\begin{equation}
+\label{eqn:linear_blowout_Pot}
+U_\mathrm{z}(\xi)=\kP\xi^2.
+\end{equation}
+Now equation \ref{eqn:linear_blowout_Pot} is inserted in equation \ref{eqn:Trapping_Potential_TH} and rearranged in order to find for an electron released at an inital position $\xi_\mathrm{i}$ its trapping position $\xi$ by deriving
+\begin{align}
+U_\mathrm{z}(\xi_\mathrm{i})-U_\mathrm{z}(\xi_\mathrm{f})&=-\frac{\mE c^2}{\qE}\\
+\kP(\xi_\mathrm{i}^2-\xi_\mathrm{f}^2)&=-\frac{\mE c^2}{\qE}\\
+\label{eqn:Trapping_Position}
+\xi_\mathrm{trap}&=\sqrt{\xi_\mathrm{i}^2-\frac{\mE c^2}{\qE \kP}}.
+\end{align}
+
+Equation \ref{eqn:Trapping_Position} is now the relation between release and trapping position of an electron in the co-moving frame for an accelerating field approximated to be linear. 
+
+This finding can also be used to calculate the compression of a released electron beam during the trapping.
+For that we start with a 1D spatial Gaussian distribution  with rms length $\sigma_\xi$. We will later see that this assumption in fact resembles very well the distribution of interest.
+\begin{equation}
+\label{eqn:xi_init_dist}
+f(\xi)=\frac{\sigma_\xi}{\sqrt{2\pi}}e^{-\frac{\xi^2}{2\sigma_\xi^2}}.
+\end{equation}
+The distribution should be normalized to
+\begin{equation}
+\int_{-\infty}^{\infty}f(\xi)d\xi\stackrel{!}{=}1.
+\end{equation}
+Equation \ref{eqn:xi_init_dist} is now 
+%\begin{align}
+%f^\mathrm{trap}(\xi)&=f(\xi_\mathrm{trap}(\xi_\mathrm{i}))\\
+%&=\frac{\sigma_\xi}{\sqrt{2\pi}}e^{-\frac{\xi^2}{2\sigma_\xi^2}}
+
+%\end{align}
+
+
 
 Anderson,Serafini:\cite{AndersonVelocBunchPPRSTAB2005,serafini2001velocity}
 

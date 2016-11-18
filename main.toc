@@ -22,27 +22,28 @@
 \contentsline {subsection}{\numberline {1.7.4}Panowsky-Wenzel Theorem}{9}{subsection.1.7.4}
 \contentsline {section}{\numberline {1.8}Electron Trapping in plasma accelerators}{10}{section.1.8}
 \contentsline {subsection}{\numberline {1.8.1}Trapping position and bunch compression}{12}{subsection.1.8.1}
-\contentsline {subsubsection}{emittance preservation}{12}{section*.9}
-\contentsline {section}{\numberline {1.9}Injection methods in PWFA}{12}{section.1.9}
-\contentsline {subsection}{\numberline {1.9.1}Downramp injection}{12}{subsection.1.9.1}
-\contentsline {subsection}{\numberline {1.9.2}Plasma Torch}{12}{subsection.1.9.2}
-\contentsline {subsection}{\numberline {1.9.3}Transverse injection ?}{12}{subsection.1.9.3}
-\contentsline {subsection}{\numberline {1.9.4}ionization injection}{12}{subsection.1.9.4}
-\contentsline {section}{\numberline {1.10}Influence of the ionization behaviour}{12}{section.1.10}
-\contentsline {subsection}{\numberline {1.10.1}Trojan Horse injection}{12}{subsection.1.10.1}
-\contentsline {subsection}{\numberline {1.10.2}Downramp assisted Trojan Horse}{12}{subsection.1.10.2}
-\contentsline {section}{\numberline {1.11}numerical modeling of Trojan Horse injection}{12}{section.1.11}
-\contentsline {subsection}{\numberline {1.11.1}Movement of ionization front}{12}{subsection.1.11.1}
-\contentsline {subsection}{\numberline {1.11.2}emittance growth from space charge}{12}{subsection.1.11.2}
-\contentsline {subsection}{\numberline {1.11.3}Laser parameter variations}{12}{subsection.1.11.3}
-\contentsline {chapter}{\numberline {2.}experiment}{13}{chapter.2}
-\contentsline {section}{\numberline {2.1}The FACET experimental setup}{13}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}LINAC}{13}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}The FACET laser system}{13}{subsection.2.1.2}
-\contentsline {subsection}{\numberline {2.1.3}Imaging spectrometer}{13}{subsection.2.1.3}
-\contentsline {subsection}{\numberline {2.1.4}Laser energy calibration}{13}{subsection.2.1.4}
-\contentsline {section}{\numberline {2.2}Electro Optical Sampling (EOS)}{15}{section.2.2}
-\contentsline {section}{\numberline {2.3}Ionization test}{17}{section.2.3}
-\contentsline {section}{\numberline {2.4}Plasma glow diagnostic}{17}{section.2.4}
-\contentsline {section}{\numberline {2.5}Result: Plasma Torch injection}{17}{section.2.5}
-\contentsline {section}{\numberline {2.6}Result: Trojan Horse injection}{17}{section.2.6}
+\contentsline {subsubsection}{emittance preservation}{13}{section*.9}
+\contentsline {section}{\numberline {1.9}Injection methods in PWFA}{13}{section.1.9}
+\contentsline {subsection}{\numberline {1.9.1}Downramp injection}{13}{subsection.1.9.1}
+\contentsline {subsection}{\numberline {1.9.2}Plasma Torch}{13}{subsection.1.9.2}
+\contentsline {subsection}{\numberline {1.9.3}Transverse injection ?}{13}{subsection.1.9.3}
+\contentsline {subsection}{\numberline {1.9.4}ionization injection}{13}{subsection.1.9.4}
+\contentsline {section}{\numberline {1.10}Influence of the ionization behaviour}{13}{section.1.10}
+\contentsline {subsection}{\numberline {1.10.1}Trojan Horse injection}{13}{subsection.1.10.1}
+\contentsline {subsection}{\numberline {1.10.2}Downramp assisted Trojan Horse}{13}{subsection.1.10.2}
+\contentsline {section}{\numberline {1.11}numerical modeling of Trojan Horse injection}{13}{section.1.11}
+\contentsline {subsection}{\numberline {1.11.1}Movement of ionization front}{13}{subsection.1.11.1}
+\contentsline {subsection}{\numberline {1.11.2}emittance growth from space charge}{13}{subsection.1.11.2}
+\contentsline {subsection}{\numberline {1.11.3}Laser parameter variations}{13}{subsection.1.11.3}
+\contentsline {chapter}{\numberline {2.}experiment}{14}{chapter.2}
+\contentsline {section}{\numberline {2.1}The FACET experimental setup}{14}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}LINAC}{14}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}The FACET laser system}{14}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Imaging spectrometer}{14}{subsection.2.1.3}
+\contentsline {subsection}{\numberline {2.1.4}Laser energy calibration}{14}{subsection.2.1.4}
+\contentsline {section}{\numberline {2.2}Electro Optical Sampling (EOS)}{16}{section.2.2}
+\contentsline {section}{\numberline {2.3}Ionization test}{18}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}window B-Integral}{18}{subsection.2.3.1}
+\contentsline {section}{\numberline {2.4}Plasma glow diagnostic}{18}{section.2.4}
+\contentsline {section}{\numberline {2.5}Result: Plasma Torch injection}{18}{section.2.5}
+\contentsline {section}{\numberline {2.6}Result: Trojan Horse injection}{18}{section.2.6}
