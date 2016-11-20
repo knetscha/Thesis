@@ -1,6 +1,19 @@
 % This file was created with JabRef 2.9.2.
 % Encoding: ISO8859_3
 
+@ARTICLE{adli2015cherenkov,
+  author = {Adli, Erik and Gessner, SJ and Corde, S{\'e}bastien and Hogan, MJ
+	and Bjerke, HH},
+  title = {Cherenkov light-based beam profiling for ultrarelativistic electron
+	beams},
+  journal = {Nuclear Instruments and Methods in Physics Research Section A: Accelerators,
+	Spectrometers, Detectors and Associated Equipment},
+  year = {2015},
+  volume = {783},
+  pages = {35--42},
+  publisher = {Elsevier}
+}
+
 @ARTICLE{DTH,
   author = {Alexander Knetsch, Oliver Karger, Georg Wittig, Henning Groth, Yunfeng
 	Xi, Aihua Deng, James Benjamin Rosenzweig, David Leslie Bruhwiler,
@@ -10,6 +23,17 @@
 	in plasma wakefield accelerators},
   journal = {Physical Review Letters},
   year = {2016}
+}
+
+@ARTICLE{ADK_original,
+  author = {Ammosov, MV and Delone, NB and Krainov, VP and Perelomov, AM and
+	Popov, VS and Terent'ev, MV and Yudin, Gennady L and Ivanov, Misha
+	Yu},
+  title = {Tunnel ionization of complex atoms and of atomic ions in an alternating
+	electric field},
+  journal = {Sov. Phys.JETP},
+  year = {1986},
+  volume = {64}
 }
 
 @ARTICLE{AndersonVelocBunchPPRSTAB2005,
@@ -61,6 +85,34 @@
   pages = {875--928}
 }
 
+@ARTICLE{blumenfeld2007energyDoubling,
+  author = {Blumenfeld, Ian and Clayton, Christopher E and Decker, Franz-Josef
+	and Hogan, Mark J and Huang, Chengkun and Ischebeck, Rasmus and Iverson,
+	Richard and Joshi, Chandrashekhar and Katsouleas, Thomas and Kirby,
+	Neil and others},
+  title = {Energy doubling of 42 GeV electrons in a metre-scale plasma wakefield
+	accelerator},
+  journal = {Nature},
+  year = {2007},
+  volume = {445},
+  pages = {741--744},
+  number = {7129},
+  publisher = {Nature Publishing Group}
+}
+
+@ARTICLE{bruhwiler2003PoP,
+  author = {Bruhwiler, David L and Dimitrov, DA and Cary, John R and Esarey,
+	Eric and Leemans, Wim and Giacone, Rodolfo E},
+  title = {Particle-in-cell simulations of tunneling ionization effects in plasma-based
+	accelerators},
+  journal = {Physics of Plasmas (1994-present)},
+  year = {2003},
+  volume = {10},
+  pages = {2022--2030},
+  number = {5},
+  publisher = {AIP Publishing}
+}
+
 @BOOK{Chen_book_Plasma,
   title = {Introduction to Plasma Physics and Controlled Fusion},
   publisher = {Plenum Press New York and London},
@@ -85,6 +137,18 @@
   numpages = {0},
   publisher = {American Physical Society},
   url = {http://link.aps.org/doi/10.1103/PhysRevLett.56.1252}
+}
+
+@ARTICLE{clarke2012facet,
+  author = {Clarke, CI and Decker, FJ and England, RJ and Erikson, R and Hast,
+	C and Hogan, MJ and Li, SZ and Litos, M and Nosochkov, Y and Seeman,
+	J and others},
+  title = {FACET: SLACs New User Facility},
+  journal = {Energy [GeV]},
+  year = {2012},
+  volume = {23},
+  pages = {20},
+  publisher = {Citeseer}
 }
 
 @ARTICLE{COURANT1958,
@@ -127,6 +191,18 @@
   url = {http://link.aps.org/doi/10.1103/RevModPhys.81.1229}
 }
 
+@ARTICLE{figueroa1988direct,
+  author = {Figueroa, H and Gai, W and Konecny, R and Norem, J and Ruggiero,
+	A and Schoessow, P and Simpson, J},
+  title = {Direct measurement of beam-induced fields in accelerating structures},
+  journal = {Physical review letters},
+  year = {1988},
+  volume = {60},
+  pages = {2144},
+  number = {21},
+  publisher = {APS}
+}
+
 @ARTICLE{PhysRevSTAB.6.034202,
   author = {Floettmann, Klaus},
   title = {Some basic features of the beam emittance},
@@ -156,6 +232,15 @@
   numpages = {8},
   publisher = {American Physical Society},
   url = {http://link.aps.org/doi/10.1103/PhysRevE.73.026402}
+}
+
+@PHDTHESIS{ThesisGessner,
+  author = {Spencer Gessner},
+  title = {Demonstration of the Hollow channel Plasma WakefWake Accelerator},
+  school = {Stanford University},
+  year = {2016},
+  owner = {knetsch},
+  timestamp = {2016.11.20}
 }
 
 @ARTICLE{Green_FACET_Laser_PIOP,
@@ -197,6 +282,19 @@
   publisher = {American Physical Society},
   timestamp = {2016.10.17},
   url = {http://link.aps.org/doi/10.1103/PhysRevLett.108.035001}
+}
+
+@ARTICLE{hogan2010FACET,
+  author = {Hogan, MJ and Raubenheimer, TO and Seryi, A and Muggli, P and Katsouleas,
+	T and Huang, C and Lu, W and An, W and Marsh, KA and Mori, WB and
+	others},
+  title = {Plasma wakefield acceleration experiments at FACET},
+  journal = {New Journal of Physics},
+  year = {2010},
+  volume = {12},
+  pages = {055030},
+  number = {5},
+  publisher = {IOP Publishing}
 }
 
 @ARTICLE{Kim_trapping_parabolic_density,
@@ -260,6 +358,20 @@
   number = {11},
   doi = {http://dx.doi.org/10.1063/1.1799371},
   url = {http://scitation.aip.org/content/aip/journal/pop/11/11/10.1063/1.1799371}
+}
+
+@ARTICLE{litos2014high,
+  author = {Litos, M and Adli, E and An, W and Clarke, CI and Clayton, CE and
+	Corde, S{\'e}bastien and Delahaye, JP and England, RJ and Fisher,
+	AS and Frederico, J and others},
+  title = {High-efficiency acceleration of an electron beam in a plasma wakefield
+	accelerator},
+  journal = {Nature},
+  year = {2014},
+  volume = {515},
+  pages = {92--95},
+  number = {7525},
+  publisher = {Nature Publishing Group}
 }
 
 @ARTICLE{Lu_nonlinear_rel_wakefield,
@@ -548,6 +660,33 @@
   volume = {3},
   owner = {knetsch},
   timestamp = {2016.11.11}
+}
+
+@ARTICLE{PlaTo,
+  author = {Wittig, G and Karger, O and Knetsch, A and Xi, Y and Deng, A and
+	Rosenzweig, JB and Bruhwiler, DL and Smith, J and Manahan, GG and
+	Sheng, Z-M and others},
+  title = {Optical plasma torch electron bunch generation in plasma wakefield
+	accelerators},
+  journal = {Physical Review Special Topics-Accelerators and Beams},
+  year = {2015},
+  volume = {18},
+  pages = {081304},
+  number = {8},
+  publisher = {APS}
+}
+
+@ARTICLE{PlaTo2,
+  author = {Wittig, Georg and Karger, Oliver S and Knetsch, Alexander and Xi,
+	Yunfeng and Deng, Aihua and Rosenzweig, James B and Bruhwiler, David
+	L and Smith, Jonathan and Sheng, Zheng-Ming and Jaroszynski, Dino
+	A and others},
+  title = {Electron beam manipulation, injection and acceleration in plasma
+	wakefield accelerators by optically generated plasma density spikes},
+  journal = {Nuclear Instruments and Methods in Physics Research Section A: Accelerators,
+	Spectrometers, Detectors and Associated Equipment},
+  year = {2016},
+  publisher = {Elsevier}
 }
 
 @ARTICLE{YanX_EOS_PRL2000,

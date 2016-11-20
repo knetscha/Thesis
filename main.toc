@@ -10,40 +10,41 @@
 \contentsline {subsection}{\numberline {1.2.6}ADK theory}{6}{subsection.1.2.6}
 \contentsline {subsection}{\numberline {1.2.7}waves in plasmas}{6}{subsection.1.2.7}
 \contentsline {subsection}{\numberline {1.2.8}wavebreaking}{6}{subsection.1.2.8}
-\contentsline {section}{\numberline {1.3}PWFA theory}{6}{section.1.3}
-\contentsline {subsection}{\numberline {1.3.1}History of PWFA}{6}{subsection.1.3.1}
+\contentsline {section}{\numberline {1.3}PWFA theory}{7}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}History of PWFA}{7}{subsection.1.3.1}
 \contentsline {section}{\numberline {1.4}The linear regime}{7}{section.1.4}
 \contentsline {section}{\numberline {1.5}The blowout regime}{7}{section.1.5}
 \contentsline {section}{\numberline {1.6}Descriptions for the blowout regime}{7}{section.1.6}
 \contentsline {section}{\numberline {1.7}Accelerator physics}{7}{section.1.7}
-\contentsline {subsection}{\numberline {1.7.1}Single particle movement}{7}{subsection.1.7.1}
+\contentsline {subsection}{\numberline {1.7.1}Single particle movement}{8}{subsection.1.7.1}
 \contentsline {subsection}{\numberline {1.7.2}Liouville Theorem}{8}{subsection.1.7.2}
-\contentsline {subsection}{\numberline {1.7.3}Courant-Snyder coefficients, brightness and emittance}{8}{subsection.1.7.3}
+\contentsline {subsection}{\numberline {1.7.3}Courant-Snyder coefficients, brightness and emittance}{9}{subsection.1.7.3}
 \contentsline {subsection}{\numberline {1.7.4}Panowsky-Wenzel Theorem}{9}{subsection.1.7.4}
-\contentsline {section}{\numberline {1.8}Electron Trapping in plasma accelerators}{10}{section.1.8}
-\contentsline {subsection}{\numberline {1.8.1}Trapping position and bunch compression}{12}{subsection.1.8.1}
-\contentsline {subsubsection}{emittance preservation}{13}{section*.9}
-\contentsline {section}{\numberline {1.9}Injection methods in PWFA}{13}{section.1.9}
-\contentsline {subsection}{\numberline {1.9.1}Downramp injection}{13}{subsection.1.9.1}
-\contentsline {subsection}{\numberline {1.9.2}Plasma Torch}{13}{subsection.1.9.2}
-\contentsline {subsection}{\numberline {1.9.3}Transverse injection ?}{13}{subsection.1.9.3}
-\contentsline {subsection}{\numberline {1.9.4}ionization injection}{13}{subsection.1.9.4}
-\contentsline {section}{\numberline {1.10}Influence of the ionization behaviour}{13}{section.1.10}
-\contentsline {subsection}{\numberline {1.10.1}Trojan Horse injection}{13}{subsection.1.10.1}
-\contentsline {subsection}{\numberline {1.10.2}Downramp assisted Trojan Horse}{13}{subsection.1.10.2}
-\contentsline {section}{\numberline {1.11}numerical modeling of Trojan Horse injection}{13}{section.1.11}
-\contentsline {subsection}{\numberline {1.11.1}Movement of ionization front}{13}{subsection.1.11.1}
-\contentsline {subsection}{\numberline {1.11.2}emittance growth from space charge}{13}{subsection.1.11.2}
-\contentsline {subsection}{\numberline {1.11.3}Laser parameter variations}{13}{subsection.1.11.3}
-\contentsline {chapter}{\numberline {2.}experiment}{14}{chapter.2}
-\contentsline {section}{\numberline {2.1}The FACET experimental setup}{14}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}LINAC}{14}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}The FACET laser system}{14}{subsection.2.1.2}
-\contentsline {subsection}{\numberline {2.1.3}Imaging spectrometer}{14}{subsection.2.1.3}
-\contentsline {subsection}{\numberline {2.1.4}Laser energy calibration}{14}{subsection.2.1.4}
-\contentsline {section}{\numberline {2.2}Electro Optical Sampling (EOS)}{16}{section.2.2}
-\contentsline {section}{\numberline {2.3}Ionization test}{18}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}window B-Integral}{18}{subsection.2.3.1}
-\contentsline {section}{\numberline {2.4}Plasma glow diagnostic}{18}{section.2.4}
-\contentsline {section}{\numberline {2.5}Result: Plasma Torch injection}{18}{section.2.5}
-\contentsline {section}{\numberline {2.6}Result: Trojan Horse injection}{18}{section.2.6}
+\contentsline {section}{\numberline {1.8}Electron Trapping in plasma accelerators}{9}{section.1.8}
+\contentsline {subsection}{\numberline {1.8.1}Trapping position and bunch compression}{13}{subsection.1.8.1}
+\contentsline {subsection}{\numberline {1.8.2}The role of the ionization front}{14}{subsection.1.8.2}
+\contentsline {subsubsection}{emittance preservation}{14}{section*.11}
+\contentsline {section}{\numberline {1.9}Acceleration methods in PWFA}{15}{section.1.9}
+\contentsline {subsection}{\numberline {1.9.1}External injection - Double bunch}{15}{subsection.1.9.1}
+\contentsline {subsection}{\numberline {1.9.2}Density Downramp injection}{16}{subsection.1.9.2}
+\contentsline {subsection}{\numberline {1.9.3}Plasma Torch}{16}{subsection.1.9.3}
+\contentsline {subsection}{\numberline {1.9.4}ionization injection}{16}{subsection.1.9.4}
+\contentsline {section}{\numberline {1.10}Influence of the ionization behaviour}{16}{section.1.10}
+\contentsline {subsection}{\numberline {1.10.1}Trojan Horse injection}{16}{subsection.1.10.1}
+\contentsline {subsection}{\numberline {1.10.2}Downramp assisted Trojan Horse}{16}{subsection.1.10.2}
+\contentsline {section}{\numberline {1.11}numerical modeling of Trojan Horse injection}{16}{section.1.11}
+\contentsline {subsection}{\numberline {1.11.1}Movement of ionization front}{16}{subsection.1.11.1}
+\contentsline {subsection}{\numberline {1.11.2}emittance growth from space charge}{16}{subsection.1.11.2}
+\contentsline {subsection}{\numberline {1.11.3}Laser parameter variations}{16}{subsection.1.11.3}
+\contentsline {chapter}{\numberline {2.}experiment}{17}{chapter.2}
+\contentsline {section}{\numberline {2.1}The FACET experimental setup}{17}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}LINAC}{17}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}The FACET laser system}{17}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Imaging spectrometer}{17}{subsection.2.1.3}
+\contentsline {subsection}{\numberline {2.1.4}Laser energy calibration}{17}{subsection.2.1.4}
+\contentsline {section}{\numberline {2.2}Electro Optical Sampling (EOS)}{19}{section.2.2}
+\contentsline {section}{\numberline {2.3}Ionization test}{21}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}window B-Integral}{21}{subsection.2.3.1}
+\contentsline {section}{\numberline {2.4}Plasma glow diagnostic}{21}{section.2.4}
+\contentsline {section}{\numberline {2.5}Result: Plasma Torch injection}{21}{section.2.5}
+\contentsline {section}{\numberline {2.6}Result: Trojan Horse injection}{21}{section.2.6}

@@ -5,6 +5,20 @@ Francsis~F. Chen.
 \newblock {\em Introduction to Plasma Physics and Controlled Fusion}, volume~1.
 \newblock Plenum Press New York and London, 1974.
 
+\bibitem{ADK_original}
+MV~Ammosov, NB~Delone, VP~Krainov, AM~Perelomov, VS~Popov, MV~Terent'ev,
+  Gennady~L Yudin, and Misha~Yu Ivanov.
+\newblock Tunnel ionization of complex atoms and of atomic ions in an
+  alternating electric field.
+\newblock {\em Sov. Phys.JETP}, 64, 1986.
+
+\bibitem{bruhwiler2003PoP}
+David~L Bruhwiler, DA~Dimitrov, John~R Cary, Eric Esarey, Wim Leemans, and
+  Rodolfo~E Giacone.
+\newblock Particle-in-cell simulations of tunneling ionization effects in
+  plasma-based accelerators.
+\newblock {\em Physics of Plasmas (1994-present)}, 10(5):2022--2030, 2003.
+
 \bibitem{RevModPhys.81.1229}
 E.~Esarey, C.~B. Schroeder, and W.~P. Leemans.
 \newblock Physics of laser-driven plasma-based electron accelerators.
@@ -91,6 +105,67 @@ L~Serafini and M~Ferrario.
 \newblock Velocity bunching in photo-injectors.
 \newblock In {\em AIP conference proceedings}, pages 87--106. IOP INSTITUTE OF
   PHYSICS PUBLISHING LTD, 2001.
+
+\bibitem{rosenzweig1988experimental}
+James~Benjamine Rosenzweig, DB~Cline, B~Cole, H~Figueroa, W~Gai, R~Konecny,
+  J~Norem, P~Schoessow, and J~Simpson.
+\newblock Experimental observation of plasma wake-field acceleration.
+\newblock {\em Physical review letters}, 61(1):98, 1988.
+
+\bibitem{figueroa1988direct}
+H~Figueroa, W~Gai, R~Konecny, J~Norem, A~Ruggiero, P~Schoessow, and J~Simpson.
+\newblock Direct measurement of beam-induced fields in accelerating structures.
+\newblock {\em Physical review letters}, 60(21):2144, 1988.
+
+\bibitem{blumenfeld2007energyDoubling}
+Ian Blumenfeld, Christopher~E Clayton, Franz-Josef Decker, Mark~J Hogan,
+  Chengkun Huang, Rasmus Ischebeck, Richard Iverson, Chandrashekhar Joshi,
+  Thomas Katsouleas, Neil Kirby, et~al.
+\newblock Energy doubling of 42 gev electrons in a metre-scale plasma wakefield
+  accelerator.
+\newblock {\em Nature}, 445(7129):741--744, 2007.
+
+\bibitem{clarke2012facet}
+CI~Clarke, FJ~Decker, RJ~England, R~Erikson, C~Hast, MJ~Hogan, SZ~Li, M~Litos,
+  Y~Nosochkov, J~Seeman, et~al.
+\newblock Facet: Slacs new user facility.
+\newblock {\em Energy [GeV]}, 23:20, 2012.
+
+\bibitem{hogan2010FACET}
+MJ~Hogan, TO~Raubenheimer, A~Seryi, P~Muggli, T~Katsouleas, C~Huang, W~Lu,
+  W~An, KA~Marsh, WB~Mori, et~al.
+\newblock Plasma wakefield acceleration experiments at facet.
+\newblock {\em New Journal of Physics}, 12(5):055030, 2010.
+
+\bibitem{litos2014high}
+M~Litos, E~Adli, W~An, CI~Clarke, CE~Clayton, S{\'e}bastien Corde, JP~Delahaye,
+  RJ~England, AS~Fisher, J~Frederico, et~al.
+\newblock High-efficiency acceleration of an electron beam in a plasma
+  wakefield accelerator.
+\newblock {\em Nature}, 515(7525):92--95, 2014.
+
+\bibitem{ThesisGessner}
+Spencer Gessner.
+\newblock {\em Demonstration of the Hollow channel Plasma WakefWake
+  Accelerator}.
+\newblock PhD thesis, Stanford University, 2016.
+
+\bibitem{PlaTo}
+G~Wittig, O~Karger, A~Knetsch, Y~Xi, A~Deng, JB~Rosenzweig, DL~Bruhwiler,
+  J~Smith, GG~Manahan, Z-M Sheng, et~al.
+\newblock Optical plasma torch electron bunch generation in plasma wakefield
+  accelerators.
+\newblock {\em Physical Review Special Topics-Accelerators and Beams},
+  18(8):081304, 2015.
+
+\bibitem{PlaTo2}
+Georg Wittig, Oliver~S Karger, Alexander Knetsch, Yunfeng Xi, Aihua Deng,
+  James~B Rosenzweig, David~L Bruhwiler, Jonathan Smith, Zheng-Ming Sheng,
+  Dino~A Jaroszynski, et~al.
+\newblock Electron beam manipulation, injection and acceleration in plasma
+  wakefield accelerators by optically generated plasma density spikes.
+\newblock {\em Nuclear Instruments and Methods in Physics Research Section A:
+  Accelerators, Spectrometers, Detectors and Associated Equipment}, 2016.
 
 \bibitem{Green_FACET_Laser_PIOP}
 S~Z Green, E~Adli, C~I Clarke, S~Corde, S~A Edstrom, A~S Fisher, J~Frederico,
