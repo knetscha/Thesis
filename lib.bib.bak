@@ -437,6 +437,23 @@
 	waves wave propagation and other interactions, Particle-in-cell method}
 }
 
+@ARTICLE{Ossa_Rake_PRL2013,
+  author = {Martinez de la Ossa, A. and Grebenyuk, J. and Mehrling, T. and Schaper,
+	L. and Osterhoff, J.},
+  title = {High-Quality Electron Beams from Beam-Driven Plasma Accelerators
+	by Wakefield-Induced Ionization Injection},
+  journal = {Phys. Rev. Lett.},
+  year = {2013},
+  volume = {111},
+  pages = {245003},
+  month = {Dec},
+  doi = {10.1103/PhysRevLett.111.245003},
+  issue = {24},
+  numpages = {5},
+  publisher = {American Physical Society},
+  url = {http://link.aps.org/doi/10.1103/PhysRevLett.111.245003}
+}
+
 @ARTICLE{MartinezdelaOssa2014231,
   author = {A. Martinez de la Ossa and C. Behrens and J. Grebenyuk and T. Mehrling
 	and L. Schaper and J. Osterhoff},
@@ -508,6 +525,23 @@
   year = {2010}
 }
 
+@ARTICLE{Pak_Ion_InjectionPRL2010,
+  author = {Pak, A. and Marsh, K. A. and Martins, S. F. and Lu, W. and Mori,
+	W. B. and Joshi, C.},
+  title = {Injection and Trapping of Tunnel-Ionized Electrons into Laser-Produced
+	Wakes},
+  journal = {Phys. Rev. Lett.},
+  year = {2010},
+  volume = {104},
+  pages = {025003},
+  month = {Jan},
+  doi = {10.1103/PhysRevLett.104.025003},
+  issue = {2},
+  numpages = {4},
+  publisher = {American Physical Society},
+  url = {http://link.aps.org/doi/10.1103/PhysRevLett.104.025003}
+}
+
 @ARTICLE{PakPRL2012,
   author = {Pak, A. and Marsh, K. A. and Martins, S. F. and Lu, W. and Mori,
 	W. B. and Joshi, C.},
@@ -564,6 +598,19 @@
   author = {Rosenzweig, J. B.},
   owner = {knetsch},
   timestamp = {2016.10.23}
+}
+
+@ARTICLE{rosenzweig1988experimental,
+  author = {Rosenzweig, James Benjamine and Cline, DB and Cole, B and Figueroa,
+	H and Gai, W and Konecny, R and Norem, J and Schoessow, P and Simpson,
+	J},
+  title = {Experimental observation of plasma wake-field acceleration},
+  journal = {Physical review letters},
+  year = {1988},
+  volume = {61},
+  pages = {98},
+  number = {1},
+  publisher = {APS}
 }
 
 @ARTICLE{Ruth_lwfa,
@@ -649,6 +696,26 @@
   url = {http://link.aps.org/doi/10.1103/PhysRevLett.101.145002}
 }
 
+@ARTICLE{Navid_distributed_PRL,
+  author = {Vafaei-Najafabadi, N. and Marsh, K. A. and Clayton, C. E. and An,
+	W. and Mori, W. B. and Joshi, C. and Lu, W. and Adli, E. and Corde,
+	S. and Litos, M. and Li, S. and Gessner, S. and Frederico, J. and
+	Fisher, A. S. and Wu, Z. and Walz, D. and England, R. J. and Delahaye,
+	J. P. and Clarke, C. I. and Hogan, M. J. and Muggli, P.},
+  title = {Beam Loading by Distributed Injection of Electrons in a Plasma Wakefield
+	Accelerator},
+  journal = {Phys. Rev. Lett.},
+  year = {2014},
+  volume = {112},
+  pages = {025001},
+  month = {Jan},
+  doi = {10.1103/PhysRevLett.112.025001},
+  issue = {2},
+  numpages = {5},
+  publisher = {American Physical Society},
+  url = {http://link.aps.org/doi/10.1103/PhysRevLett.112.025001}
+}
+
 @BOOK{Wiedemann_accelerator,
   title = {Particle Accelerator Physics},
   publisher = {Springer-Verlag},
@@ -687,6 +754,18 @@
 	Spectrometers, Detectors and Associated Equipment},
   year = {2016},
   publisher = {Elsevier}
+}
+
+@ARTICLE{xi2013hybrid,
+  author = {Xi, Y and Hidding, B and Bruhwiler, D and Pretzler, G and Rosenzweig,
+	JB},
+  title = {Hybrid modeling of relativistic underdense plasma photocathode injectors},
+  journal = {Physical Review Special Topics-Accelerators and Beams},
+  year = {2013},
+  volume = {16},
+  pages = {031303},
+  number = {3},
+  publisher = {APS}
 }
 
 @ARTICLE{YanX_EOS_PRL2000,
