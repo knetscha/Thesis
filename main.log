@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.5.16)  26 NOV 2016 01:31
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.5.16)  28 NOV 2016 19:31
 entering extended mode
 **main.tex
 (C:\Users\Knetsch\Promotion\Thesis\Thesis\main.tex
@@ -749,20 +749,20 @@ File: babel.def 2008/07/08 v3.8m Babel common definitions
 Language: english 2005/03/30 v3.3o English support from the babel system
 ))
 (C:\Users\Knetsch\Promotion\Thesis\Thesis\main.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -817,7 +817,7 @@ Dictionary: translator-basic-dictionary, Language: English
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box43
-Package hyperref Info: Link coloring OFF on input line 39.
+Package hyperref Info: Link coloring OFF on input line 38.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
 
@@ -826,29 +826,29 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count306
 )
-LaTeX Info: Redefining \ref on input line 39.
-LaTeX Info: Redefining \pageref on input line 39.
-LaTeX Info: Redefining \nameref on input line 39.
+LaTeX Info: Redefining \ref on input line 38.
+LaTeX Info: Redefining \pageref on input line 38.
+LaTeX Info: Redefining \nameref on input line 38.
 
 (C:\Users\Knetsch\Promotion\Thesis\Thesis\main.out)
 (C:\Users\Knetsch\Promotion\Thesis\Thesis\main.out)
 \@outlinefile=\write3
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Info: Redefining \celsius on input line 39.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 39.
+LaTeX Info: Redefining \celsius on input line 38.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 38.
 
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 39.
-Package gensymb Info: Using \Omega for \ohm on input line 39.
+LaTeX Info: Redefining \ohm on input line 38.
+Package gensymb Info: Using \Omega for \ohm on input line 38.
 
 Package gensymb Warning: Not defining \micro.
 
 \c_siunitx_mathsf_int=\count307
-LaTeX Font Info:    Try loading font information for U+wasy on input line 39.
+LaTeX Font Info:    Try loading font information for U+wasy on input line 38.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\wasysym\uwasy.fd"
 File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
 )
@@ -866,63 +866,102 @@ Chapter 1.
 (C:\Users\Knetsch\Promotion\Thesis\Thesis\theory\theory.tex [4
 
 ] [5] [6]
-<theory/images/raw/Ionization_Torch_contourplot.pdf, id=293, 301.125pt x 261.97
+<theory/images/raw/Ionization_Torch_contourplot.pdf, id=284, 301.125pt x 261.97
 874pt>
 File: theory/images/raw/Ionization_Torch_contourplot.pdf Graphic file (type pdf
 )
  <use theory/images/raw/Ionization_Torch_contourplot.pdf>
 Package pdftex.def Info: theory/images/raw/Ionization_Torch_contourplot.pdf use
-d on input line 172.
+d on input line 202.
 (pdftex.def)             Requested size: 258.00539pt x 224.48584pt.
 
-Overfull \hbox (3.33768pt too wide) in paragraph at lines 185--187
+Overfull \hbox (3.33768pt too wide) in paragraph at lines 215--217
 \OT1/cmr/m/n/10 A short his-toric overview is given. Maybe men-tion lan-dau dam
 p-ing? Then of course, Tajima,Dawson.
  []
 
-[7 <C:/Users/Knetsch/Promotion/Thesis/Thesis/theory/images/raw/Ionization_Torch
-_contourplot.pdf>] [8]
-
-LaTeX Warning: Citation `PRSTAB_Emittance_Floettmann' on page 9 undefined on in
-put line 302.
-
-[9]
-<theory/images/edited/TraceSpaceCourantSnyder.pdf, id=358, 426.79147pt x 426.79
+[7] [8 <C:/Users/Knetsch/Promotion/Thesis/Thesis/theory/images/raw/Ionization_T
+orch_contourplot.pdf>] [9]
+<theory/images/edited/TraceSpaceCourantSnyder.pdf, id=353, 426.79147pt x 426.79
 147pt>
 File: theory/images/edited/TraceSpaceCourantSnyder.pdf Graphic file (type pdf)
  <use theory/images/edited/TraceSpaceCourantSnyder.pdf>
 Package pdftex.def Info: theory/images/edited/TraceSpaceCourantSnyder.pdf used 
-on input line 317.
+on input line 348.
 (pdftex.def)             Requested size: 258.00539pt x 258.0045pt.
- [10 <C:/Users/Knetsch/Promotion/Thesis/Thesis/theory/images/edited/TraceSpaceC
-ourantSnyder.pdf>] [11] [12] [13] [14]
-<theory/images/raw/Ionization_front.png, id=465, 287.6346pt x 184.0476pt>
+ [10] [11 <C:/Users/Knetsch/Promotion/Thesis/Thesis/theory/images/edited/TraceS
+paceCourantSnyder.pdf>] [12] [13] [14] [15] [16] [17] [18]
+<theory/images/raw/Ionization_front.png, id=528, 287.6346pt x 184.0476pt>
 File: theory/images/raw/Ionization_front.png Graphic file (type png)
 
 <use theory/images/raw/Ionization_front.png>
 Package pdftex.def Info: theory/images/raw/Ionization_front.png used on input l
-ine 487.
-(pdftex.def)             Requested size: 85.9996pt x 55.02654pt.
+ine 572.
+(pdftex.def)             Requested size: 215.0023pt x 137.57478pt.
 
-<theory/images/edited/IonFrontVariation.pdf, id=467, 426.79147pt x 341.4326pt>
+<theory/images/edited/IonFrontVariation.pdf, id=532, 426.79147pt x 341.4326pt>
 File: theory/images/edited/IonFrontVariation.pdf Graphic file (type pdf)
 
 <use theory/images/edited/IonFrontVariation.pdf>
 Package pdftex.def Info: theory/images/edited/IonFrontVariation.pdf used on inp
-ut line 493.
+ut line 598.
 (pdftex.def)             Requested size: 215.0023pt x 172.0027pt.
- [15] [16 <C:/Users/Knetsch/Promotion/Thesis/Thesis/theory/images/raw/Ionizatio
-n_front.png> <C:/Users/Knetsch/Promotion/Thesis/Thesis/theory/images/edited/Ion
-FrontVariation.pdf>] [17])
-[18]
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Citation `Manahan_HotSpots_PRAB' on page 19 undefined on input l
+ine 604.
+
+<simulations/images/raw/DC_lp_333mu.pdf, id=533, 597.23125pt x 845.1575pt>
+File: simulations/images/raw/DC_lp_333mu.pdf Graphic file (type pdf)
+
+<use simulations/images/raw/DC_lp_333mu.pdf>
+Package pdftex.def Info: simulations/images/raw/DC_lp_333mu.pdf used on input l
+ine 606.
+(pdftex.def)             Requested size: 129.00269pt x 182.55646pt.
+
+<simulations/images/raw/DC_lp_149mu.pdf, id=534, 597.23125pt x 845.1575pt>
+File: simulations/images/raw/DC_lp_149mu.pdf Graphic file (type pdf)
+
+<use simulations/images/raw/DC_lp_149mu.pdf>
+Package pdftex.def Info: simulations/images/raw/DC_lp_149mu.pdf used on input l
+ine 607.
+(pdftex.def)             Requested size: 129.00269pt x 182.55646pt.
+
+<simulations/images/raw/DC_Q_1nC.pdf, id=535, 597.23125pt x 845.1575pt>
+File: simulations/images/raw/DC_Q_1nC.pdf Graphic file (type pdf)
+
+<use simulations/images/raw/DC_Q_1nC.pdf>
+Package pdftex.def Info: simulations/images/raw/DC_Q_1nC.pdf used on input line
+ 608.
+(pdftex.def)             Requested size: 129.00269pt x 182.55646pt.
+
+<experiment/images/raw/DC_over_Lp_3nC_self20150518.png, id=536, 578.6418pt x 43
+4.1018pt>
+File: experiment/images/raw/DC_over_Lp_3nC_self20150518.png Graphic file (type 
+png)
+ <use experiment/images/raw/DC_over_Lp_3nC_self20150518.png>
+Package pdftex.def Info: experiment/images/raw/DC_over_Lp_3nC_self20150518.png 
+used on input line 614.
+(pdftex.def)             Requested size: 258.00539pt x 193.5622pt.
+ [19 <C:/Users/Knetsch/Promotion/Thesis/Thesis/theory/images/raw/Ionization_fro
+nt.png>])
+[20 <C:/Users/Knetsch/Promotion/Thesis/Thesis/theory/images/edited/IonFrontVari
+ation.pdf> <C:/Users/Knetsch/Promotion/Thesis/Thesis/simulations/images/raw/DC_
+lp_333mu.pdf> <C:/Users/Knetsch/Promotion/Thesis/Thesis/simulations/images/raw/
+DC_lp_149mu.pdf> <C:/Users/Knetsch/Promotion/Thesis/Thesis/simulations/images/r
+aw/DC_Q_1nC.pdf>] [21 <C:/Users/Knetsch/Promotion/Thesis/Thesis/experiment/imag
+es/raw/DC_over_Lp_3nC_self20150518.png (PNG copy)>]
 Chapter 2.
 (C:\Users\Knetsch\Promotion\Thesis\Thesis\experiment\experiment.tex
 Missing character: There is no Â in font cmr10!
 Missing character: There is no µ in font cmr10!
- [19
+ [22
 
 ]
-<experiment/images/edited/waveplate_calibration.pdf, id=616, 512.14938pt x 341.
+<experiment/images/edited/waveplate_calibration.pdf, id=662, 512.14938pt x 341.
 4326pt>
 File: experiment/images/edited/waveplate_calibration.pdf Graphic file (type pdf
 )
@@ -930,9 +969,9 @@ File: experiment/images/edited/waveplate_calibration.pdf Graphic file (type pdf
 Package pdftex.def Info: experiment/images/edited/waveplate_calibration.pdf use
 d on input line 28.
 (pdftex.def)             Requested size: 387.00153pt x 258.01187pt.
- [20 <C:/Users/Knetsch/Promotion/Thesis/Thesis/experiment/images/edited/wavepla
+ [23 <C:/Users/Knetsch/Promotion/Thesis/Thesis/experiment/images/edited/wavepla
 te_calibration.pdf>]
-<experiment/images/edited/EOS_setup.pdf, id=701, 2845.27985pt x 2560.74686pt>
+<experiment/images/edited/EOS_setup.pdf, id=747, 2845.27985pt x 2560.74686pt>
 File: experiment/images/edited/EOS_setup.pdf Graphic file (type pdf)
 
 <use experiment/images/edited/EOS_setup.pdf>
@@ -941,13 +980,13 @@ ine 78.
 (pdftex.def)             Requested size: 215.0023pt x 193.49345pt.
 Missing character: There is no Â in font cmr10!
 Missing character: There is no ° in font cmr10!
- [21]
+ [24]
 Missing character: There is no Â in font cmr10!
 Missing character: There is no µ in font cmr10!
 Missing character: There is no Â in font cmr10!
 Missing character: There is no µ in font cmr10!
 
-<experiment/images/edited/EOS_Signal.pdf, id=713, 796.67737pt x 327.2225pt>
+<experiment/images/edited/EOS_Signal.pdf, id=759, 796.67737pt x 327.2225pt>
 File: experiment/images/edited/EOS_Signal.pdf Graphic file (type pdf)
 
 <use experiment/images/edited/EOS_Signal.pdf>
@@ -955,7 +994,7 @@ Package pdftex.def Info: experiment/images/edited/EOS_Signal.pdf used on input
 line 90.
 (pdftex.def)             Requested size: 430.00462pt x 176.61763pt.
 
-<experiment/images/raw/20370_EOS_calibration.pdf, id=714, 597.23125pt x 845.157
+<experiment/images/raw/20370_EOS_calibration.pdf, id=760, 597.23125pt x 845.157
 5pt>
 File: experiment/images/raw/20370_EOS_calibration.pdf Graphic file (type pdf)
  <use experiment/images/raw/20370_EOS_calibration.pdf>
@@ -966,13 +1005,13 @@ n input line 97.
 
 LaTeX Warning: Float too large for page by 73.03638pt on input line 100.
 
-[22 <C:/Users/Knetsch/Promotion/Thesis/Thesis/experiment/images/edited/EOS_setu
+[25 <C:/Users/Knetsch/Promotion/Thesis/Thesis/experiment/images/edited/EOS_setu
 p.pdf>]
 
-LaTeX Warning: Reference `Facet_setup' on page 23 undefined on input line 116.
+LaTeX Warning: Reference `Facet_setup' on page 26 undefined on input line 116.
 
 
-<experiment/images/raw/PlasmaGlow_20384_scatter.pdf, id=1373, 366.36874pt x 297
+<experiment/images/raw/PlasmaGlow_20384_scatter.pdf, id=1420, 366.36874pt x 297
 .11pt>
 File: experiment/images/raw/PlasmaGlow_20384_scatter.pdf Graphic file (type pdf
 )
@@ -981,7 +1020,7 @@ Package pdftex.def Info: experiment/images/raw/PlasmaGlow_20384_scatter.pdf use
 d on input line 122.
 (pdftex.def)             Requested size: 430.00462pt x 348.73708pt.
 
-<experiment/images/edited/Plasma_Glow_roll.pdf, id=1375, 398.3382pt x 327.20645
+<experiment/images/edited/Plasma_Glow_roll.pdf, id=1422, 398.3382pt x 327.20645
 pt>
 File: experiment/images/edited/Plasma_Glow_roll.pdf Graphic file (type pdf)
  <use experiment/images/edited/Plasma_Glow_roll.pdf>
@@ -989,36 +1028,33 @@ Package pdftex.def Info: experiment/images/edited/Plasma_Glow_roll.pdf used on
 input line 131.
 (pdftex.def)             Requested size: 215.0023pt x 176.60896pt.
 )
-(C:\Users\Knetsch\Promotion\Thesis\Thesis\main.bbl [23 <C:/Users/Knetsch/Promot
-ion/Thesis/Thesis/experiment/images/edited/EOS_Signal.pdf>] [24 <C:/Users/Knets
+(C:\Users\Knetsch\Promotion\Thesis\Thesis\main.bbl [26 <C:/Users/Knetsch/Promot
+ion/Thesis/Thesis/experiment/images/edited/EOS_Signal.pdf>] [27 <C:/Users/Knets
 ch/Promotion/Thesis/Thesis/experiment/images/raw/20370_EOS_calibration.pdf>]
-[25 <C:/Users/Knetsch/Promotion/Thesis/Thesis/experiment/images/raw/PlasmaGlow_
-20384_scatter.pdf>] [26 <C:/Users/Knetsch/Promotion/Thesis/Thesis/experiment/im
-ages/edited/Plasma_Glow_roll.pdf>] [27
+[28 <C:/Users/Knetsch/Promotion/Thesis/Thesis/experiment/images/raw/PlasmaGlow_
+20384_scatter.pdf>] [29 <C:/Users/Knetsch/Promotion/Thesis/Thesis/experiment/im
+ages/edited/Plasma_Glow_roll.pdf>] [30
 
-] [28])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 53.
- [29]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 53.
+] [31])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 52.
+ [32]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 52.
 
 (C:\Users\Knetsch\Promotion\Thesis\Thesis\main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 53.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 53.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 52.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 52.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: A558B7C0F00D2F4FA9D809DD297BA1D4;3331.
+(rerunfilecheck)             Checksum: 4D3250A000493195B06B55F310FAFD30;3242.
 
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 15429 strings out of 494045
- 291374 string characters out of 3145930
- 342682 words of memory out of 3000000
- 18269 multiletter control sequences out of 15000+200000
+ 15466 strings out of 494045
+ 292498 string characters out of 3145930
+ 343334 words of memory out of 3000000
+ 18291 multiletter control sequences out of 15000+200000
  13336 words of font info for 50 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  36i,21n,38p,1543b,662s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1044,9 +1080,9 @@ lic/amsfonts/cm/cmsy6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public
 /amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/am
 sfonts/cm/cmsy9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfo
 nts/cm/cmti10.pfb>
-Output written on main.pdf (29 pages, 51408256 bytes).
+Output written on main.pdf (32 pages, 52068903 bytes).
 PDF statistics:
- 1760 PDF objects out of 2073 (max. 8388607)
- 210 named destinations out of 1000 (max. 500000)
- 395 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1811 PDF objects out of 2073 (max. 8388607)
+ 220 named destinations out of 1000 (max. 500000)
+ 407 words of extra memory for PDF output out of 10000 (max. 10000000)
 

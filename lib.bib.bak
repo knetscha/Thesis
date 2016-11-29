@@ -203,7 +203,7 @@
   publisher = {APS}
 }
 
-@ARTICLE{PhysRevSTAB.6.034202,
+@ARTICLE{PRSTAB_Emittance_Floettmann,
   author = {Floettmann, Klaus},
   title = {Some basic features of the beam emittance},
   journal = {Phys. Rev. ST Accel. Beams},
