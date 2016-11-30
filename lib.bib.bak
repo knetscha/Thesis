@@ -471,6 +471,24 @@
 	waves wave propagation and other interactions, Particle-in-cell method}
 }
 
+@ARTICLE{Manahan_HotSpots_PRAB,
+  author = {Manahan, G. G. and Deng, A. and Karger, O. and Xi, Y. and Knetsch,
+	A. and Litos, M. and Wittig, G. and Heinemann, T. and Smith, J. and
+	Sheng, Z. M. and Jaroszynski, D. A. and Andonian, G. and Bruhwiler,
+	D. L. and Rosenzweig, J. B. and Hidding, B.},
+  title = {Hot spots and dark current in advanced plasma wakefield accelerators},
+  journal = {Phys. Rev. Accel. Beams},
+  year = {2016},
+  volume = {19},
+  pages = {011303},
+  month = {Jan},
+  doi = {10.1103/PhysRevAccelBeams.19.011303},
+  issue = {1},
+  numpages = {9},
+  publisher = {American Physical Society},
+  url = {http://link.aps.org/doi/10.1103/PhysRevAccelBeams.19.011303}
+}
+
 @ARTICLE{Ossa_Rake_PRL2013,
   author = {Martinez de la Ossa, A. and Grebenyuk, J. and Mehrling, T. and Schaper,
 	L. and Osterhoff, J.},

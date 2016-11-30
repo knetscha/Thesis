@@ -5,6 +5,11 @@ Francsis~F. Chen.
 \newblock {\em Introduction to Plasma Physics and Controlled Fusion}, volume~1.
 \newblock Plenum Press New York and London, 1974.
 
+\bibitem{mulser2010Book}
+Peter Mulser and Dieter Bauer.
+\newblock {\em High power laser-matter interaction}, volume 238.
+\newblock Springer Science \& Business Media, 2010.
+
 \bibitem{ADK_original}
 MV~Ammosov, NB~Delone, VP~Krainov, AM~Perelomov, VS~Popov, MV~Terent'ev,
   Gennady~L Yudin, and Misha~Yu Ivanov.
@@ -40,6 +45,12 @@ KL~Bane, Perry~B Wilson, and T~Weiland.
 \newblock Wake fields and wake field acceleration.
 \newblock In {\em AIP Conf. Proc.}, volume 127, pages 875--928, 1984.
 
+\bibitem{Panowsky_Wenzel_original}
+W.~K.~H. Panofsky and W.~A. Wenzel.
+\newblock Some considerations concerning the transverse deflection of charged
+  particles in radio-frequency fields.
+\newblock {\em Review of Scientific Instruments}, 27(11):967--967, 1956.
+
 \bibitem{Wiedemann_accelerator}
 Helmut Wiedemann.
 \newblock {\em Particle Accelerator Physics}, volume~3.
@@ -59,12 +70,6 @@ E.D Courant and H.S Snyder.
 Klaus Floettmann.
 \newblock Some basic features of the beam emittance.
 \newblock {\em Phys. Rev. ST Accel. Beams}, 6:034202, Mar 2003.
-
-\bibitem{Panowsky_Wenzel_original}
-W.~K.~H. Panofsky and W.~A. Wenzel.
-\newblock Some considerations concerning the transverse deflection of charged
-  particles in radio-frequency fields.
-\newblock {\em Review of Scientific Instruments}, 27(11):967--967, 1956.
 
 \bibitem{Hidding_PRL_2012}
 B.~Hidding, G.~Pretzler, J.~B. Rosenzweig, T.~K\"onigstein, D.~Schiller, and
@@ -209,6 +214,13 @@ B~Hidding, GG~Manahan, O~Karger, A~Knetsch, G~Wittig, DA~Jaroszynski, ZM~Sheng,
   drivers of 5th generation light sources.
 \newblock {\em Journal of Physics B: Atomic, Molecular and Optical Physics},
   47(23):234010, 2014.
+
+\bibitem{Manahan_HotSpots_PRAB}
+G.~G. Manahan, A.~Deng, O.~Karger, Y.~Xi, A.~Knetsch, M.~Litos, G.~Wittig,
+  T.~Heinemann, J.~Smith, Z.~M. Sheng, D.~A. Jaroszynski, G.~Andonian, D.~L.
+  Bruhwiler, J.~B. Rosenzweig, and B.~Hidding.
+\newblock Hot spots and dark current in advanced plasma wakefield accelerators.
+\newblock {\em Phys. Rev. Accel. Beams}, 19:011303, Jan 2016.
 
 \bibitem{Green_FACET_Laser_PIOP}
 S~Z Green, E~Adli, C~I Clarke, S~Corde, S~A Edstrom, A~S Fisher, J~Frederico,

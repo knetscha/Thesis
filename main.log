@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.5.16)  28 NOV 2016 19:31
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.5.16)  29 NOV 2016 17:26
 entering extended mode
 **main.tex
 (C:\Users\Knetsch\Promotion\Thesis\Thesis\main.tex
@@ -866,223 +866,181 @@ Chapter 1.
 (C:\Users\Knetsch\Promotion\Thesis\Thesis\theory\theory.tex [4
 
 ] [5] [6]
-<theory/images/raw/Ionization_Torch_contourplot.pdf, id=284, 301.125pt x 261.97
+[7]
+<theory/images/raw/Ionization_Torch_contourplot.pdf, id=289, 301.125pt x 261.97
 874pt>
 File: theory/images/raw/Ionization_Torch_contourplot.pdf Graphic file (type pdf
 )
  <use theory/images/raw/Ionization_Torch_contourplot.pdf>
 Package pdftex.def Info: theory/images/raw/Ionization_Torch_contourplot.pdf use
-d on input line 202.
+d on input line 222.
 (pdftex.def)             Requested size: 258.00539pt x 224.48584pt.
-
-Overfull \hbox (3.33768pt too wide) in paragraph at lines 215--217
-\OT1/cmr/m/n/10 A short his-toric overview is given. Maybe men-tion lan-dau dam
-p-ing? Then of course, Tajima,Dawson.
- []
-
-[7] [8 <C:/Users/Knetsch/Promotion/Thesis/Thesis/theory/images/raw/Ionization_T
-orch_contourplot.pdf>] [9]
-<theory/images/edited/TraceSpaceCourantSnyder.pdf, id=353, 426.79147pt x 426.79
+ [8 <C:/Users/Knetsch/Promotion/Thesis/Thesis/theory/images/raw/Ionization_Torc
+h_contourplot.pdf>] [9] [10]
+<theory/images/edited/TraceSpaceCourantSnyder.pdf, id=355, 426.79147pt x 426.79
 147pt>
 File: theory/images/edited/TraceSpaceCourantSnyder.pdf Graphic file (type pdf)
  <use theory/images/edited/TraceSpaceCourantSnyder.pdf>
 Package pdftex.def Info: theory/images/edited/TraceSpaceCourantSnyder.pdf used 
-on input line 348.
+on input line 373.
 (pdftex.def)             Requested size: 258.00539pt x 258.0045pt.
- [10] [11 <C:/Users/Knetsch/Promotion/Thesis/Thesis/theory/images/edited/TraceS
-paceCourantSnyder.pdf>] [12] [13] [14] [15] [16] [17] [18]
-<theory/images/raw/Ionization_front.png, id=528, 287.6346pt x 184.0476pt>
+ [11] [12 <C:/Users/Knetsch/Promotion/Thesis/Thesis/theory/images/edited/TraceS
+paceCourantSnyder.pdf>] [13] [14] [15] [16] [17]
+<theory/images/raw/Ionization_front.png, id=511, 287.6346pt x 184.0476pt>
 File: theory/images/raw/Ionization_front.png Graphic file (type png)
 
 <use theory/images/raw/Ionization_front.png>
 Package pdftex.def Info: theory/images/raw/Ionization_front.png used on input l
-ine 572.
+ine 592.
 (pdftex.def)             Requested size: 215.0023pt x 137.57478pt.
 
-<theory/images/edited/IonFrontVariation.pdf, id=532, 426.79147pt x 341.4326pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[18]
+<theory/images/edited/IonFrontVariation.pdf, id=524, 426.79147pt x 341.4326pt>
 File: theory/images/edited/IonFrontVariation.pdf Graphic file (type pdf)
 
 <use theory/images/edited/IonFrontVariation.pdf>
 Package pdftex.def Info: theory/images/edited/IonFrontVariation.pdf used on inp
-ut line 598.
+ut line 618.
 (pdftex.def)             Requested size: 215.0023pt x 172.0027pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-LaTeX Warning: Citation `Manahan_HotSpots_PRAB' on page 19 undefined on input l
-ine 604.
-
-<simulations/images/raw/DC_lp_333mu.pdf, id=533, 597.23125pt x 845.1575pt>
+<simulations/images/raw/DC_lp_333mu.pdf, id=526, 597.23125pt x 845.1575pt>
 File: simulations/images/raw/DC_lp_333mu.pdf Graphic file (type pdf)
 
 <use simulations/images/raw/DC_lp_333mu.pdf>
 Package pdftex.def Info: simulations/images/raw/DC_lp_333mu.pdf used on input l
-ine 606.
-(pdftex.def)             Requested size: 129.00269pt x 182.55646pt.
+ine 626.
+(pdftex.def)             Requested size: 171.99922pt x 243.40001pt.
 
-<simulations/images/raw/DC_lp_149mu.pdf, id=534, 597.23125pt x 845.1575pt>
+<simulations/images/raw/DC_lp_149mu.pdf, id=527, 597.23125pt x 845.1575pt>
 File: simulations/images/raw/DC_lp_149mu.pdf Graphic file (type pdf)
 
 <use simulations/images/raw/DC_lp_149mu.pdf>
 Package pdftex.def Info: simulations/images/raw/DC_lp_149mu.pdf used on input l
-ine 607.
-(pdftex.def)             Requested size: 129.00269pt x 182.55646pt.
+ine 627.
+(pdftex.def)             Requested size: 171.99922pt x 243.40001pt.
 
-<simulations/images/raw/DC_Q_1nC.pdf, id=535, 597.23125pt x 845.1575pt>
+<simulations/images/raw/DC_Q_1nC.pdf, id=528, 597.23125pt x 845.1575pt>
 File: simulations/images/raw/DC_Q_1nC.pdf Graphic file (type pdf)
 
 <use simulations/images/raw/DC_Q_1nC.pdf>
 Package pdftex.def Info: simulations/images/raw/DC_Q_1nC.pdf used on input line
- 608.
-(pdftex.def)             Requested size: 129.00269pt x 182.55646pt.
+ 628.
+(pdftex.def)             Requested size: 171.99922pt x 243.40001pt.
 
-<experiment/images/raw/DC_over_Lp_3nC_self20150518.png, id=536, 578.6418pt x 43
+Underfull \hbox (badness 10000) in paragraph at lines 626--629
+[][] []
+ []
+
+
+<experiment/images/raw/DC_over_Lp_3nC_self20150518.png, id=529, 578.6418pt x 43
 4.1018pt>
 File: experiment/images/raw/DC_over_Lp_3nC_self20150518.png Graphic file (type 
 png)
  <use experiment/images/raw/DC_over_Lp_3nC_self20150518.png>
 Package pdftex.def Info: experiment/images/raw/DC_over_Lp_3nC_self20150518.png 
-used on input line 614.
+used on input line 634.
 (pdftex.def)             Requested size: 258.00539pt x 193.5622pt.
- [19 <C:/Users/Knetsch/Promotion/Thesis/Thesis/theory/images/raw/Ionization_fro
-nt.png>])
+) [19 <C:/Users/Knetsch/Promotion/Thesis/Thesis/theory/images/raw/Ionization_fr
+ont.png>]
 [20 <C:/Users/Knetsch/Promotion/Thesis/Thesis/theory/images/edited/IonFrontVari
-ation.pdf> <C:/Users/Knetsch/Promotion/Thesis/Thesis/simulations/images/raw/DC_
-lp_333mu.pdf> <C:/Users/Knetsch/Promotion/Thesis/Thesis/simulations/images/raw/
-DC_lp_149mu.pdf> <C:/Users/Knetsch/Promotion/Thesis/Thesis/simulations/images/r
-aw/DC_Q_1nC.pdf>] [21 <C:/Users/Knetsch/Promotion/Thesis/Thesis/experiment/imag
-es/raw/DC_over_Lp_3nC_self20150518.png (PNG copy)>]
+ation.pdf>] [21 <C:/Users/Knetsch/Promotion/Thesis/Thesis/simulations/images/ra
+w/DC_lp_333mu.pdf> <C:/Users/Knetsch/Promotion/Thesis/Thesis/simulations/images
+/raw/DC_lp_149mu.pdf> <C:/Users/Knetsch/Promotion/Thesis/Thesis/simulations/ima
+ges/raw/DC_Q_1nC.pdf>] [22 <C:/Users/Knetsch/Promotion/Thesis/Thesis/experiment
+/images/raw/DC_over_Lp_3nC_self20150518.png (PNG copy)>]
 Chapter 2.
-(C:\Users\Knetsch\Promotion\Thesis\Thesis\experiment\experiment.tex
-Missing character: There is no Â in font cmr10!
-Missing character: There is no µ in font cmr10!
- [22
+(C:\Users\Knetsch\Promotion\Thesis\Thesis\main.bbl [23
 
-]
-<experiment/images/edited/waveplate_calibration.pdf, id=662, 512.14938pt x 341.
-4326pt>
-File: experiment/images/edited/waveplate_calibration.pdf Graphic file (type pdf
-)
- <use experiment/images/edited/waveplate_calibration.pdf>
-Package pdftex.def Info: experiment/images/edited/waveplate_calibration.pdf use
-d on input line 28.
-(pdftex.def)             Requested size: 387.00153pt x 258.01187pt.
- [23 <C:/Users/Knetsch/Promotion/Thesis/Thesis/experiment/images/edited/wavepla
-te_calibration.pdf>]
-<experiment/images/edited/EOS_setup.pdf, id=747, 2845.27985pt x 2560.74686pt>
-File: experiment/images/edited/EOS_setup.pdf Graphic file (type pdf)
+] [24
 
-<use experiment/images/edited/EOS_setup.pdf>
-Package pdftex.def Info: experiment/images/edited/EOS_setup.pdf used on input l
-ine 78.
-(pdftex.def)             Requested size: 215.0023pt x 193.49345pt.
-Missing character: There is no Â in font cmr10!
-Missing character: There is no ° in font cmr10!
- [24]
-Missing character: There is no Â in font cmr10!
-Missing character: There is no µ in font cmr10!
-Missing character: There is no Â in font cmr10!
-Missing character: There is no µ in font cmr10!
-
-<experiment/images/edited/EOS_Signal.pdf, id=759, 796.67737pt x 327.2225pt>
-File: experiment/images/edited/EOS_Signal.pdf Graphic file (type pdf)
-
-<use experiment/images/edited/EOS_Signal.pdf>
-Package pdftex.def Info: experiment/images/edited/EOS_Signal.pdf used on input 
-line 90.
-(pdftex.def)             Requested size: 430.00462pt x 176.61763pt.
-
-<experiment/images/raw/20370_EOS_calibration.pdf, id=760, 597.23125pt x 845.157
-5pt>
-File: experiment/images/raw/20370_EOS_calibration.pdf Graphic file (type pdf)
- <use experiment/images/raw/20370_EOS_calibration.pdf>
-Package pdftex.def Info: experiment/images/raw/20370_EOS_calibration.pdf used o
-n input line 97.
-(pdftex.def)             Requested size: 430.00462pt x 608.51294pt.
-
-
-LaTeX Warning: Float too large for page by 73.03638pt on input line 100.
-
-[25 <C:/Users/Knetsch/Promotion/Thesis/Thesis/experiment/images/edited/EOS_setu
-p.pdf>]
-
-LaTeX Warning: Reference `Facet_setup' on page 26 undefined on input line 116.
-
-
-<experiment/images/raw/PlasmaGlow_20384_scatter.pdf, id=1420, 366.36874pt x 297
-.11pt>
-File: experiment/images/raw/PlasmaGlow_20384_scatter.pdf Graphic file (type pdf
-)
- <use experiment/images/raw/PlasmaGlow_20384_scatter.pdf>
-Package pdftex.def Info: experiment/images/raw/PlasmaGlow_20384_scatter.pdf use
-d on input line 122.
-(pdftex.def)             Requested size: 430.00462pt x 348.73708pt.
-
-<experiment/images/edited/Plasma_Glow_roll.pdf, id=1422, 398.3382pt x 327.20645
-pt>
-File: experiment/images/edited/Plasma_Glow_roll.pdf Graphic file (type pdf)
- <use experiment/images/edited/Plasma_Glow_roll.pdf>
-Package pdftex.def Info: experiment/images/edited/Plasma_Glow_roll.pdf used on 
-input line 131.
-(pdftex.def)             Requested size: 215.0023pt x 176.60896pt.
-)
-(C:\Users\Knetsch\Promotion\Thesis\Thesis\main.bbl [26 <C:/Users/Knetsch/Promot
-ion/Thesis/Thesis/experiment/images/edited/EOS_Signal.pdf>] [27 <C:/Users/Knets
-ch/Promotion/Thesis/Thesis/experiment/images/raw/20370_EOS_calibration.pdf>]
-[28 <C:/Users/Knetsch/Promotion/Thesis/Thesis/experiment/images/raw/PlasmaGlow_
-20384_scatter.pdf>] [29 <C:/Users/Knetsch/Promotion/Thesis/Thesis/experiment/im
-ages/edited/Plasma_Glow_roll.pdf>] [30
-
-] [31])
+] [25])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 52.
- [32]
+ [26]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 52.
 
 (C:\Users\Knetsch\Promotion\Thesis\Thesis\main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 52.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 52.
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 4D3250A000493195B06B55F310FAFD30;3242.
 
 
-LaTeX Warning: There were undefined references.
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
 
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: 848C8212663E5222C18E407018037031;3002
+(rerunfilecheck)             After:  37D55F1117794D0D749D467C4EA494E5;2194.
  ) 
 Here is how much of TeX's memory you used:
- 15466 strings out of 494045
- 292498 string characters out of 3145930
- 343334 words of memory out of 3000000
- 18291 multiletter control sequences out of 15000+200000
- 13336 words of font info for 50 fonts, out of 3000000 for 9000
+ 15402 strings out of 494045
+ 290612 string characters out of 3145930
+ 343463 words of memory out of 3000000
+ 18263 multiletter control sequences out of 15000+200000
+ 12716 words of font info for 48 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 36i,21n,38p,1543b,662s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C
-:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/
-Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Pro
-gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Progra
-m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Program F
-iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program File
-s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (
-x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files (x86
-)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program Files (x86)/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files (x86)/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmsl12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmsl9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmsy5.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pub
-lic/amsfonts/cm/cmsy6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/am
-sfonts/cm/cmsy9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfo
-nts/cm/cmti10.pfb>
-Output written on main.pdf (32 pages, 52068903 bytes).
+ 36i,21n,38p,1543b,664s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{section.2.6} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.2.5} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.2.4} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.3.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.2.3} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.2.2} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.1.4} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.1.3} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.1.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.1.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.2.1} has been referenced but does not exist
+, replaced by a fixed one
+
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C
+:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/
+Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Pr
+ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Progr
+am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program 
+Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Program Fil
+es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files 
+(x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x8
+6)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files (x86)/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program Files (x86)/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files (x86)/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmsl10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmsl12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmsl9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmsy5.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmti10.pfb>
+Output written on main.pdf (26 pages, 3454159 bytes).
 PDF statistics:
- 1811 PDF objects out of 2073 (max. 8388607)
- 220 named destinations out of 1000 (max. 500000)
- 407 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 776 PDF objects out of 1000 (max. 8388607)
+ 198 named destinations out of 1000 (max. 500000)
+ 353 words of extra memory for PDF output out of 10000 (max. 10000000)
 

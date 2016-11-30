@@ -27,44 +27,32 @@
 \maketitle
 \tableofcontents
 
-\begin{align}
-\vec{\nabla}(\vec{\nabla})\vec{E}-\Delta
-\end{align}
+\cite{mulser2010Book}
+It is worth noting that the Debye Shielding assumes a thermalized plasma and is not the right idea of a plasma reaction to a rapid change in charge on a femtosecond timescale. 
+The more appropriate figure of merit in that case is the depth an electromagnetic wave 
 
+with frequency $\omega$ can permeate the plasma fluid.
 
+The transparency of a plasma to a electromagnetic wave can be calculated by applying the Maxwell equations \ref{eqn:Maxwell} so that one gets the differenctial equation.
+%\begin{equation}
+%\label{eqn:Laser_prop_DGL}
+%\vec{\nabla}\times\vec{\nabla}\times \vec{E}+c^{-2}\frac{\partial^2 \vec{E}}{\partial t^2}=-\frac{1}{\epsilon_0 c^2}\frac{\partial \vec{j}}{\partial t}
+%\end{equation}
 
-\begin{align}
-f_\mathrm{f}(\xi)&=f(\xi_\mathrm{f}(\xi_\mathrm{i}))\frac{\partial \xi_\mathrm{i}}{\partial \xi_\mathrm{f}}\\
-&=\frac{1}{\sigma_\xi \sqrt{2\pi}}e^{-\frac{(\sqrt{\xi_\mathrm{f}^2-\alpha_\mathrm{t}})^2}{2\sigma_\xi^2}} \frac{\xi_\mathrm{i}}{\sqrt{\xi_\mathrm{i}^2+\alpha_\mathrm{t}}}\\
-&=\frac{1}{\sigma_\xi \sqrt{2\pi}}e^{-\frac{\xi_\mathrm{f}^2-\alpha_\mathrm{t}}{2\sigma_\xi^2}} \frac{\sqrt{\xi_\mathrm{f}^2-\alpha_\mathrm{t}}}{\sqrt{\sqrt{\xi_\mathrm{f}^2-\alpha_\mathrm{t}}^2+\alpha_\mathrm{t}}}\\
-&=\frac{1}{\sigma_\xi \sqrt{2\pi}}e^{-\frac{\xi_\mathrm{f}^2-\alpha_\mathrm{t}}{2\sigma_\xi^2}} \frac{\sqrt{\xi_\mathrm{f}^2-\alpha_\mathrm{t}}}{\sqrt{\xi_\mathrm{f}^2-\alpha_\mathrm{t}+\alpha_\mathrm{t}}}\\
-&=\frac{1}{\sigma_\xi \sqrt{2\pi}}e^{-\frac{\xi_\mathrm{f}^2-\alpha_\mathrm{t}}{2\sigma_\xi^2}} \frac{\sqrt{\xi_\mathrm{f}^2-\alpha_\mathrm{t}}}{\sqrt{\xi_\mathrm{f}^2-\alpha_\mathrm{t}+\alpha_\mathrm{t}}}\\
-&=\frac{1}{\sigma_\xi \sqrt{2\pi}}e^{-\frac{\xi_\mathrm{f}^2-\alpha_\mathrm{t}}{2\sigma_\xi^2}} \frac{\sqrt{\xi_\mathrm{f}^2-\alpha_\mathrm{t}}}{\sqrt{\xi_\mathrm{f}^2}}\\
-&=\frac{1}{\sigma_\xi \sqrt{2\pi}}e^{-\frac{\xi_\mathrm{f}^2-\alpha_\mathrm{t}}{2\sigma_\xi^2}} \frac{\sqrt{\xi_\mathrm{f}^2-\alpha_\mathrm{t}}}{\xi_\mathrm{f}}\\
-\label{eqn:Trapping_Response_function}
-&=\frac{1}{\sigma_\xi \sqrt{2\pi}}e^{-\frac{\xi_\mathrm{f}^2-\alpha_\mathrm{t}}{2\sigma_\xi^2}} 
-\sqrt{1-\frac{\alpha_\mathrm{t}}{\xi_\mathrm{f}^2}}\\
-\end{align} 
-asdasd
-$$\sqrt{\gamma \epsilon}$$
-$$-\alpha \sqrt{\epsilon/\beta}$$
-$$\sqrt{\beta\epsilon}$$
-$$I=\hat{I}_{x,y}W_\mathrm{Laser}/(2\sqrt{\pi}\sigma_t(\Delta x_\mathrm{res}\times10^-6)^2)$$
-In order to derive an expression for the trapping condition of a single electron in PWFA, one has to start with the equation of motion for such a single electron. 
 \begin{equation}
-F=\frac{d\vec{p}}{dt}=q(\vec{E}\times \vec{B})
+kP^{-1}=\frac{c}{\sqrt{wP^2-\omega^2}}  \stackrel{wp \gg \omega}{=} \frac{c}{wp}
 \end{equation}
-with the electron charge $q$ electric field $\vec{E}$ and magnetic field $\vec{B}$
 
 
-This leads to the single particle electron hamiltonian. 
-\begin{align}
-\frac{dH}{dt}&=\frac{d}{dt} (\gamma m_e c^2)+\frac{d}{dt}(q\Phi)\\
-&=\vec{v}\frac{d\vec{p}}{dt}+\frac{d}{dt}(q\Phi)\\
-&=q\vec{v}(-\nabla \Phi-\frac{\partial \vec{A}}{\partial t})+\frac{\vec{v}\times\vec{B}}{c}+\frac{d}{dt}(q\Phi)\\
-&=q(\frac{d}{dt}\Phi-\vec{v}\vec{\nabla}\Phi-\vec{v}\frac{\partial \vec{A}}{\partial t})\\
-&=q(\frac{\partial \Phi}{\partial t}-\vec{v}\frac{\partial \vec{A}}{\partial t})
-\end{align}
+
+
+
+
+
+
+
+
+
 
 If one assumes now, that the wake fields are constant during the trapping process, then 
 

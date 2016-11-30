@@ -1,0 +1,625 @@
+\section{The history of wakefield acceleration}
+Tajima Dawson great Idee, MTV bubble regime, same time PWFA von Rosenzweig... first linear measurements for PWFA
+\section{Plasma physics}
+There are several definitions of a plasma, but one of the most appealing one that we will follow in this work can be found in the classic 
+textbook by Francis F. Chen:
+"A plasma is a quasineutral gas of charged and neutral particles which
+exhibits collective behavior" \cite{Chen_book_Plasma}.
+Regarding the gas types we will conveniently assume them to be electrons, ions and neutral atoms and comment that other particles as well can fit the definition of a plasma, but such exotic compositions are beyond the scope of this work.
+As plasmas are electromagnetically interacting a common and very useful way to describe it on a fundamental level is with the help of the Maxwell equation.
+\begin{equation}
+\label{eqn:Maxwell}
+\vec{\nabla} \vec{E} = \frac{\rho}{\epsilon_0},\	\vec{\nabla}\vec{B} =0\,	\vec{\nabla}\times\vec{E}=-\frac{\partial \vec{B}}{\partial t},\ 
+ \vec{\nabla}\times \vec{B}=\mu_0\vec{j}+\mu_0\epsilon_0\frac{\partial \vec{E}}{\partial t}.
+\end{equation}
+$\vec{E}$ and $\vec{B}$ are the electric and magnetic field and  $\vec{j}$ and $\rho$ is the current density and charge density.
+$\epsilon_\mathrm{m}$ and $\mu_\mathrm{m}$ are the vacuum  dielectric constant and the vacuum permeability.
+In a fluid description it makes also sense to assume that no particles are created or destroyed which is the origin of the 
+continuity equation 
+\begin{equation}
+\frac{\partial \rho}{\partial t} + \vec{\nabla}(\rho \vec{v})=0.
+\end{equation}
+
+
+
+
+\subsection*{Plasma frequency}
+Electrons and ions in a plasma can be described as two fluids, each following the fluid dynamics and interacting via the electrodynamics and collisions.
+
+If the electron fluid is displaced with respect to the ion fluid this leads to strong electric fields, acting upon both as a restoring force, but as $m_\mathrm{i}>>\mE$, the electron response is much quicker which is why these kind of plasma oscillations are dominated by the electrons, while the ions can be considered inert.
+
+Starting from equation (\ref{eqn:Poisson_plasma}) with the relation of the electric field and its potential being $\vec{E}=-\nabla \Phi$ 
+\begin{equation}
+\epsilon_0 \nabla \vec{E}=\qE (n_\mathrm{i}-\nE)
+\end{equation}
+becomes for small perturbations $n'=\nE+\delta n$
+\begin{equation}
+\epsilon_0 \nabla \vec{E}=\qE \delta n).
+\end{equation}
+The solution to this differential equation is a harmonic density oscillation 
+\begin{equation}
+n(x,t)=\delta n \exp(i(kx-\wP t)).
+\end{equation}
+The characteristic frequency of this oscillation 
+\begin{equation}
+\omega_\mathrm{p}=\sqrt{\frac{n_\mathrm{e}q_\mathrm{e}^2}{\epsilon_0 m_\mathrm{e}}}
+\end{equation}
+is called the \textit{Plasma frequency} and is one of the most important parameters in plasma physics. 
+In the field of PWFA it is convenient to also consider the wavelength associated with the plasma oscillations, 
+the \textit{Plasma wavelength}
+\begin{equation}
+\lP=2\pi\frac{\wP}{c}.
+\end{equation}
+
+Typical values for example for a plasma density $\nE=1\times10^{17}\mathrm{cm}^{-3}$ are
+
+\begin{align*}
+\wP &\approx 56400 \sqrt{\nE [\mathrm{cm}^{-3}]} \approx 1.8\times10^{18}\ 1/s\\
+\lP & \approx 105.6 /\sqrt{\nE [10^{17} \mathrm{cm}^{-3} ]} [\mu\mathrm{m}] = 105.6\ \mu\mathrm{m}.
+\end{align*} 
+
+\subsection*{Debye Shielding}
+The concept of \textit{quasi-neutrality} roots in the shielding behavior of the ions and electrons of charges inside the plasma. 
+A positive net charge e.g. originating from a difference in ion density $n_\mathrm{i}$ and electron density $n_\mathrm{e}$ at a temperature $T$
+would attract electrons and lead to an electron distribution 
+\begin{equation}
+f(u) \propto \exp(-\frac{1}{2}\mE v^2+\qE/( k_\mathrm{B}T)).
+\end{equation}
+
+With the Poisson Equation 
+\begin{align}
+\label{eqn:Poisson_plasma}
+\epsilon_0 \frac{d^2\Phi}{dx^2}&=-\qE(\nE-n_\mathrm{i})\\
+&=\qE \nE (\exp(\qE\Phi/(k_\mathrm{B}T))-1)\\
+&\approx \qE\nE(\qE\Phi/(k_\mathrm{B}T)+...)
+\end{align}
+we can now derive the potential in the plasma
+\begin{equation}
+\Phi = \Phi_0\exp(-|x|/\lambda_\mathrm{D})
+\end{equation}
+with the information about the range of the shielded Coulomb field embedded in the Debye Radius
+\begin{equation}
+\lambda_\mathrm{D}=\sqrt{\frac{\epsilon_0 k_\mathrm{B}T}{n_\mathrm{e}\qE^2}}.
+\end{equation}
+We can see that a plasma with an edge length $L>>\lambda_\mathrm{D}$ would have its Coulomb fields shielded and appear to an outside observer to be charge-neutral. 
+
+
+
+
+%\subsection{time scales}
+%scattering can be talked about
+
+%\subsection{plasma definition}
+%There are different types of plasm<as, but we are only handling with thin, cold  weakly coupled plasmas
+\subsection{electromagnetic waves in plasmas}
+It is worth noting that the Debye Shielding assumes a thermalized plasma and is not the right idea of a plasma reaction to a rapid change in charge on a femtosecond timescale. 
+The more appropriate figure of merit in that case is the depth an electromagnetic wave 
+
+with frequency $\omega$ can permeate the plasma fluid.
+
+This can be calculated by applying the Maxwell equations \ref{eqn:Maxwell} so that one gets the differenctial equation.
+\begin{equation}
+\label{eqn:Laser_prop_DGL}
+\vec{\nabla}(\vec{\nabla})\vec{E}-\Delta \vec{E}/(\epsilon_0 \mu_0)=\frac{1}{\epsilon_0}\frac{\partial \vec{j}}{\partial t}+\frac{\partial^2 \vec{E}}{\partial t^2}
+\end{equation}
+In plasma the current density is not 0, but 
+$\frac{\nE \qE^2}{?}$
+Equation ... can be solved with an exponential Ansatz
+\begin{align}
+\vec{E}&=E_0 e^{ikx-i\omega t}\\
+\end{align}
+leading to a dispersion relation
+\begin{equation}
+\omega^2 = c^2 \kP^2+\wP^2
+\end{equation}
+
+This means that 
+
+\begin{equation}
+\label{eqn:refractive_index_plasma}
+\eta = \sqrt{1-\frac{\wP^2}{\omega_\mathrm{L}^2}}
+\end{equation}
+
+\begin{equation}
+\label{eqn:critical_density}
+n_\mathrm{crtit.}=\frac{\epsilon_0 \mE \wP^2}{\qE^2}
+\end{equation}
+
+the skin depth 
+\begin{equation}
+\kP^{-1}=\frac{c}{\sqrt{\wP^2-\omega^2}}.
+\end{equation}
+
+In this work the propagation of several fs short laser pulses with a central wavelength of $\lambda = 800\ \mathrm{nm}$ are going to be looked at. The reason is that experimentally these are the typical parameters for a Titan-Saphire (Ti:Sa) laser system which is  the most common one. 
+
+For such a laser system the critical density in equation (\ref{eqn:critical_density}) is $n_\mathrm{crit.}=1.7\times 10^{21}\ \mathrm{cm}^{-3}$.
+As the electron densities essential to the scope of this work are not going to exceed $1\times 10^{19}\ \mathrm{cm}^{-3}$, we can for the rest of this text safely assume that the plasma is opaque for laser light.
+%
+%As Lasers are going to play a significant role in the ionization, plasma shape creation and the injection of electron beams we have to get an overview over the assumptions taken into account and problems that can be faced by applying shortpulse laser pulses for this matter. 
+%
+%To describe laser propagation in a medium a fundamental approach is to start with the Maxwell equations
+%
+%dispersion relation needs to be talked about. Especially the dispersion relation of lasers during ionization should get some insight here. One has to look into ionization defocussing.  
+%
+
+
+%\subsection{laser ionisation description}
+%(see diss by Ihar Shchatsinin FU Berlin)
+
+
+\subsection{Underdense ionization with ultrashort laser pulses}
+\label{sec:Theory_ionization}
+Subpicosecond laser pulses, when equipped with sufficnent intensity, can be used to easily ionize a gas to a plasma. This can be divided in three different regimes, the single-or multiphoton ionization in which electrons with a binding energy  the tunnel ionization (TI), in which the 
+
+
+The Keldysh parameter 
+\begin{equation}
+\gamma_\mathrm{K}=\sqrt{\frac{E_{bind}}{2U_p}}.
+\end{equation}
+compares the binding energy $E_{bind}$ of an electron in an atomic potential to the ponderomotive energy
+ $U_\mathrm{p}=\frac{\qE^2 E^2}{4\mE \omega_\mathrm{L}}$ carried out by the laser pulse. 
+ It is a measure of the amount of laser oscillations the electron endures until its ionization.
+ 
+ 
+
+
+In \cite{ADK_original} the tunnel ionization probalbility of electrons in a hydrogen atom was extended to a description for other atoms. It is 
+\begin{equation}
+w=\omega_\mathrm{at}\Big(\frac{3}{} \Big)
+\end{equation}
+In \cite{bruhwiler2003PoP} Bruhwiler et al. have developed an approximated equation which is optimated for using it in numerical operations such as PIC codes, where the ADK ionization rate is 
+\begin{equation}
+W_\mathrm{ADK}=1.52\times 10^{15}\frac{4^{n^*}\xi_\mathrm{ion}[eV]}{n^*\Gamma(2n^*)}\Big(20.5\frac{\xi_\mathrm{ion}^{3/2}[eV]}{E[GV/m]}\Big)^{2n^*-1}\times \exp(-6.83\frac{\xi_\mathrm{ion}^{3/2}[eV]}{E[GV/m]})
+\label{eqn:ADK_Bruhwiler}
+\end{equation}
+for an element to the ionization level $Z$ with its ionization energy $\xi_\mathrm{ion}$.
+$n^*\approx 3.69Z/\xi_\mathrm{ion}$ is the effective principal quantum number.
+A list of ionization energies can be found in \cite{Kelly_1982_Ion_Energies}.
+The actual ionization ratio of a gas with plasma density at a given point in space in the lab frame for full ionization $n_0$ is then obtained by integrating 
+\begin{equation}
+\frac{\nE(t)}{n_0} =1-\exp\Big(-\int \limits_{-\infty}^t W_\mathrm{ADK}(t')dt'\Big).
+\end{equation}
+As we treat ultrashort pulses, the time scales in which the ionization occurs is comparable to that of the laser pulse rms length $\tau$. We assume e.g. a laser pulse linearly polarized in y. 
+The electric field can be approximated by the envelope of the laser electric field to 
+\begin{equation}
+E_{y}(t)=E_0\exp(-\frac{t}{2\tau^2}),
+\end{equation}
+because the ADK theory averages over DC fields.
+
+\begin{equation}
+E_{x}(r,z,t)=E_0\frac{w_0}{w(z)}\exp(-\frac{r^2}{w(z)^2})\exp(-\frac{t}{2\tau^2})
+\end{equation}
+
+$w(z)=w_0(1+(\frac{z}{z_0})^2)^{1/2}$ is the beam waist at longitudinal position $z$ and $z_0=\pi w_0^2/\lambda$ is the Rayleigh length.
+
+\begin{equation}
+\label{eqn:ADK_ionization_ratio}
+\nE(r,z,t) = n_0 \Big(1-\exp\Big(-\int \limits_{-\infty}^t W_\mathrm{ADK}(E_{x}(r,z,t'))dt'\Big)\Big).
+\end{equation}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.6\textwidth]{theory/images/raw/Ionization_Torch_contourplot.pdf}
+\caption{He Ionization ratio by a 1 mJ Gaussian laser pulse with waist $w_0=20\ \mu m$ and $\tau = 70\ \mathrm{fs}$ FWHM pulse length}
+\label{img:Torch_contourplot}
+
+\end{figure}
+
+
+%\subsection{waves in plasmas}
+%So far everything still flows niocely with working along Chen and Mulser. However now the turn needs to be taken.
+%The reason is wavebreaking
+
+\section{PWFA theory}
+\subsection{History of PWFA}
+A short historic overview is given. 
+Maybe mention landau damping? Then of course, Tajima,Dawson. Also MTV and Rosenzweig should be mentioned.
+\section{The linear regime}
+Herleitung by esarey \cite{RevModPhys.81.1229}
+
+
+\begin{equation}
+E_\xi=4\pi \int_0^\xi \rho{\xi'}\cos(\kP(\xi-\xi'))d\xi
+\end{equation}
+The transformer ratio $R_\mathrm{trans}=\frac{E_\mathrm{max}^+}{E_\mathrm{max}^-} $ in PWFA is defined as
+the ratio of the maximum accelerating electric field
+behind the driving bunch, $E_\mathrm{max}^+$, to the maximum decelerating $E_\mathrm{max}^-$
+electric field acting upon drive beam electrons. Experimentally the transformer ratio is comparably easy access-able if one assumes the acceleration length for the witness beam and deceleration length for the drive beam to be equal and that the  witness beam is in accelerated at the peak accelerating field.
+Then it can be observed in the electron energy spectrum as the maximum energy gain of the witness beam divided by the maximum energy loss of the drive beam. In that sense the transformer ratio is a measure of efficiency with which the drive electron beam can transfer energy to the witness electron beam. 
+In the linear regime for a Gaussian drive beam 
+In \cite{PhysRevLett.56.1252} it is calculated and simulated that the transformer in the linear regime, which is otherwise limited to $R_\mathrm{trans}\leq 2$ for a symmetric drive beam current profile \cite{bane1984wake}, can reach up to $R_\mathrm{trans}\approx 6.12$ by applying a triangular shaped drive beam current.
+\section{The blowout regime}
+\label{sec:Blowout_regime}
+
+
+Wavebreaking limit: \begin{equation}
+E_\mathrm{WB}=cm_\mathrm{e}\omega_\mathrm{P}/q_\mathrm{e}\simeq 96 \sqrt{n_\mathrm{e}(\mathrm{cm}^{-3})}
+\end{equation}
+Wavebreaking gives us the the ideal way to go from plasma description to blowout description.
+
+\section{Descriptions for the blowout regime}
+Lotov, Suk, breakdown of fluid theory
+Q-tilde and resonant wake excitation.
+
+
+\section{Accelerator physics}
+In the previous chapters we examined the physics of the beam driven plasma wake excitation. 
+The ultimate goal as presented in this work is to advantageously make use of the fields in order to inject and accelerate a high quality secondary electron beam, which is conventionally called the witness beam. If there are no substantial advantages between  using the witness over the drive beam for a given application, it might not be worth the effort beyond a scholastic interest.
+In this section we will explain the basic electron beam behavior in an accelerator and from that determine the most important parameters. 
+\subsection{Single particle movement}
+
+We start with the 
+\begin{equation}
+\vec{F}=\frac{d\vec{p}}{dt}=q(\vec{E}+\frac{\vec{v}}{c}\times\vec{B})
+\end{equation}
+
+Similar to the assumptions made in par-axial optics the electron can be expected to 
+follow a straight trajectory in the absence of any deflecting or accelerating force and any small change in that trajectory 
+can be expressed in a number of linear changes. 
+As in par-axial optics this gives the possibility to describe the electron beam trajectory with linear transformations, represented by a matrix formalism.
+This idea can be extrapolated to the entire phase-space information of an electron, so that equation
+\begin{equation}
+\label{eqn:R_Matrix}
+\begin{split}
+\Phi_\mathrm{f}&=\hat{R} \Phi_\mathrm{i} \\
+\begin{pmatrix}
+x_\mathrm{f}\\
+x'_\mathrm{f}\\
+y_\mathrm{f}\\
+y'_\mathrm{f}\\
+z_\mathrm{f}\\
+\delta_\mathrm{f}\\
+\end{pmatrix}
+&=
+\begin{pmatrix}
+R_{11}&R_{12}&R_{13}&R_{14}&R_{15}&R_{16}\\
+R_{21}&R_{22}&R_{23}&R_{24}&R_{25}&R_{26}\\
+R_{31}&R_{32}&R_{33}&R_{34}&R_{35}&R_{36}\\
+R_{41}&R_{42}&R_{43}&R_{44}&R_{45}&R_{46}\\
+R_{51}&R_{52}&R_{53}&R_{54}&R_{55}&R_{56}\\
+R_{61}&R_{62}&R_{63}&R_{64}&R_{65}&R_{66}\\
+\end{pmatrix}
+\begin{pmatrix}
+x_\mathrm{i}\\
+x'_\mathrm{i}\\
+y_\mathrm{i}\\
+y'_\mathrm{i}\\
+z_\mathrm{i}\\
+\delta_\mathrm{i}\\
+\end{pmatrix}
+\end{split}
+\end{equation}
+
+describes a complete linear transformation of an electron's phase space vector as a conservative force acts upon it, with the spatial components $x,y,z$, the transverse momenta $x'=\frac{p_\mathrm{x}}{p_\mathrm{z}},y'=\frac{p_\mathrm{y}}{p_\mathrm{z}}$ and the deviation  $\delta=\frac{\delta p_\mathrm{z}}{p_\mathrm{z}}$ from the design momentum $p_\mathrm{z}$
+The matrix $\mathbf{R}_\mathrm{m,n}= \frac{\delta \Phi_\mathrm{n}}{\delta \Phi_\mathrm{n}}$ is the Jacobian of this transformation and as that it requires $\mathrm{det}(\hat{R})=1$.
+
+
+Wiedemann:\cite{Wiedemann_accelerator}
+
+
+ Jamies book: \cite{Book_Fundamentals_Rosenzweig}
+\subsection{Liouville Theorem}
+When now considering an entire bunch of electrons it comes in handy to describe it as a smooth phase space distribution
+$f(\vec{r},\vec{p})$, which is conventionally normalized so that  
+\begin{equation}
+\label{eqn:f_int_1}
+\int^{\infty}_{-\infty}f(\vec{r},\vec{p})d\vec{r}d\vec{p}=1 .
+\end{equation}
+
+The Liouville Theorem states that if only conservative forces are applied to the bunch the total phase volume occupied by the distribution stays constant. This is mathematically equivalent to any transformation that maintains condition (\ref{eqn:f_int_1}), which can be expressed by Jacobian transformations of the kind described by equation (\ref{eqn:R_Matrix}).
+Of course $\hat{R}$ does not need to act upon the entire 6D-Phase space. In fact it is common to reduce the analysis and describe only changes in the transverse phase space, the so called \textit{trace space}, as the planes are mathematically independent and often beam-optics that only influence one plane such as quadropoles or dipoles are applied.
+
+In order to obtain a measure of the actual phase space volume the statistical moments of the distribution can be determined by evaluating the integral 
+\begin{equation}
+<x^n>=\int_{-\infty}^{\infty}f(\vec{r},\vec{p})x^n dx.
+\end{equation}
+%with the total time differentiate
+%\begin{align}
+%\frac{d f}{dt}&=\frac{\partial f}{\partial t}+\sum_i \frac{dx_i}{dt}\frac{\partial f}{\partial x_i}+\frac{dp_i}{dt}\frac{\partial f}{\partial p_i}
+%&=\frac{\partial f}{\partial t}+\sum_i()
+%\end{align}
+\subsection{Courant-Snyder coefficients, brightness and emittance}
+Courant and Snyder with their summary paper \cite{COURANT1958} have set the standard for defining the phase space volume in the trace space with an ellipse equation for its boundary
+\begin{equation}
+\label{eqn:CourandSnyderEllipse}
+\gamma <x^2>+2\alpha <x> <x'>+\beta <x'^2> =\epsilon.
+\end{equation}
+\begin{equation}
+\alpha =\frac{<x^2>}{\epsilon}, \gamma=\frac{<x'^2>}{\epsilon}, \alpha=\frac{<xx'>}{\epsilon}
+\end{equation}
+are the so called \textit{Courant Snyder parameters} with $x'=\frac{p_\mathrm{x}}{p_\mathrm{z}}$ being the ratio between the transverse momentum $p_\mathrm{x}$ and the longitudinal momentmum $p_\mathrm{z}$.
+The constant of the ellipse $\epsilon$ is the trace space emittance. 
+As $f(\vec{r},\vec{p})$ is considered to be smooth function, it might as well consist of a distribution that only approaches 0 so that it is difficult to draw a absolute volume edge as illustrated in figure (\ref{img:TraceSpace}).
+Because of this and for the sake of simplicity in comparing the value with experimental data, it is useful to work with the rms values. So the \textit{rms trace space emittance} according to \cite{PRSTAB_Emittance_Floettmann} is
+\begin{equation}
+\epsilon_\mathrm{tr,rms}=\sqrt{<x^2><x'^2>-<xx'>^2}.
+\end{equation}
+This can additionally be normalized to the \textit{normalized rms trace space emittance} into the form
+\begin{equation}
+\label{eqn:NormTraceSpaceEmitt}
+\epsilon_\mathrm{n,tr,rms}=\frac{p_\mathrm{z}}{\mE c}\sqrt{<x^2><x'^2>-<xx'>^2}
+\end{equation} 
+so that its value stays current during acceleration.
+The emittance is an important value, as it is invariant under conservative transformations and therefore an important 
+figure of merit for electron beam quality in general. 
+Definition (\ref{eqn:NormTraceSpaceEmitt}) will mostly be applied in the context of this work.
+\begin{figure}[htbp]
+\begin{center}
+\includegraphics[width=0.6\textwidth]{theory/images/edited/TraceSpaceCourantSnyder.pdf}
+\end{center}
+\caption{Illustration of the trace space ellipse and its connection to the Courant Snyder coefficients.}
+\label{img:TraceSpace}
+\end{figure}
+As in the forthcoming parts of this work we will have a look at numerical simulations conducted with particle-in-cell (PIC) Simulations, that handle discrete phase space points as electron beam representation instead od a continuum a discrete emittance expression will be used. For that the electron beam moments are sums in the following form.
+\begin{align}
+<x^2>&=\frac{1}{n} \sum_{i=1}^{n} x_i^2-\frac{1}{n^2}\Big(\sum_{i=1}^{n} x_i\Big)^2\\
+<x'>&=\frac{1}{n} \sum_{i=1}^{n}\Big(\frac{p_{x,i}}{p_{z,i}}\Big)^2-\frac{1}{n^2}\Big(\sum_{i=1}^{n}\frac{p_{x,i}}{p_{z,i}}\Big)^2\\
+<xx'>&=\Big(\frac{1}{n}\sum_{i=1}^{n}x_i\frac{p_{x,i}}{p_{z,i}}-\frac{1}{n^2}\sum_{i=1}^{n}x_i \sum_{j=1}^{n}\frac{p_{x,i}}{p_{z,j}}\Big)^2
+\end{align}
+
+
+\subsection{Panowsky-Wenzel Theorem}
+
+original paper:  \cite{Panowsky_Wenzel_original}
+
+ \begin{equation}
+W_r =\partial_r W_z
+\end{equation} 
+This theorem is so important, it clearly needs a subsection. But where ?
+
+
+\section{Electron Trapping in plasma accelerators}
+\label{sec:Theory_Trapping}
+
+
+In order to derive an expression for the trapping condition of a single electron in PWFA, one has to start with the equation of motion for such a single electron. 
+\begin{equation}
+\vec{F}=\frac{d\vec{p}}{dt}=q(\vec{E}+\frac{\vec{v}}{c}\times\vec{B})
+\end{equation}
+with the electron charge $q$ electric field $\vec{E}$ and magnetic field $\vec{B}$
+
+This leads to the single particle electron hamiltonian $ H=\gamma m c^2+\Phi$ with the temporal derivative.
+\begin{align}
+\frac{dH}{dt}&=\frac{d}{dt} (\gamma m_e c^2)+\frac{d}{dt}(q\Phi)\\
+&=\vec{v}\frac{d\vec{p}}{dt}+\frac{d}{dt}(q\Phi)\\
+&=q\vec{v}(-\nabla \Phi-\frac{\partial \vec{A}}{\partial t})+\frac{\vec{v}\times\vec{B}}{c}+\frac{d}{dt}(q\Phi)\\
+&=q(\frac{d}{dt}\Phi-\vec{v}\vec{\nabla}\Phi-\vec{v}\frac{\partial \vec{A}}{\partial t})\\
+&=q(\frac{\partial \Phi}{\partial t}-\vec{v}\frac{\partial \vec{A}}{\partial t})
+\end{align}
+
+If one assumes now, that the wake fields are constant during the trapping process, then 
+
+\begin{equation}
+(\frac{\partial}{\partial t}+v_\mathrm{\phi} \frac{\partial}{\partial z} ) f =   f ( z-v_\mathrm{\phi} t)
+\end{equation}\begin{equation}
+(\frac{\partial}{\partial t}+v_\mathrm{\phi} \frac{\partial}{\partial z} ) f =0 \ \forall \   f (\vec{r}, z-v_\mathrm{\phi} t)
+\end{equation}
+which is especially true for the hamiltonian.
+\begin{align*}
+\frac{d}{dt}H&=q(\frac{\partial \Phi}{\partial t}-\vec{v}\frac{\partial \vec{A}}{\partial t})\\
+&=-q v_\mathrm{\phi}(\frac{\partial \Phi}{\partial z}-\vec{v} \frac{\partial \vec{A}}{\partial z}) 
+\end{align*}
+
+Since $H-v_\mathrm{\phi}P_z=\mathrm{const.}$
+
+\begin{align}
+H-v_\mathrm{\phi}P_z &= \mathrm{const.}\\
+\gamma m c^2+\Psi-v_\mathrm{\phi}p_z-v_\mathrm{\phi}qA_z &= \mathrm{const.}\\
+\gamma+\frac{q \Phi}{m c^2}-v_\mathrm{\phi} \frac{p_z}{mc^2} &= \mathrm{const.}\\
+\gamma - v_\mathrm{\phi} \frac{p_z}{mc^2}- \underbrace{\frac{q}{mc^2}(\Phi-v_\mathrm{\phi}A_z)}_{\bar{\Psi}}  &= \mathrm{const.} 
+\end{align}
+$\bar{\Psi}$ is the trapping potential, that determines the potential difference for an electron in a potential that moves with a phase velocity $v_\mathrm{\phi}$ with respect to the laboratory frame. It is valid for small as for relativistic velocities.
+With the trapping potential one can calculate if an electron inside the plasma wake will be accelerated or not i.e. if electrons will be able to catch up with the wake's velocity during the propagation of the wake or if it will slip out of the potential.
+From the prior calculations a general formula can be determined, that compares
+
+\begin{equation}
+\label{eqn:Trapping_Potential_Pre}
+\Delta \bar{\Psi}= \bar{\Psi}_\mathrm{i}-\bar{\Psi}_\mathrm{f}=\gamma_\mathrm{f}-\gamma_\mathrm{i}-\gamma_f\frac{v_\mathrm{\phi}v_\mathrm{f}}{c^2}+\gamma_\mathrm{i}\frac{v_\mathrm{\phi}v_\mathrm{i}}{c^2} 
+\end{equation}
+
+In order to honor the name "trapping potential" i.e. to apply this derivation to make predictions of the electron trapping behavior in the plasma wake, it is necessary to define a trapping condition. 
+An obvious and conventional choice is that an electron should catch up with the wake's velocity so that 
+$v_\mathrm{f}=v_\mathrm{\phi}$.
+Equation (\ref{eqn:Trapping_Potential_Pre}) consequently simplifies to 
+\begin{align}
+\label{eqn:Trapping_Potential_Raw}
+\Delta \bar{\Psi}&= \gamma_\mathrm{\phi}-\gamma_\mathrm{i}-\gamma_\mathrm{\phi}\frac{v_\mathrm{\phi}^2}{c^2}+\gamma_\mathrm{i}\frac{v_\mathrm{\phi}v_\mathrm{i}}{c^2} 
+\end{align}
+Equation (\ref{eqn:Trapping_Potential_Raw}) can be further separated into different physical cases:
+\subsection*{luminal wakefield, electron injected  at rest}
+In this case the plasma wake travels with a phase velocity near the speed of light, which is the case for beam-driven scenarios with high $\gamma$ driver beams ($v_\mathrm{\phi} \approx c$), and electrons starting inside the wake initially at rest ($v_\mathrm{i} \approx \ 0$).
+Here Equation (\ref{eqn:Trapping_Potential_Raw}) simplifies to
+\begin{equation}
+\label{eqn:Trapping_Potential_TH}
+\Delta \bar{\Psi}=-1
+\end{equation}
+Examples of this case are the underdense photocathode, or Trojan Horse injection\cite{Hidding_PRL_2012}, or wakefield induced ionization injection\cite{MartinezdelaOssa2014231}.
+
+\subsection*{luminal wakefield, electron injected  with v $\neq 0$}
+\begin{equation}
+\Delta \bar{\Phi}= -\gamma_\mathrm{i}(1-\frac{v_\mathrm{i}v_\phi}{c^2})\approx -\gamma_\mathrm{i}(1-\frac{v_\mathrm{i}}{c})
+\end{equation}
+\subsection*{subluminal wakefield, electron injected at rest}
+
+\begin{equation}
+\label{eqn:Trapping_Potential_DTH}
+\Delta \bar{\Psi}=\gamma_\mathrm{\phi}(1-\frac{v_\mathrm{\phi}^2}{c^2})-1=\gamma_\mathrm{\phi}^{-1}-1
+\end{equation}
+This formula can for example be applied to ionization injection in LWFA\cite{PakPRL2012} or beam-driven ionization injection schemes in which the wake's phase velocity is retarded such as the Downramp-assisted Trojan Horse (DTH)\cite{DTH}, which this work has as special focus on. In latter case mathematically strictly speaking $\frac{d H}{dt}\neq0 $, but for small changes $\frac{dH}{dt}\approx 0$ during the injection process of the electrons, equation (\ref{eqn:Trapping_Potential_DTH}) can still be applied.
+
+\subsection*{superluminal wakefield}
+There are physical situations imaginable in which the wake or at least part of the wake move with a phase velocity faster than the speed of light. This is the case for example when a beam driven wake traverses an electron density upramp.
+From the previous deductions it seems obvious, that trapping electrons in such a superluminal wakefield is not possible, as $\gamma_\mathrm{\phi}^{-1}$ becomes complex for $v_\mathrm{\phi}>c$.
+
+However, if the superluminosity is only transient as with a short density upramp, the phase velocity will return to $c$ right after the transition. In this case trpping can be possible, but the mathematic tool presented in this section is insufficient to describe the trapping and the phase velocity after the transition is setting the demand on the potential.
+\subsection{Trapping position and bunch compression}
+\label{sec:Trap_pos_bunch_comp}
+Assuming that the longitudinal wake field 
+$\frac{\partial E_\mathrm{z}}{\partial r} = 0 $ for a sufficiently wide radius the trapping behaviour can be seen in 1D only.
+In the blowout regime the acceleration gradient is to second order linear in $\xi$ (compare section (\ref{sec:Blowout_regime})) with
+\begin{equation}
+\label{eqn:linear_blowout_Ez_raw}
+E_\mathrm{z}(\xi)=\tilde{E_0}\xi.
+\end{equation}
+One should keep in mind that the origin of the coordinate system has been shifted so that $\xi=0$ is at the zero-crossing of the electric field. $\tilde{E_0}$ is the slope of the accelerating field. This will be filled with values later on, but for now we are just interested in a more general derivation. Additionally equation (\ref{eqn:linear_blowout_Ez_raw}) is only valid within the boundaries $[-\lP/2,\lP/2]$.
+Integrating erquation (\ref{eqn:linear_blowout_Ez_raw}) gives the potential
+\begin{equation}
+\label{eqn:linear_blowout_Pot_raw}
+U_\mathrm{z}(\xi)=\frac{1}{2}\tilde{E_0}\xi^2.
+\end{equation}
+Now equation (\ref{eqn:linear_blowout_Pot_raw}) is inserted in equation (\ref{eqn:Trapping_Potential_TH}) and rearranged in order to find for an electron released at an inital position $\xi_\mathrm{i}$ its trapping position $\xi_\mathrm{f}$ by deriving
+\begin{align}
+\bar{\Psi}_\mathrm{f}-\bar{\Psi}_\mathrm{i}&=-1\\
+U_\mathrm{z}(\xi_\mathrm{f})-U_\mathrm{z}(\xi_\mathrm{i})&=-\frac{\mE c^2}{\qE}\\
+(\xi_\mathrm{i}^2-\xi_\mathrm{f}^2)&=-\underbrace{\frac{2\mE c^2}{\hat{E_0}\qE}}_{\alpha_\mathrm{t}}\\
+\label{eqn:Trapping_Position}
+\xi_\mathrm{f}&=-\sqrt{\xi_\mathrm{i}^2+\alpha_\mathrm{t}}.
+\end{align}
+
+Equation (\ref{eqn:Trapping_Position}) is now the relation between release and trapping position of an electron in the co-moving frame for an accelerating field approximated to be linear. Merely negative values are considered, as a trapping only happens at the back of the wake.
+Forth going with our calculation we would like to handle a distribution of electrons to get closer to the description of the witness electron beam.
+This finding can than be used to calculate the compression of a released electron beam during the trapping.
+For that we start with a 1D spatial Gaussian distribution  with rms length $\sigma_\xi$. We will later see that this assumption in fact resembles very well the distribution of interest.
+\begin{equation}
+\label{eqn:xi_init_dist}
+f(\xi)=\frac{1}{\sigma_\xi \sqrt{2\pi}}e^{-\frac{(\xi+\delta_\xi)^2}{2\sigma_\xi^2}}.
+\end{equation}
+The distribution should be normalized to
+\begin{equation}
+\int \limits_{-\infty}^{\infty} f(\xi)d\xi\stackrel{!}{=}1.
+\end{equation}
+Equation (\ref{eqn:xi_init_dist}) is now the initial injected electron beam and can, by applying equation (\ref{eqn:Trapping_Position}) be used to calculate the trapped electron beam distribution.
+
+\begin{align}
+f_\mathrm{f}(\xi)&=f(\xi_\mathrm{i}(\xi_\mathrm{f}))\| \frac{\partial \xi_\mathrm{f}}{\partial \xi_\mathrm{i}}\| \\
+&=\frac{1}{\sigma_\xi \sqrt{2\pi}}e^{-\frac{(\sqrt{\xi_\mathrm{f}^2-\alpha_\mathrm{t}}+\delta_\xi)^2}{2\sigma_\xi^2}} \frac{\xi_\mathrm{i}}{\sqrt{\xi_\mathrm{i}^2+\alpha_\mathrm{t}}}\\
+&=\frac{1}{\sigma_\xi \sqrt{2\pi}}e^{-\frac{(\sqrt{\xi_\mathrm{f}^2-\alpha_\mathrm{t}}+\delta_\xi)^2}{2\sigma_\xi^2}} \frac{\sqrt{\xi_\mathrm{f}^2-\alpha_\mathrm{t}}}{\sqrt{\sqrt{\xi_\mathrm{f}^2-\alpha_\mathrm{t}}^2+\alpha_\mathrm{t}}}\\
+&=\frac{1}{\sigma_\xi \sqrt{2\pi}}e^{-\frac{(\sqrt{\xi_\mathrm{f}^2-\alpha_\mathrm{t}}+\delta_\xi)^2}{2\sigma_\xi^2}} \frac{\sqrt{\xi_\mathrm{f}^2-\alpha_\mathrm{t}}}{\sqrt{\xi_\mathrm{f}^2-\alpha_\mathrm{t}+\alpha_\mathrm{t}}}\\
+&=\frac{1}{\sigma_\xi \sqrt{2\pi}}e^{-\frac{(\sqrt{\xi_\mathrm{f}^2-\alpha_\mathrm{t}}+\delta_\xi)^2}{2\sigma_\xi^2}} \frac{\sqrt{\xi_\mathrm{f}^2-\alpha_\mathrm{t}}}{\sqrt{\xi_\mathrm{f}^2-\alpha_\mathrm{t}+\alpha_\mathrm{t}}}\\
+&=\frac{1}{\sigma_\xi \sqrt{2\pi}}e^{-\frac{(\sqrt{\xi_\mathrm{f}^2-\alpha_\mathrm{t}}+\delta_\xi)^2}{2\sigma_\xi^2}} \frac{\sqrt{\xi_\mathrm{f}^2-\alpha_\mathrm{t}}}{\sqrt{\xi_\mathrm{f}^2}}\\
+&=\frac{1}{\sigma_\xi \sqrt{2\pi}}e^{-\frac{(\sqrt{\xi_\mathrm{f}^2-\alpha_\mathrm{t}}+\delta_\xi)^2}{2\sigma_\xi^2}} \frac{\sqrt{\xi_\mathrm{f}^2-\alpha_\mathrm{t}}}{\xi_\mathrm{f}}\\
+\label{eqn:Trapping_Response_function}
+&=\frac{1}{\sigma_\xi \sqrt{2\pi}}e^{-\frac{(\sqrt{\xi_\mathrm{f}^2-\alpha_\mathrm{t}}+\delta_\xi)^2}{2\sigma_\xi^2}}
+\sqrt{1-\frac{\alpha_\mathrm{t}}{\xi_\mathrm{f}^2}}\\
+\end{align} 
+One should note here, that equation (\ref{eqn:Trapping_Response_function}) as well as equation (\ref{eqn:xi_init_dist}) offer positive as well as negative solutions due to the symmetry of the potential. Causality and the physics of accelerators does of course only allow solutions with $\xi_\mathrm{f}<0$. Since we assume that no charge is lost or created during trapping for $f_f(\xi)$ as well a normalization so that
+\begin{equation}
+\int \limits_{-\infty}^{0} f_f(\xi)d\xi\stackrel{!}{=}1
+\end{equation}
+is required.
+
+Equation (\ref{eqn:Trapping_Response_function}) can be seen a response function to an electron release. 
+
+
+
+Anderson,Serafini:\cite{AndersonVelocBunchPPRSTAB2005,serafini2001velocity}
+
+\subsubsection{emittance preservation}
+why don't you ... look at space charge effect to estimate required gamma/acceleration and focusing forces for emittance preservation ? Try looking at Pak's thesis and this emittance paper that claims one needs a fast acceleration, but knows nothing about Trojan Horse yet.
+\section{Acceleration methods in PWFA}
+The strong accelrating fields in PWFA can be harvested with a variety of methods. They differ in experimental complexity, demand towards drive beam 
+
+
+
+\subsection{External injection - Double bunch}
+External injection is the least complex PWFA setup and is also the method that has been demonstrated much earlier than other methods. The basic idea is that a plasma wake is set up by an electron beam, electrons - either from the same electron beam or by a trailing electron beam - are accelerated, if they are at the right phase with respect to the wake.
+
+The first experimental realization of a PWFA was established in 1988 at the Argonne advanced accelerator test facility (AATF)\cite{rosenzweig1988experimental}. With a method successfully applied to measure the wake fields in accelerating structures
+a $2-3\ \mathrm{nC}$ electron beam with a rms bunch length of $2.4 \mathrm{mm}$ was used to drive a wake in a $33\ \mathrm{cm} $ long plasma at a density of the order of $ 10^{13}\ \mathrm{cm}^{-3}$. The driving bunch was trailed by a low-charge witness beam with variable delay to scan the wake fields.
+The oscillating nature of the wake fields was well measured with a maximum accelerating gradient of $1.6\ \mathrm{MeV/m}$. 
+With a higher driver witness beam charge of $4\ \mathrm{nC}$ \cite{figueroa1988direct} it was possible to show a non-linear wake with an accelerating gradient of $5.3\ \mathrm{MeV/m}$. 
+
+In 2006 at the Final Focus Test Beam Facility (FFTB) at the Stanford Linear Accelerator Center (SLAC) the blow-out regime was finally reached as described in \cite{blumenfeld2007energyDoubling}.
+A $42\ \mathrm{GeV}$ electron beam with a spot size of $10\ \mathrm{\mu m}$ and rms bunch length of $~15\ \mu\mathrm{m}$ propagated through a $85\ \mathrm{cm}$ Li oven. The shorter, high current bunch now allowed for driving a wake in a much higher plasma density of $2.7\times 10^{17}\ \mathrm{cm}^{-3} $ in the blowout regime. Thanks to the extremely high wake field gradient of $52\ \mathrm{GeV/m}$ which effectively accelerated part of the electron beam to up to $85\ \mathrm{GeV}$.
+
+The successor experiment to the plasma experiments at the FFTB is the Facility for Advanced Accelerator Experimental Tests (FACET)\cite{clarke2012facet}. Several double-bunch experiments have been successfully conducted.  
+At FACET the double-bunches are produced by accelerating one long electron bunch all the way to the final chicane. 
+While the chirped bunch is dispersed, the central part is cut out by a mask which results in a scrape in the current profile  \cite{hogan2010FACET}. This method has the advantage that the transport of the beam along the LINAC is only required for one bunch.
+Efficiency and beamloading effects were studied in \cite{litos2014high} and recently at FACET a double-bunch acceleration of positrons in a positron-driven wake was demonstrated by shaping the transverse plasma shape to a hollow channel, which effectively avoids any transverse fields that would otherwise defocus the positrons \cite{ThesisGessner}.
+\subsection{Density Downramp injection}
+
+\subsection{Plasma Torch}
+\cite{PlaTo,PlaTo2}
+%\subsection{Transverse injection ?}
+\subsection{ionization injection}
+In all previously outlined injection types, electrons to be accelerated in the wake are at a nonzero velocity when injected, which is an advantage as regards the requirements on the wakefield gradient. Ionization injected electrons are in a bound state until they are released to continuum inside the wake. This from a physics standpoint requires the plasma to only be partially ionized when the wake is excited and from an engineering stand point ionization levels that are sufficiently distinct in their ionization rates to ensure a controlled ionization. We will further use the term Low ionization threshold (LIT) medium for the part to be ionized in order to drive the wave in it and High ionization threshold (HIT) medium for the part that originates the injected witness beam electrons. Of course, HIT and LIT medium can be the same, by making use of different ionization levels. If, however, HIT and LIT are different gases as e.g. H$_2$ and He, their gas density ratio becomes a handy degree of freedom to control the injected charge.
+Experimentally in \cite{Navid_distributed_PRL} ionization ionjection was shown in a Rb oven. The electron beam head electric fields were used to ionize $Rb\rightarrow Rb^+$, while the drive beam tails' field overlapped with the wake electric fields were strong enough to ionize $Rb^+ \rightarrow Rb^{2+}$ and inject the. This method of injection electrons is conceptually comparable to ionization injection, where the driving laser pulse fields are strong enough to ionize several ionization levels with injection at the back of the laser or in other words the front of the wake\cite{Pak_Ion_InjectionPRL2010}.
+
+In \cite{Ossa_Rake_PRL2013} and \cite{MartinezdelaOssa2014231} with theory and simulations a setup was examined where only the back of the wake had sufficiently high fields to ionize the HIT medium and combined with the concept of the trapping potential as described in section (\ref{sec:Theory_Trapping}). It could be shown that the combined requirements for trapping, i.e. the overlap of the ionization region and the trapping region, confine the possible electron source which enables the generation of low emittance electron beams ($\epsilon_x=1.5\ \mathrm{\mu m}$) 
+
+
+
+
+%\begin{figure}
+
+%\end{figure}
+\subsection{Trojan Horse injection}
+\label{sec:Theory_TrojanHorse}
+The underdense photocathode or Trojan Horse injection is one of the most complex injection techniques. It was proposed by B. Hidding in \cite{Hidding_PRL_2012}. Neither the wake nor the beam electric fields are sufficient to ionize the HIT medium. Instead this is the duty of an additional short-pulse laser pulse, trailing the driving electron beam. Given full control over laser-to-electron beam alignment and synchronization, it is possible to ionize and release electrons wherever in the wake it deems necessary. It could be shown that a release in the potential minimum, i.e. the zero-crossing of the wake is particularly advantageous, because the electron acceleration to relativistic speed is extremely rapid ($\approx \frac{\lP}{2c}$) and the bunch compression is maximum at this injection position. Furthermore the emittance of Trojan Horse injected electron beams can be very low on the order of a few $\epsilon_\mathrm{rms}\approx 10^{-8}\ \mathrm{m rad}$. The reasons for that lie to one part in the ionization method. A typical $800\ \mathrm{nm}$ Ti:Sa few fs laserpulse only needs a peak intensity of $10^{15}\ \mathrm{W/cm^2}$ to ionize a HIT medium as e.g. $He \rightarrow He^+$. The normalized vector potential $a_0 = \frac{\qE E_0}{\mE c^2} = 0.022<<1$ implies that no ponderomotive force can be expected that would impose an inital transverse momentum to the released electron bunch wo that the transverse momentum is basically determined by the HIT gas temperature. 
+A detailed theoretically supported PIC simulation parameter scan in \cite{xi2013hybrid} examined scalings between witness emittance and brightness and laser beam parameters as beam waist $w_0$, pulse length and peak intensity. A indifference towards pulse length as well as an emittance increase with $w_0$ and intensity could be demonstrated.
+
+In \cite{hidding2014ultrahigh} a detailed comparison between laser and electron beam driven wakefield acceleration is drawn out.
+ 
+\section{Trapping behaviour for the Trojan Horse Injection}
+
+
+\subsection{The role of the ionization front}
+
+We saw in section (\ref{sec:Trap_pos_bunch_comp}) that the length and position of the originally released electron bunch as well as the accelerating gradient plays a significant role for establishing an effective velocity bunching. In the Trojan Horse injection concept it is possible to inject electrons at a phase of choice. We want to examine now what kind of initial electron bunch distributions we can expect. For that we start with a 1D consideration. We combine this with the information from section (\ref{sec:Theory_ionization}) and will 
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=0.5\textwidth]{theory/images/raw/Ionization_front.png}
+\end{center}
+\caption{Ionization front from a}
+\label{img:ion_front_norm}
+\end{figure}
+Figure (\ref{img:ion_front_norm}) demonstrates the time-dependent ionization ratio in He during the propagation of a ??? fs long laser pulse with peak intensity ??? , according to equation (\ref{eqn:ADK_ionization_ratio}).
+The ionization front is clearly visible as a rapid increase of the ionization ratio. 
+In Kim-ionfront-paper  it has been shown experimentally that the ADK formalism is in fact reliable as regards the prediction of the ionization front. From that we can calculate the inital electron release distribution
+
+\begin{align}
+\label{eqn:ADK_ionization_ratio_dt}
+f_\mathrm{i}(\xi)&= \frac{d}{dt}n_0 \Big(1-\exp\Big(-\int \limits_{-\infty}^t W_\mathrm{ADK}(E_{x}(r,z,t'))dt'\Big)\Big)\\
+&=n_0 \frac{d}{dt}\exp\Big(-\int \limits_{-\infty}^t W_\mathrm{ADK}(E_{x}(r,z,t'))dt'\Big).
+\end{align}
+Two things are important to notice:
+
+1. The ionization front and with that the initial release is much shorter than the actual laser pulse.
+
+2. The center of the release electron distribution does not need to coincide with the center of the laser pulse.
+
+
+We now want to further investigate on the initial electron release distribution ans how it depends on laser peak intensity and pulse lengths.
+
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=0.5\textwidth]{theory/images/edited/IonFrontVariation.pdf}
+\end{center}
+\end{figure}
+
+\subsection{Dark current mitigation}
+\subsubsection{Simulation}
+\cite{Manahan_HotSpots_PRAB}
+\begin{figure}
+\includegraphics[width=0.3\textwidth]{simulations/images/raw/DC_lp_333mu.pdf}
+\includegraphics[width=0.3\textwidth]{simulations/images/raw/DC_lp_149mu.pdf}
+\includegraphics[width=0.3\textwidth]{simulations/images/raw/DC_Q_1nC.pdf}
+\end{figure}
+
+\subsubsection{Experiment}
+\begin{figure}
+\begin{center}
+\includegraphics[width=0.6\textwidth]{experiment/images/raw/DC_over_Lp_3nC_self20150518.png}
+\end{center}
+\end{figure}
+
+	
+\subsection{Downramp assisted Trojan Horse}
+
+\section{numerical modeling of Trojan Horse injection}
+
+\subsection{emittance growth from space charge}
+\subsection{Laser parameter variations}
+	
