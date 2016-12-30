@@ -1,28 +1,28 @@
 \BOOKMARK [0][-]{chapter.1}{theory}{}% 1
-\BOOKMARK [1][-]{section.1.1}{Plasma physics}{chapter.1}% 2
-\BOOKMARK [2][-]{subsection.1.1.1}{electromagnetic waves in plasmas}{section.1.1}% 3
-\BOOKMARK [2][-]{subsection.1.1.2}{Underdense ionization with ultrashort laser pulses}{section.1.1}% 4
-\BOOKMARK [1][-]{section.1.2}{PWFA theory}{chapter.1}% 5
-\BOOKMARK [1][-]{section.1.3}{The linear regime}{chapter.1}% 6
-\BOOKMARK [1][-]{section.1.4}{The blowout regime}{chapter.1}% 7
-\BOOKMARK [1][-]{section.1.5}{Descriptions for the blowout regime}{chapter.1}% 8
-\BOOKMARK [1][-]{section.1.6}{Accelerator physics}{chapter.1}% 9
-\BOOKMARK [2][-]{subsection.1.6.1}{Single particle movement}{section.1.6}% 10
-\BOOKMARK [2][-]{subsection.1.6.2}{Liouville Theorem}{section.1.6}% 11
-\BOOKMARK [2][-]{subsection.1.6.3}{Courant-Snyder coefficients, brightness and emittance}{section.1.6}% 12
-\BOOKMARK [1][-]{section.1.7}{Electron Trapping in plasma accelerators}{chapter.1}% 13
-\BOOKMARK [2][-]{subsection.1.7.1}{Trapping position and bunch compression}{section.1.7}% 14
-\BOOKMARK [1][-]{section.1.8}{Acceleration methods in PWFA}{chapter.1}% 15
-\BOOKMARK [2][-]{subsection.1.8.1}{External injection - Double bunch}{section.1.8}% 16
-\BOOKMARK [2][-]{subsection.1.8.2}{Density Downramp injection}{section.1.8}% 17
-\BOOKMARK [2][-]{subsection.1.8.3}{Plasma Torch}{section.1.8}% 18
-\BOOKMARK [2][-]{subsection.1.8.4}{ionization injection}{section.1.8}% 19
-\BOOKMARK [2][-]{subsection.1.8.5}{Trojan Horse injection}{section.1.8}% 20
-\BOOKMARK [1][-]{section.1.9}{Trapping behaviour for the Trojan Horse Injection}{chapter.1}% 21
-\BOOKMARK [2][-]{subsection.1.9.1}{The role of the ionization front}{section.1.9}% 22
-\BOOKMARK [2][-]{subsection.1.9.2}{Dark current mitigation}{section.1.9}% 23
-\BOOKMARK [2][-]{subsection.1.9.3}{Downramp assisted Trojan Horse}{section.1.9}% 24
-\BOOKMARK [1][-]{section.1.10}{numerical modeling of Trojan Horse injection}{chapter.1}% 25
-\BOOKMARK [2][-]{subsection.1.10.1}{emittance growth from space charge}{section.1.10}% 26
-\BOOKMARK [2][-]{subsection.1.10.2}{Laser parameter variations}{section.1.10}% 27
-\BOOKMARK [0][-]{chapter.2}{experiment}{}% 28
+\BOOKMARK [1][-]{section.1.1}{Electromagnetism}{chapter.1}% 2
+\BOOKMARK [1][-]{section.1.2}{Plasma physics}{chapter.1}% 3
+\BOOKMARK [2][-]{subsection.1.2.1}{electromagnetic waves in plasmas}{section.1.2}% 4
+\BOOKMARK [2][-]{subsection.1.2.2}{Underdense ionization with ultrashort laser pulses}{section.1.2}% 5
+\BOOKMARK [1][-]{section.1.3}{PWFA theory}{chapter.1}% 6
+\BOOKMARK [1][-]{section.1.4}{The linear regime}{chapter.1}% 7
+\BOOKMARK [1][-]{section.1.5}{The blowout regime}{chapter.1}% 8
+\BOOKMARK [1][-]{section.1.6}{Descriptions for the blowout regime}{chapter.1}% 9
+\BOOKMARK [1][-]{section.1.7}{Accelerator physics}{chapter.1}% 10
+\BOOKMARK [2][-]{subsection.1.7.1}{Single particle movement}{section.1.7}% 11
+\BOOKMARK [2][-]{subsection.1.7.2}{Liouville Theorem}{section.1.7}% 12
+\BOOKMARK [2][-]{subsection.1.7.3}{Courant-Snyder coefficients, brightness and emittance}{section.1.7}% 13
+\BOOKMARK [1][-]{section.1.8}{Electron Trapping in plasma accelerators}{chapter.1}% 14
+\BOOKMARK [2][-]{subsection.1.8.1}{Trapping position and bunch compression}{section.1.8}% 15
+\BOOKMARK [1][-]{section.1.9}{Acceleration methods in PWFA}{chapter.1}% 16
+\BOOKMARK [2][-]{subsection.1.9.1}{External injection - Double bunch}{section.1.9}% 17
+\BOOKMARK [2][-]{subsection.1.9.2}{Density Downramp injection}{section.1.9}% 18
+\BOOKMARK [2][-]{subsection.1.9.3}{Plasma Torch}{section.1.9}% 19
+\BOOKMARK [2][-]{subsection.1.9.4}{ionization injection}{section.1.9}% 20
+\BOOKMARK [2][-]{subsection.1.9.5}{Trojan Horse injection}{section.1.9}% 21
+\BOOKMARK [1][-]{section.1.10}{Trapping behaviour for the Trojan Horse Injection}{chapter.1}% 22
+\BOOKMARK [2][-]{subsection.1.10.1}{The role of the ionization front}{section.1.10}% 23
+\BOOKMARK [2][-]{subsection.1.10.2}{Dark current mitigation}{section.1.10}% 24
+\BOOKMARK [2][-]{subsection.1.10.3}{Downramp assisted Trojan Horse}{section.1.10}% 25
+\BOOKMARK [1][-]{section.1.11}{numerical modeling of Trojan Horse injection}{chapter.1}% 26
+\BOOKMARK [2][-]{subsection.1.11.1}{emittance growth from space charge}{section.1.11}% 27
+\BOOKMARK [2][-]{subsection.1.11.2}{Laser parameter variations}{section.1.11}% 28

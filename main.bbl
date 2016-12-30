@@ -235,6 +235,24 @@ Allied Vision,
   https://www.alliedvision.com/en/products/cameras/detail/Manta/G-125.html.
 \newblock {\em Manta G-125 Data sheet}.
 
+\bibitem{mann1993damage}
+Klaus~R Mann, G~Pfeifer, and Guenter Reisse.
+\newblock Damage threshold measurements using femtosecond excimer laser.
+\newblock In {\em Optical Materials for High Power Lasers}, pages 415--423.
+  International Society for Optics and Photonics, 1993.
+
+\bibitem{LiMgF2DamageThresh}
+CB~Li, TQ~Jia, HY~Sun, XX~Li, SZ~Xu, DH~Feng, XF~Wang, XC~Ge, and ZZ~Xu.
+\newblock Theoretical and experimental study on femtosecond laser-induced
+  damage in mgf2 crystals.
+\newblock In {\em ICO20: Lasers and Laser Technologies}, pages 60281L--60281L.
+  International Society for Optics and Photonics, 2006.
+
+\bibitem{Nonlin_refr_index_PRB1989}
+Robert Adair, L.~L. Chase, and Stephen~A. Payne.
+\newblock Nonlinear refractive index of optical crystals.
+\newblock {\em Phys. Rev. B}, 39:3337--3350, Feb 1989.
+
 \bibitem{YanX_EOS_PRL2000}
 X.~Yan, A.~M. MacLeod, W.~A. Gillespie, G.~M.~H. Knippels, D.~Oepts, A.~F.~G.
   van~der Meer, and W.~Seidel.
@@ -247,5 +265,12 @@ Bernd~Richard Steffen.
 \newblock {\em Electro-Optic Methods for Longitudinal Bunch Diagnostics at
   FLASH}.
 \newblock PhD thesis, University of Hamburg, 2007.
+
+\bibitem{buck2010LANEX}
+Alexander Buck, K~Zeil, Antonia Popp, Karl Schmid, A~Jochmann, SD~Kraft,
+  B~Hidding, T~Kudyakov, CMS Sears, Laszlo Veisz, et~al.
+\newblock Absolute charge calibration of scintillating screens for relativistic
+  electron detection.
+\newblock {\em Review of Scientific Instruments}, 81(3):033301, 2010.
 
 \end{thebibliography}

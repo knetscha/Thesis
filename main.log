@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.5.16)  29 NOV 2016 17:26
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.5.16)  30 DEC 2016 13:17
 entering extended mode
 **main.tex
 (C:\Users\Knetsch\Promotion\Thesis\Thesis\main.tex
@@ -748,23 +748,26 @@ File: babel.def 2008/07/08 v3.8m Babel common definitions
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\english.ldf"
 Language: english 2005/03/30 v3.3o English support from the babel system
 ))
-(C:\Users\Knetsch\Promotion\Thesis\Thesis\main.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
+(C:\Users\Knetsch\Promotion\Thesis\Thesis\main.aux
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+LaTeX Warning: Label `img:LaserEnergyCalib' multiply defined.
+
+)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count300
 \scratchdimen=\dimen159
@@ -817,7 +820,7 @@ Dictionary: translator-basic-dictionary, Language: English
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box43
-Package hyperref Info: Link coloring OFF on input line 38.
+Package hyperref Info: Link coloring OFF on input line 37.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
 
@@ -826,29 +829,29 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count306
 )
-LaTeX Info: Redefining \ref on input line 38.
-LaTeX Info: Redefining \pageref on input line 38.
-LaTeX Info: Redefining \nameref on input line 38.
+LaTeX Info: Redefining \ref on input line 37.
+LaTeX Info: Redefining \pageref on input line 37.
+LaTeX Info: Redefining \nameref on input line 37.
 
 (C:\Users\Knetsch\Promotion\Thesis\Thesis\main.out)
 (C:\Users\Knetsch\Promotion\Thesis\Thesis\main.out)
 \@outlinefile=\write3
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Info: Redefining \celsius on input line 38.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 38.
+LaTeX Info: Redefining \celsius on input line 37.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 37.
 
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 38.
-Package gensymb Info: Using \Omega for \ohm on input line 38.
+LaTeX Info: Redefining \ohm on input line 37.
+Package gensymb Info: Using \Omega for \ohm on input line 37.
 
 Package gensymb Warning: Not defining \micro.
 
 \c_siunitx_mathsf_int=\count307
-LaTeX Font Info:    Try loading font information for U+wasy on input line 38.
+LaTeX Font Info:    Try loading font information for U+wasy on input line 37.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\wasysym\uwasy.fd"
 File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
 )
@@ -867,106 +870,126 @@ Chapter 1.
 
 ] [5] [6]
 [7]
-<theory/images/raw/Ionization_Torch_contourplot.pdf, id=289, 301.125pt x 261.97
+<theory/images/raw/Ionization_Torch_contourplot.pdf, id=300, 301.125pt x 261.97
 874pt>
 File: theory/images/raw/Ionization_Torch_contourplot.pdf Graphic file (type pdf
 )
  <use theory/images/raw/Ionization_Torch_contourplot.pdf>
 Package pdftex.def Info: theory/images/raw/Ionization_Torch_contourplot.pdf use
-d on input line 222.
+d on input line 227.
 (pdftex.def)             Requested size: 258.00539pt x 224.48584pt.
- [8 <C:/Users/Knetsch/Promotion/Thesis/Thesis/theory/images/raw/Ionization_Torc
-h_contourplot.pdf>] [9] [10]
-<theory/images/edited/TraceSpaceCourantSnyder.pdf, id=355, 426.79147pt x 426.79
+ [8]
+<simulations/images/edited/PWFA_Blowout_Ex.pdf, id=316, 1422.6349pt x 512.14938
+pt>
+File: simulations/images/edited/PWFA_Blowout_Ex.pdf Graphic file (type pdf)
+ <use simulations/images/edited/PWFA_Blowout_Ex.pdf>
+Package pdftex.def Info: simulations/images/edited/PWFA_Blowout_Ex.pdf used on 
+input line 261.
+(pdftex.def)             Requested size: 430.00462pt x 154.80258pt.
+ [9 <C:/Users/Knetsch/Promotion/Thesis/Thesis/theory/images/raw/Ionization_Torc
+h_contourplot.pdf>]
+[10 <C:/Users/Knetsch/Promotion/Thesis/Thesis/simulations/images/edited/PWFA_Bl
+owout_Ex.pdf>]
+<theory/images/edited/TraceSpaceCourantSnyder.pdf, id=466, 426.79147pt x 426.79
 147pt>
 File: theory/images/edited/TraceSpaceCourantSnyder.pdf Graphic file (type pdf)
  <use theory/images/edited/TraceSpaceCourantSnyder.pdf>
 Package pdftex.def Info: theory/images/edited/TraceSpaceCourantSnyder.pdf used 
-on input line 373.
+on input line 388.
 (pdftex.def)             Requested size: 258.00539pt x 258.0045pt.
  [11] [12 <C:/Users/Knetsch/Promotion/Thesis/Thesis/theory/images/edited/TraceS
 paceCourantSnyder.pdf>] [13] [14] [15] [16] [17]
-<theory/images/raw/Ionization_front.png, id=511, 287.6346pt x 184.0476pt>
-File: theory/images/raw/Ionization_front.png Graphic file (type png)
+<simulations/images/edited/FF_torch.pdf, id=608, 426.79147pt x 256.07469pt>
+File: simulations/images/edited/FF_torch.pdf Graphic file (type pdf)
 
-<use theory/images/raw/Ionization_front.png>
-Package pdftex.def Info: theory/images/raw/Ionization_front.png used on input l
-ine 592.
-(pdftex.def)             Requested size: 215.0023pt x 137.57478pt.
+<use simulations/images/edited/FF_torch.pdf>
+Package pdftex.def Info: simulations/images/edited/FF_torch.pdf used on input l
+ine 581.
+(pdftex.def)             Requested size: 215.0023pt x 129.00214pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[18]
-<theory/images/edited/IonFrontVariation.pdf, id=524, 426.79147pt x 341.4326pt>
+[18] [19 <C:/Users/Knetsch/Promotion/Thesis/Thesis/simulations/images/edited/FF
+_torch.pdf>]
+<theory/images/raw/Ionization_front.pdf, id=701, 398.3382pt x 341.4326pt>
+File: theory/images/raw/Ionization_front.pdf Graphic file (type pdf)
+
+<use theory/images/raw/Ionization_front.pdf>
+Package pdftex.def Info: theory/images/raw/Ionization_front.pdf used on input l
+ine 616.
+(pdftex.def)             Requested size: 430.00462pt x 368.59584pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+<theory/images/edited/IonFrontVariation.pdf, id=704, 426.79147pt x 341.4326pt>
 File: theory/images/edited/IonFrontVariation.pdf Graphic file (type pdf)
 
 <use theory/images/edited/IonFrontVariation.pdf>
 Package pdftex.def Info: theory/images/edited/IonFrontVariation.pdf used on inp
-ut line 618.
-(pdftex.def)             Requested size: 215.0023pt x 172.0027pt.
+ut line 642.
+(pdftex.def)             Requested size: 43.00308pt x 34.40053pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<simulations/images/raw/DC_lp_333mu.pdf, id=526, 597.23125pt x 845.1575pt>
+<simulations/images/raw/DC_lp_333mu.pdf, id=706, 597.23125pt x 845.1575pt>
 File: simulations/images/raw/DC_lp_333mu.pdf Graphic file (type pdf)
 
 <use simulations/images/raw/DC_lp_333mu.pdf>
 Package pdftex.def Info: simulations/images/raw/DC_lp_333mu.pdf used on input l
-ine 626.
+ine 650.
 (pdftex.def)             Requested size: 171.99922pt x 243.40001pt.
 
-<simulations/images/raw/DC_lp_149mu.pdf, id=527, 597.23125pt x 845.1575pt>
+<simulations/images/raw/DC_lp_149mu.pdf, id=707, 597.23125pt x 845.1575pt>
 File: simulations/images/raw/DC_lp_149mu.pdf Graphic file (type pdf)
 
 <use simulations/images/raw/DC_lp_149mu.pdf>
 Package pdftex.def Info: simulations/images/raw/DC_lp_149mu.pdf used on input l
-ine 627.
+ine 651.
 (pdftex.def)             Requested size: 171.99922pt x 243.40001pt.
 
-<simulations/images/raw/DC_Q_1nC.pdf, id=528, 597.23125pt x 845.1575pt>
+<simulations/images/raw/DC_Q_1nC.pdf, id=708, 597.23125pt x 845.1575pt>
 File: simulations/images/raw/DC_Q_1nC.pdf Graphic file (type pdf)
 
 <use simulations/images/raw/DC_Q_1nC.pdf>
 Package pdftex.def Info: simulations/images/raw/DC_Q_1nC.pdf used on input line
- 628.
+ 652.
 (pdftex.def)             Requested size: 171.99922pt x 243.40001pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 626--629
+Underfull \hbox (badness 10000) in paragraph at lines 650--653
 [][] []
  []
 
 
-<experiment/images/raw/DC_over_Lp_3nC_self20150518.png, id=529, 578.6418pt x 43
+<experiment/images/raw/DC_over_Lp_3nC_self20150518.png, id=709, 578.6418pt x 43
 4.1018pt>
 File: experiment/images/raw/DC_over_Lp_3nC_self20150518.png Graphic file (type 
 png)
  <use experiment/images/raw/DC_over_Lp_3nC_self20150518.png>
 Package pdftex.def Info: experiment/images/raw/DC_over_Lp_3nC_self20150518.png 
-used on input line 634.
+used on input line 658.
 (pdftex.def)             Requested size: 258.00539pt x 193.5622pt.
-) [19 <C:/Users/Knetsch/Promotion/Thesis/Thesis/theory/images/raw/Ionization_fr
-ont.png>]
-[20 <C:/Users/Knetsch/Promotion/Thesis/Thesis/theory/images/edited/IonFrontVari
-ation.pdf>] [21 <C:/Users/Knetsch/Promotion/Thesis/Thesis/simulations/images/ra
-w/DC_lp_333mu.pdf> <C:/Users/Knetsch/Promotion/Thesis/Thesis/simulations/images
-/raw/DC_lp_149mu.pdf> <C:/Users/Knetsch/Promotion/Thesis/Thesis/simulations/ima
-ges/raw/DC_Q_1nC.pdf>] [22 <C:/Users/Knetsch/Promotion/Thesis/Thesis/experiment
-/images/raw/DC_over_Lp_3nC_self20150518.png (PNG copy)>]
-Chapter 2.
-(C:\Users\Knetsch\Promotion\Thesis\Thesis\main.bbl [23
+)
+(C:\Users\Knetsch\Promotion\Thesis\Thesis\main.bbl [20] [21] [22 <C:/Users/Knet
+sch/Promotion/Thesis/Thesis/theory/images/raw/Ionization_front.pdf> <C:/Users/K
+netsch/Promotion/Thesis/Thesis/theory/images/edited/IonFrontVariation.pdf>]
+[23 <C:/Users/Knetsch/Promotion/Thesis/Thesis/simulations/images/raw/DC_lp_333m
+u.pdf> <C:/Users/Knetsch/Promotion/Thesis/Thesis/simulations/images/raw/DC_lp_1
+49mu.pdf> <C:/Users/Knetsch/Promotion/Thesis/Thesis/simulations/images/raw/DC_Q
+_1nC.pdf>] [24 <C:/Users/Knetsch/Promotion/Thesis/Thesis/experiment/images/raw/
+DC_over_Lp_3nC_self20150518.png (PNG copy)>] [25
 
-] [24
-
-] [25])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 52.
- [26]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 52.
+] [26] [27])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 53.
+ [28]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 53.
 
 (C:\Users\Knetsch\Promotion\Thesis\Thesis\main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 52.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 52.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 53.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 53.
 
 
 Package rerunfilecheck Warning: File `main.out' has changed.
@@ -974,19 +997,25 @@ Package rerunfilecheck Warning: File `main.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: 848C8212663E5222C18E407018037031;3002
-(rerunfilecheck)             After:  37D55F1117794D0D749D467C4EA494E5;2194.
+(rerunfilecheck)             Before: 391E08D3104272DE06E66E145FA79037;3132
+(rerunfilecheck)             After:  6BEFE549D3799A9474E0092053B2EEEC;2218.
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 15402 strings out of 494045
- 290612 string characters out of 3145930
- 343463 words of memory out of 3000000
- 18263 multiletter control sequences out of 15000+200000
+ 15435 strings out of 494045
+ 291407 string characters out of 3145930
+ 343800 words of memory out of 3000000
+ 18280 multiletter control sequences out of 15000+200000
  12716 words of font info for 48 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  36i,21n,38p,1543b,664s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{section.2.6} has been referenced but does not exi
+pdfTeX warning (dest): name{section.2.7} has been referenced but does not exi
 st, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.2.6} has been referenced but does not exist
+, replaced by a fixed one
 
 pdfTeX warning (dest): name{section.2.5} has been referenced but does not exist
 , replaced by a fixed one
@@ -994,14 +1023,14 @@ pdfTeX warning (dest): name{section.2.5} has been referenced but does not exist
 pdfTeX warning (dest): name{section.2.4} has been referenced but does not exist
 , replaced by a fixed one
 
-pdfTeX warning (dest): name{subsection.2.3.1} has been referenced but does not 
-exist, replaced by a fixed one
-
 pdfTeX warning (dest): name{section.2.3} has been referenced but does not exist
 , replaced by a fixed one
 
 pdfTeX warning (dest): name{section.2.2} has been referenced but does not exist
 , replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.1.5} has been referenced but does not 
+exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{subsection.2.1.4} has been referenced but does not 
 exist, replaced by a fixed one
@@ -1017,6 +1046,9 @@ exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{section.2.1} has been referenced but does not exist
 , replaced by a fixed one
+
+pdfTeX warning (dest): name{chapter.2} has been referenced but does not exist, 
+replaced by a fixed one
 
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C
 :/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/
@@ -1038,9 +1070,9 @@ public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pu
 blic/amsfonts/cm/cmsy5.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publi
 c/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/a
 msfonts/cm/cmti10.pfb>
-Output written on main.pdf (26 pages, 3454159 bytes).
+Output written on main.pdf (28 pages, 5588850 bytes).
 PDF statistics:
- 776 PDF objects out of 1000 (max. 8388607)
- 198 named destinations out of 1000 (max. 500000)
- 353 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 984 PDF objects out of 1000 (max. 8388607)
+ 211 named destinations out of 1000 (max. 500000)
+ 379 words of extra memory for PDF output out of 10000 (max. 10000000)
 
