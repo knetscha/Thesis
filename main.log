@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.5.16)  3 JAN 2017 01:41
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.5.16)  3 JAN 2017 03:06
 entering extended mode
 **main.tex
 (C:\Users\Knetsch\Promotion\Thesis\Thesis\main.tex
@@ -867,160 +867,159 @@ Chapter 1.
 
 ] [5] [6]
 [7]
-<theory/images/edited/Ionization_gap.pdf, id=300, 284.52798pt x 170.7168pt>
+<theory/images/edited/Ionization_gap.pdf, id=302, 284.52798pt x 170.7168pt>
 File: theory/images/edited/Ionization_gap.pdf Graphic file (type pdf)
 
 <use theory/images/edited/Ionization_gap.pdf>
 Package pdftex.def Info: theory/images/edited/Ionization_gap.pdf used on input 
-line 215.
+line 221.
 (pdftex.def)             Requested size: 258.00539pt x 154.8159pt.
  [8 <C:/Users/Knetsch/Promotion/Thesis/Thesis/theory/images/edited/Ionization_g
 ap.pdf>]
-<theory/images/raw/Ionization_Torch_contourplot.pdf, id=333, 301.125pt x 261.97
+<theory/images/raw/Ionization_Torch_contourplot.pdf, id=336, 301.125pt x 261.97
 874pt>
 File: theory/images/raw/Ionization_Torch_contourplot.pdf Graphic file (type pdf
 )
  <use theory/images/raw/Ionization_Torch_contourplot.pdf>
 Package pdftex.def Info: theory/images/raw/Ionization_Torch_contourplot.pdf use
-d on input line 248.
+d on input line 254.
 (pdftex.def)             Requested size: 258.00539pt x 224.48584pt.
  [9]
-<simulations/images/edited/PWFA_Blowout_Ex.pdf, id=349, 1422.6349pt x 512.14938
+<simulations/images/edited/PWFA_Blowout_Ex.pdf, id=352, 1422.6349pt x 512.14938
 pt>
 File: simulations/images/edited/PWFA_Blowout_Ex.pdf Graphic file (type pdf)
  <use simulations/images/edited/PWFA_Blowout_Ex.pdf>
 Package pdftex.def Info: simulations/images/edited/PWFA_Blowout_Ex.pdf used on 
-input line 281.
+input line 287.
 (pdftex.def)             Requested size: 430.00462pt x 154.80258pt.
  [10 <C:/Users/Knetsch/Promotion/Thesis/Thesis/theory/images/raw/Ionization_Tor
 ch_contourplot.pdf>]
 [11 <C:/Users/Knetsch/Promotion/Thesis/Thesis/simulations/images/edited/PWFA_Bl
 owout_Ex.pdf>] [12]
-<theory/images/edited/TraceSpaceCourantSnyder.pdf, id=510, 426.79147pt x 426.79
+<theory/images/edited/TraceSpaceCourantSnyder.pdf, id=513, 426.79147pt x 426.79
 147pt>
 File: theory/images/edited/TraceSpaceCourantSnyder.pdf Graphic file (type pdf)
  <use theory/images/edited/TraceSpaceCourantSnyder.pdf>
 Package pdftex.def Info: theory/images/edited/TraceSpaceCourantSnyder.pdf used 
-on input line 405.
+on input line 411.
 (pdftex.def)             Requested size: 258.00539pt x 258.0045pt.
  [13 <C:/Users/Knetsch/Promotion/Thesis/Thesis/theory/images/edited/TraceSpaceC
-ourantSnyder.pdf>] [14] [15] [16] [17]
-<simulations/images/edited/DoubleBunch.pdf, id=617, 853.58296pt x 455.24379pt>
+ourantSnyder.pdf>] [14] [15] [16] [17] [18]
+<simulations/images/edited/DoubleBunch.pdf, id=640, 853.58296pt x 455.24379pt>
 File: simulations/images/edited/DoubleBunch.pdf Graphic file (type pdf)
 
 <use simulations/images/edited/DoubleBunch.pdf>
 Package pdftex.def Info: simulations/images/edited/DoubleBunch.pdf used on inpu
-t line 584.
+t line 610.
 (pdftex.def)             Requested size: 430.00462pt x 229.3371pt.
- [18] [19 <C:/Users/Knetsch/Promotion/Thesis/Thesis/simulations/images/edited/D
-oubleBunch.pdf>] [20]
-
-LaTeX Warning: Citation `FlashForwardFacility2016' on page 21 undefined on inpu
-t line 637.
 
 
-<theory/images/edited/PlasmaTorchTheorySketch.pdf, id=775, 284.52798pt x 199.16
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[19] [20 <C:/Users/Knetsch/Promotion/Thesis/Thesis/simulations/images/edited/Do
+ubleBunch.pdf>] [21]
+<theory/images/edited/PlasmaTorchTheorySketch.pdf, id=800, 284.52798pt x 199.16
 91pt>
 File: theory/images/edited/PlasmaTorchTheorySketch.pdf Graphic file (type pdf)
  <use theory/images/edited/PlasmaTorchTheorySketch.pdf>
 Package pdftex.def Info: theory/images/edited/PlasmaTorchTheorySketch.pdf used 
-on input line 655.
+on input line 681.
 (pdftex.def)             Requested size: 215.0023pt x 150.50697pt.
 
-<simulations/images/edited/FF_torch.pdf, id=781, 426.79147pt x 256.07469pt>
+<simulations/images/edited/FF_torch.pdf, id=806, 426.79147pt x 256.07469pt>
 File: simulations/images/edited/FF_torch.pdf Graphic file (type pdf)
 
 <use simulations/images/edited/FF_torch.pdf>
 Package pdftex.def Info: simulations/images/edited/FF_torch.pdf used on input l
-ine 676.
+ine 702.
 (pdftex.def)             Requested size: 215.0023pt x 129.00214pt.
- [21] [22 <C:/Users/Knetsch/Promotion/Thesis/Thesis/theory/images/edited/Plasma
-TorchTheorySketch.pdf> <C:/Users/Knetsch/Promotion/Thesis/Thesis/simulations/im
+ [22 <C:/Users/Knetsch/Promotion/Thesis/Thesis/theory/images/edited/PlasmaTorch
+TheorySketch.pdf>] [23 <C:/Users/Knetsch/Promotion/Thesis/Thesis/simulations/im
 ages/edited/FF_torch.pdf>]
-<theory/images/raw/Ionization_front.pdf, id=918, 398.3382pt x 341.4326pt>
+<theory/images/raw/Ionization_front.pdf, id=939, 398.3382pt x 341.4326pt>
 File: theory/images/raw/Ionization_front.pdf Graphic file (type pdf)
 
 <use theory/images/raw/Ionization_front.pdf>
 Package pdftex.def Info: theory/images/raw/Ionization_front.pdf used on input l
-ine 711.
+ine 737.
 (pdftex.def)             Requested size: 430.00462pt x 368.59584pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[23]
-<theory/images/edited/IonFrontVariation.pdf, id=932, 426.79147pt x 341.4326pt>
+
+<theory/images/edited/IonFrontVariation.pdf, id=943, 426.79147pt x 341.4326pt>
 File: theory/images/edited/IonFrontVariation.pdf Graphic file (type pdf)
 
 <use theory/images/edited/IonFrontVariation.pdf>
 Package pdftex.def Info: theory/images/edited/IonFrontVariation.pdf used on inp
-ut line 739.
+ut line 765.
 (pdftex.def)             Requested size: 43.00308pt x 34.40053pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<simulations/images/raw/DC_lp_333mu.pdf, id=934, 597.23125pt x 845.1575pt>
+<simulations/images/raw/DC_lp_333mu.pdf, id=945, 597.23125pt x 845.1575pt>
 File: simulations/images/raw/DC_lp_333mu.pdf Graphic file (type pdf)
 
 <use simulations/images/raw/DC_lp_333mu.pdf>
 Package pdftex.def Info: simulations/images/raw/DC_lp_333mu.pdf used on input l
-ine 747.
+ine 773.
 (pdftex.def)             Requested size: 171.99922pt x 243.40001pt.
 
-<simulations/images/raw/DC_lp_149mu.pdf, id=935, 597.23125pt x 845.1575pt>
+<simulations/images/raw/DC_lp_149mu.pdf, id=946, 597.23125pt x 845.1575pt>
 File: simulations/images/raw/DC_lp_149mu.pdf Graphic file (type pdf)
 
 <use simulations/images/raw/DC_lp_149mu.pdf>
 Package pdftex.def Info: simulations/images/raw/DC_lp_149mu.pdf used on input l
-ine 748.
+ine 774.
 (pdftex.def)             Requested size: 171.99922pt x 243.40001pt.
 
-<simulations/images/raw/DC_Q_1nC.pdf, id=936, 597.23125pt x 845.1575pt>
+<simulations/images/raw/DC_Q_1nC.pdf, id=947, 597.23125pt x 845.1575pt>
 File: simulations/images/raw/DC_Q_1nC.pdf Graphic file (type pdf)
 
 <use simulations/images/raw/DC_Q_1nC.pdf>
 Package pdftex.def Info: simulations/images/raw/DC_Q_1nC.pdf used on input line
- 749.
+ 775.
 (pdftex.def)             Requested size: 171.99922pt x 243.40001pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 747--750
+Underfull \hbox (badness 10000) in paragraph at lines 773--776
 [][] []
  []
 
-
-<experiment/images/raw/DC_over_Lp_3nC_self20150518.png, id=937, 578.6418pt x 43
+[24]
+<experiment/images/raw/DC_over_Lp_3nC_self20150518.png, id=958, 578.6418pt x 43
 4.1018pt>
 File: experiment/images/raw/DC_over_Lp_3nC_self20150518.png Graphic file (type 
 png)
  <use experiment/images/raw/DC_over_Lp_3nC_self20150518.png>
 Package pdftex.def Info: experiment/images/raw/DC_over_Lp_3nC_self20150518.png 
-used on input line 755.
+used on input line 781.
 (pdftex.def)             Requested size: 258.00539pt x 193.5622pt.
-) [24]
-[25 <C:/Users/Knetsch/Promotion/Thesis/Thesis/theory/images/raw/Ionization_fron
+) [25]
+[26 <C:/Users/Knetsch/Promotion/Thesis/Thesis/theory/images/raw/Ionization_fron
 t.pdf> <C:/Users/Knetsch/Promotion/Thesis/Thesis/theory/images/edited/IonFrontV
-ariation.pdf>] [26 <C:/Users/Knetsch/Promotion/Thesis/Thesis/simulations/images
+ariation.pdf>] [27 <C:/Users/Knetsch/Promotion/Thesis/Thesis/simulations/images
 /raw/DC_lp_333mu.pdf> <C:/Users/Knetsch/Promotion/Thesis/Thesis/simulations/ima
 ges/raw/DC_lp_149mu.pdf> <C:/Users/Knetsch/Promotion/Thesis/Thesis/simulations/
-images/raw/DC_Q_1nC.pdf>] [27 <C:/Users/Knetsch/Promotion/Thesis/Thesis/experim
+images/raw/DC_Q_1nC.pdf>] [28 <C:/Users/Knetsch/Promotion/Thesis/Thesis/experim
 ent/images/raw/DC_over_Lp_3nC_self20150518.png (PNG copy)>]
 Chapter 2.
 (C:\Users\Knetsch\Promotion\Thesis\Thesis\experiment\experiment.tex
 Missing character: There is no Â in font cmr10!
 Missing character: There is no µ in font cmr10!
 
-<experiment/images/raw/E210Setup.pdf, id=1078, 865.39914pt x 357.66925pt>
+<experiment/images/raw/E210Setup.pdf, id=1097, 865.39914pt x 357.66925pt>
 File: experiment/images/raw/E210Setup.pdf Graphic file (type pdf)
 
 <use experiment/images/raw/E210Setup.pdf>
 Package pdftex.def Info: experiment/images/raw/E210Setup.pdf used on input line
  18.
 (pdftex.def)             Requested size: 387.00153pt x 159.95093pt.
- [28
+ [29
 
 ]
-<experiment/images/edited/waveplate_calibration.pdf, id=1085, 512.14938pt x 341
+<experiment/images/edited/waveplate_calibration.pdf, id=1104, 512.14938pt x 341
 .4326pt>
 File: experiment/images/edited/waveplate_calibration.pdf Graphic file (type pdf
 )
@@ -1028,10 +1027,10 @@ File: experiment/images/edited/waveplate_calibration.pdf Graphic file (type pdf
 Package pdftex.def Info: experiment/images/edited/waveplate_calibration.pdf use
 d on input line 36.
 (pdftex.def)             Requested size: 387.00153pt x 258.01187pt.
- [29 <C:/Users/Knetsch/Promotion/Thesis/Thesis/experiment/images/raw/E210Setup.
-pdf>] [30 <C:/Users/Knetsch/Promotion/Thesis/Thesis/experiment/images/edited/wa
-veplate_calibration.pdf>] [31]
-<experiment/images/edited/EOS_setup.pdf, id=13694, 4552.43803pt x 2560.74686pt>
+ [30 <C:/Users/Knetsch/Promotion/Thesis/Thesis/experiment/images/raw/E210Setup.
+pdf>] [31 <C:/Users/Knetsch/Promotion/Thesis/Thesis/experiment/images/edited/wa
+veplate_calibration.pdf>] [32]
+<experiment/images/edited/EOS_setup.pdf, id=13713, 4552.43803pt x 2560.74686pt>
 File: experiment/images/edited/EOS_setup.pdf Graphic file (type pdf)
 <use experiment/images/edited/EOS_setup.pdf>
 Package pdftex.def Info: experiment/images/edited/EOS_setup.pdf used on input l
@@ -1039,11 +1038,11 @@ ine 153.
 (pdftex.def)             Requested size: 430.00462pt x 241.86682pt.
 Missing character: There is no Â in font cmr10!
 Missing character: There is no ° in font cmr10!
- [32]
+ [33]
 Missing character: There is no Â in font cmr10!
 Missing character: There is no µ in font cmr10!
 
-<experiment/images/edited/EOS_Signal.pdf, id=13706, 796.67737pt x 327.2225pt>
+<experiment/images/edited/EOS_Signal.pdf, id=13725, 796.67737pt x 327.2225pt>
 File: experiment/images/edited/EOS_Signal.pdf Graphic file (type pdf)
 
 <use experiment/images/edited/EOS_Signal.pdf>
@@ -1051,7 +1050,7 @@ Package pdftex.def Info: experiment/images/edited/EOS_Signal.pdf used on input
 line 165.
 (pdftex.def)             Requested size: 430.00462pt x 176.61763pt.
 
-<experiment/images/edited/20319_EOS_calibration.pdf, id=13708, 426.79147pt x 34
+<experiment/images/edited/20319_EOS_calibration.pdf, id=13727, 426.79147pt x 34
 1.4326pt>
 File: experiment/images/edited/20319_EOS_calibration.pdf Graphic file (type pdf
 )
@@ -1059,12 +1058,12 @@ File: experiment/images/edited/20319_EOS_calibration.pdf Graphic file (type pdf
 Package pdftex.def Info: experiment/images/edited/20319_EOS_calibration.pdf use
 d on input line 173.
 (pdftex.def)             Requested size: 215.0023pt x 172.0027pt.
- [33 <C:/Users/Knetsch/Promotion/Thesis/Thesis/experiment/images/edited/EOS_set
+ [34 <C:/Users/Knetsch/Promotion/Thesis/Thesis/experiment/images/edited/EOS_set
 up.pdf>]
-[34 <C:/Users/Knetsch/Promotion/Thesis/Thesis/experiment/images/edited/EOS_Sign
+[35 <C:/Users/Knetsch/Promotion/Thesis/Thesis/experiment/images/edited/EOS_Sign
 al.pdf> <C:/Users/Knetsch/Promotion/Thesis/Thesis/experiment/images/edited/2031
-9_EOS_calibration.pdf>] [35]
-<experiment/images/raw/PlasmaGlow_20384_scatter.pdf, id=15000, 366.36874pt x 29
+9_EOS_calibration.pdf>] [36]
+<experiment/images/raw/PlasmaGlow_20384_scatter.pdf, id=15019, 366.36874pt x 29
 7.11pt>
 File: experiment/images/raw/PlasmaGlow_20384_scatter.pdf Graphic file (type pdf
 )
@@ -1073,7 +1072,7 @@ Package pdftex.def Info: experiment/images/raw/PlasmaGlow_20384_scatter.pdf use
 d on input line 221.
 (pdftex.def)             Requested size: 430.00462pt x 348.73708pt.
 
-<experiment/images/edited/Plasma_Glow_roll.pdf, id=15002, 739.77177pt x 327.206
+<experiment/images/edited/Plasma_Glow_roll.pdf, id=15021, 739.77177pt x 327.206
 45pt>
 File: experiment/images/edited/Plasma_Glow_roll.pdf Graphic file (type pdf)
  <use experiment/images/edited/Plasma_Glow_roll.pdf>
@@ -1081,32 +1080,41 @@ Package pdftex.def Info: experiment/images/edited/Plasma_Glow_roll.pdf used on
 input line 231.
 (pdftex.def)             Requested size: 430.00462pt x 190.19925pt.
 
-<experiment/images/edited/Charge_Tara.pdf, id=15003, 369.8859pt x 341.4326pt>
+<experiment/images/edited/Charge_Tara.pdf, id=15022, 369.8859pt x 341.4326pt>
 File: experiment/images/edited/Charge_Tara.pdf Graphic file (type pdf)
 
 <use experiment/images/edited/Charge_Tara.pdf>
 Package pdftex.def Info: experiment/images/edited/Charge_Tara.pdf used on input
  line 244.
 (pdftex.def)             Requested size: 215.0023pt x 198.46866pt.
- [36 <C:/Users/Knetsch/Promotion/Thesis/Thesis/experiment/images/raw/PlasmaGlow
-_20384_scatter.pdf>] [37 <C:/Users/Knetsch/Promotion/Thesis/Thesis/experiment/i
+ [37 <C:/Users/Knetsch/Promotion/Thesis/Thesis/experiment/images/raw/PlasmaGlow
+_20384_scatter.pdf>] [38 <C:/Users/Knetsch/Promotion/Thesis/Thesis/experiment/i
 mages/edited/Plasma_Glow_roll.pdf>]
-<experiment/images/edited/DRZ_charge_calib.pdf, id=16275, 853.58296pt x 341.432
+<experiment/images/edited/DRZ_charge_calib.pdf, id=16295, 853.58296pt x 341.432
 6pt>
 File: experiment/images/edited/DRZ_charge_calib.pdf Graphic file (type pdf)
  <use experiment/images/edited/DRZ_charge_calib.pdf>
 Package pdftex.def Info: experiment/images/edited/DRZ_charge_calib.pdf used on 
 input line 259.
 (pdftex.def)             Requested size: 430.00462pt x 172.0027pt.
- [38 <C:/Users/Knetsch/Promotion/Thesis/Thesis/experiment/images/edited/Charge_
+ [39 <C:/Users/Knetsch/Promotion/Thesis/Thesis/experiment/images/edited/Charge_
 Tara.pdf> <C:/Users/Knetsch/Promotion/Thesis/Thesis/experiment/images/edited/DR
 Z_charge_calib.pdf>])
-(C:\Users\Knetsch\Promotion\Thesis\Thesis\main.bbl [39] [40
+(C:\Users\Knetsch\Promotion\Thesis\Thesis\main.bbl [40] [41
 
-] [41] [42] [43])
+] [42]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 196.
+
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 196.
+ [43] [44])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 54.
 
-[44]
+[45]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 54.
  (C:\Users\Knetsch\Promotion\Thesis\Thesis\main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 54.
@@ -1118,17 +1126,14 @@ Package rerunfilecheck Warning: File `main.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: 0795FB8115C590A9538F1B0939285B51;3200
-(rerunfilecheck)             After:  B9745C0479C1D8990D2C6FEC83588738;3224.
-
-LaTeX Warning: There were undefined references.
-
+(rerunfilecheck)             Before: B9745C0479C1D8990D2C6FEC83588738;3224
+(rerunfilecheck)             After:  8A146027E774E32E8E008296AEA180B9;3324.
  ) 
 Here is how much of TeX's memory you used:
- 15606 strings out of 494045
- 295898 string characters out of 3145930
- 345006 words of memory out of 3000000
- 18357 multiletter control sequences out of 15000+200000
+ 15636 strings out of 494045
+ 296402 string characters out of 3145930
+ 346053 words of memory out of 3000000
+ 18372 multiletter control sequences out of 15000+200000
  13336 words of font info for 50 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  36i,21n,38p,1543b,682s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1154,9 +1159,9 @@ lic/amsfonts/cm/cmsy6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public
 /amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/am
 sfonts/cm/cmsy9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfo
 nts/cm/cmti10.pfb>
-Output written on main.pdf (44 pages, 47156894 bytes).
+Output written on main.pdf (45 pages, 47162950 bytes).
 PDF statistics:
- 16568 PDF objects out of 18468 (max. 8388607)
- 285 named destinations out of 1000 (max. 500000)
+ 16591 PDF objects out of 18468 (max. 8388607)
+ 297 named destinations out of 1000 (max. 500000)
  447 words of extra memory for PDF output out of 10000 (max. 10000000)
 

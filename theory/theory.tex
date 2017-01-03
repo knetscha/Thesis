@@ -200,14 +200,20 @@ $n*=Z/\sqrt{2E}$ with the ionization level Z and $E_0=\sqrt{2E}$. $C_{n*l*}=(\fr
 
 In \cite{bruhwiler2003PoP} Bruhwiler et al. have developed an approximated equation which is optimized for its application it in numerical operations such as PIC codes, where the ADK ionization rate is 
 \begin{equation}
-W_\mathrm{ADK}=1.52\times 10^{15}\frac{4^{n^*_\mathrm{eff}}\xi_\mathrm{ion}[eV]}{n^*_\mathrm{eff}\Gamma(2n^*_\mathrm{eff})}\Big(20.5\frac{\xi_\mathrm{ion}^{3/2}[eV]}{E[GV/m]}\Big)^{2n^*_\mathrm{eff}-1}\times \exp(-6.83\frac{\xi_\mathrm{ion}^{3/2}[eV]}{E[GV/m]})
+W_\mathrm{ADK}=1.52\times 10^{15}\frac{4^{n^*_\mathrm{eff}}\xi_\mathrm{ion}[eV]}{n^*_\mathrm{eff}\Gamma(2n^*_\mathrm{eff})}\Big(20.5\frac{\xi_\mathrm{ion}^{3/2}[\mathrm{eV}]}{E[\mathrm{GV/m}]}\Big)^{2n^*_\mathrm{eff}-1}\times \exp(-6.83\frac{\xi_\mathrm{ion}^{3/2}[\mathrm{eV}]}{E[\mathrm{GV/m}]})\ \mathrm{s}^{-1}
 \label{eqn:ADK_Bruhwiler}
 \end{equation}
 for an element to the ionization level $Z$ with its ionization energy $\xi_\mathrm{ion}$.
 $n^*_\mathrm{eff}\approx 3.69Z/\xi_\mathrm{ion}$ is the effective principal quantum number.
-A list of ionization energies can be found in \cite{Kelly_1982_Ion_Energies}.
-\subsubsection*{ionization gap}
-Since the ionization rates increase rapidly with electric field, the difference between no ionization and full ionization of a certain ionization level is determined by only slight changes in electric field strength. Plasma density profiles from short laser pulse ionization can therefore be controlled via the laser pulse intensity distribution or just its total energy. 
+A list of ionization energies can be found in \cite{Kelly_1982_Ion_Energies}. $\Gamma()$ is the Gamma function. 
+One has to keep in mind that equation (\ref{eqn:ADK_Bruhwiler}) is only valid until the onset of the BSI regime at the critical electric field value of 
+\begin{equation}
+E_\mathrm{crit.}=(\sqrt{2}-1)\Big(\frac{\xi [\mathrm{eV}]}{27.2\ \mathrm{eV}}\Big)^{3/2} 5.14\times 10^{11}\ \mathrm{V/m}.
+\end{equation}
+For electric fields far beyond $E_\mathrm{crit.}$ equation (\ref{eqn:ADK_Bruhwiler}) even becomes a falling function, which is obviously unphysical and can lead to detrimentally wrong results.
+In the physically valid electric field strength range however, the ionization rate increases extremely rapid. 
+\subsubsection*{Ionization Gap}
+This has the consequence that the difference between no ionization and full ionization of a certain ionization level is determined by only slight changes in electric field strength. Plasma density profiles from short laser pulse ionization can therefore be controlled via the laser pulse intensity distribution or just its total energy. 
 Furthermore, intelligent mixing of gases with different ionization energies can allow for distinct ionization of a low ionization threshold (LIT) component into plasma while the other high ionization threshold (HIT) component remains gaseous.
 
 \begin{figure}[ht]
@@ -569,6 +575,26 @@ Equation (\ref{eqn:Trapping_Response_function}) can be seen a response function 
 A complete description of velocity bunching as it occurs in wakefields is described in
 \cite{AndersonVelocBunchPPRSTAB2005,serafini2001velocity}.
 
+\subsubsection*{bunch compression}
+In \cite{AndersonVelocBunchPPRSTAB2005,serafini2001velocity} bunch compressing from velocity bunching is evaluated for a sine-like wake. Here we apply the math presented to the blowout electric fields. 
+\begin{align}
+\xi_\mathrm{f}=\sqrt{\alpha_\mathrm{t}(\gamma_\mathrm{i}-\sqrt{(1-\gamma_\phi^{-2})(\gamma_\mathrm{i}-1) }-\gamma_\phi^{-1})+\xi_\mathrm{i}^2}
+\end{align}
+
+\begin{equation}
+A_\mathrm{t}=\alpha_\mathrm{t}(\gamma_\mathrm{i}-\sqrt{(1-\gamma_\phi^{-2})(\gamma_\mathrm{i}-1) }-\gamma_\phi^{-1})
+\end{equation}
+
+\begin{align}
+\xi_\mathrm{f}+\delta \xi_\mathrm{f}&=\sqrt{A_\mathrm{t}+(\xi_\mathrm{i}+\delta\xi_\mathrm{i})^2}\\
+\delta \xi_\mathrm{f}&=\sqrt{A_\mathrm{t}+(\xi_\mathrm{i}+\delta\xi_\mathrm{i})^2}-\xi_\mathrm{f}
+\end{align}
+The compression factor is 
+\begin{align}
+C&=\frac{\delta \xi_\mathrm{i}}{\delta \xi_\mathrm{f}}\\
+&= \frac{\delta \xi_\mathrm{i}}{\sqrt{A_\mathrm{t}+(\xi_\mathrm{i}+\delta\xi_\mathrm{i})^2}-\xi_\mathrm{f}}\\
+&=\Bigg(\sqrt{\frac{A_\mathrm{t}}{\delta \xi_\mathrm{i}^2}+(\frac{\xi_\mathrm{i}}{\delta \xi_\mathrm{i}}+1)^2 } -\frac{\sqrt{A_\mathrm{t}+\xi_\mathrm{i}^2}}{\delta\xi_\mathrm{i}}\Bigg)^{-1}.
+\end{align}
 %\subsubsection{emittance preservation}
 %why don't you ... look at space charge effect to estimate required gamma/acceleration and focusing forces for emittance preservation ? Try looking at Pak's thesis and this emittance paper that claims one needs a fast acceleration, but knows nothing about Trojan Horse yet.
 \section{Acceleration methods in PWFA}

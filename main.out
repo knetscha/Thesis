@@ -37,6 +37,7 @@
 \BOOKMARK [1][-]{section.2.2}{Electro Optical Sampling \(EOS\)}{chapter.2}% 37
 \BOOKMARK [1][-]{section.2.3}{Ionization test}{chapter.2}% 38
 \BOOKMARK [1][-]{section.2.4}{Plasma glow diagnostic}{chapter.2}% 39
-\BOOKMARK [1][-]{section.2.5}{Charge calibration}{chapter.2}% 40
-\BOOKMARK [1][-]{section.2.6}{Result: Plasma Torch injection}{chapter.2}% 41
-\BOOKMARK [1][-]{section.2.7}{Result: Trojan Horse injection}{chapter.2}% 42
+\BOOKMARK [2][-]{subsection.2.4.1}{Dependence on bunch compression charge etc...}{section.2.4}% 40
+\BOOKMARK [1][-]{section.2.5}{Charge calibration}{chapter.2}% 41
+\BOOKMARK [1][-]{section.2.6}{Result: Plasma Torch injection}{chapter.2}% 42
+\BOOKMARK [1][-]{section.2.7}{Result: Trojan Horse injection}{chapter.2}% 43

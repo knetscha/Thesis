@@ -49,16 +49,24 @@ in the co-moving frame with $\xi=z-ct$.
 The phase velocity is 
 
 
-
 \begin{align}
-v_\phi(\xi,z)&=-c\frac{\frac{\partial \phi}{\partial (ct)}}{\frac{\partial \phi}{\partial z}}\\
-&=\frac{(\frac{\partial \kP}{\partial t}\xi+\frac{\partial \xi}{\partial t} \kP)}{\frac{\partial \kP}{\partial z}\xi + \frac{\partial x}{\partial z}\kP}\\
-&=\frac{c\kP}{\kP\frac{1}{2\nE}\frac{ \partial \nE}{\partial z}\xi+\kP }\\
-&=\frac{c}{\frac{1}{2\nE}\frac{ \partial \nE}{\partial z}\xi+1 }
+\xi_\mathrm{f}=\sqrt{\alpha_\mathrm{t}(\gamma_\mathrm{i}-\sqrt{(1-\gamma_\phi^{-2})(\gamma_\mathrm{i}-1) }-\gamma_\phi^{-1})+\xi_\mathrm{i}^2}
 \end{align}
 
+\begin{equation}
+A_\mathrm{t}=\alpha_\mathrm{t}(\gamma_\mathrm{i}-\sqrt{(1-\gamma_\phi^{-2})(\gamma_\mathrm{i}-1) }-\gamma_\phi^{-1})
+\end{equation}
 
-
+\begin{align}
+\xi_\mathrm{f}+\delta \xi_\mathrm{f}&=\sqrt{A_\mathrm{t}+(\xi_\mathrm{i}+\delta\xi_\mathrm{i})^2}\\
+\delta \xi_\mathrm{f}&=\sqrt{A_\mathrm{t}+(\xi_\mathrm{i}+\delta\xi_\mathrm{i})^2}-\xi_\mathrm{f}
+\end{align}
+The compression factor is 
+\begin{align}
+C&=\frac{\delta \xi_\mathrm{i}}{\delta \xi_\mathrm{f}}\\
+&= \frac{\delta \xi_\mathrm{i}}{\sqrt{A_\mathrm{t}+(\xi_\mathrm{i}+\delta\xi_\mathrm{i})^2}-\xi_\mathrm{f}}\\
+&=\Bigg(\sqrt{\frac{A_\mathrm{t}}{\delta \xi_\mathrm{i}^2}+(\frac{\xi_\mathrm{i}}{\delta \xi_\mathrm{i}}+1)^2 } -\frac{\sqrt{A_\mathrm{t}+\xi_\mathrm{i}^2}}{\delta\xi_\mathrm{i}}\Bigg)^{-1}.
+\end{align}
 
 
 \begin{equation}
