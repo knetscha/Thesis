@@ -12,6 +12,12 @@
 $\vec{E}$ and $\vec{B}$ are the electric and magnetic field and  $\vec{j}$ and $\rho$ is the current density and charge density.
 $\epsilon_0$ and $\mu_0$ are the vacuum  dielectric constant and the vacuum permeability. They are connected with the vacuum speed of light $c$ through the relation $c=1/\sqrt{\mu_0 \epsilon_0}$
 
+
+\begin{equation}
+\vec{F}=\frac{d\vec{p}}{dt}=q(\vec{E}+\frac{\vec{v}}{c}\times\vec{B})
+\label{eqn:Lorentz}
+\end{equation}
+
 \section{Plasma physics}
 There are several definitions of a plasma, but one of the most appealing one that we will follow in this work can be found in the classic 
 textbook by Francis F. Chen:
@@ -56,6 +62,7 @@ In the context of plasma accelerators it is convenient to also consider the wave
 the \textit{Plasma wavelength}
 \begin{equation}
 \lP=2\pi\frac{\wP}{c}.
+\label{eqn:Plasma_wavelength}
 \end{equation}
 The plasma wavelength gives the rough longitudinal length of a plasma wake.
 Typical values for example for a plasma density $\nE=1\times10^{17}\mathrm{cm}^{-3}$ are
@@ -199,6 +206,20 @@ W_\mathrm{ADK}=1.52\times 10^{15}\frac{4^{n^*_\mathrm{eff}}\xi_\mathrm{ion}[eV]}
 for an element to the ionization level $Z$ with its ionization energy $\xi_\mathrm{ion}$.
 $n^*_\mathrm{eff}\approx 3.69Z/\xi_\mathrm{ion}$ is the effective principal quantum number.
 A list of ionization energies can be found in \cite{Kelly_1982_Ion_Energies}.
+\subsubsection*{ionization gap}
+Since the ionization rates increase rapidly with electric field, the difference between no ionization and full ionization of a certain ionization level is determined by only slight changes in electric field strength. Plasma density profiles from short laser pulse ionization can therefore be controlled via the laser pulse intensity distribution or just its total energy. 
+Furthermore, intelligent mixing of gases with different ionization energies can allow for distinct ionization of a low ionization threshold (LIT) component into plasma while the other high ionization threshold (HIT) component remains gaseous.
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.6\textwidth]{theory/images/edited/Ionization_gap.pdf}
+\caption{Tunnel ionization rate versus electric field strength in a log-lin plot. }
+\label{img:Ionization_gap}
+\end{figure}
+Graph (\ref{img:Ionization_gap}) depicts the ionization rate over the electric field in a logarithmic plot. The ionization rates of Lithium and Helium qualify well as HIT and LIT composition with a large gap in ionization rates, but lithium with its vaporizing temperature of 1603\ K \cite{zhang2011boilingTemp} requires external heating to become gaseous, which adds complexity to an experimental setup. A good alternative that does not require any heating is the combination of hydrogen and helium which is used extensively in the context of this work.
+
+
+\subsubsection*{Plasma density profiles from laser ionization}
 The actual ionization ratio of a gas with plasma density at a given point in space in the lab frame for full ionization $n_0$ is then obtained by integrating 
 \begin{equation}
 \frac{\nE(t)}{n_0} =1-\exp\Big(-\int \limits_{-\infty}^t W_\mathrm{ADK}(t')dt'\Big).
@@ -227,7 +248,6 @@ Figure (\ref{img:Torch_contourplot}) shows a plane of the ionization ration $n/n
 \includegraphics[width=0.6\textwidth]{theory/images/raw/Ionization_Torch_contourplot.pdf}
 \caption{He Ionization ratio by a 1 mJ Gaussian laser pulse with waist $w_0=20\ \mu m$ and $\tau = 70\ \mathrm{fs}$ FWHM pulse length}
 \label{img:Torch_contourplot}
-
 \end{figure}
 
 
@@ -282,22 +302,22 @@ Lotov, Suk, breakdown of fluid theory
 Q-tilde and resonant wake excitation.
 
 
-\section{Accelerator physics}
+\section{Physics of particle acceleration}
 In the previous chapters we examined the physics of the beam driven plasma wake excitation. 
 The ultimate goal as presented in this work is to advantageously make use of the fields in order to inject and accelerate a high quality secondary electron beam, which is conventionally called the witness beam. If there are no substantial advantages between  using the witness over the drive beam for a given application, it might not be worth the effort beyond a scholastic interest.
 In this section we will explain the basic electron beam behavior in an accelerator and from that determine the most important parameters. 
-\subsection{Single particle movement}
+\subsection{Single electron dynamics}
+The analysis of the single particle dynamics in an accelerating structure by definition leaves out any interaction with other neighboring charges. This means that for now any space-charge effects are ignored and the trajectory in spatial and momentum space as a mere response to the accelerator is being considered. The 6D space, spanned by the spatial and momentum coordinates is called \textit{Phase space} with phase space vectors $\Phi$. 
+In this work only linear accelerators are considered, with $z$ being the direction of acceleration. 
+The two projected subspaces transverse to z, are called transverse phase space or \textit{trace space}.
 
-We start with the 
-\begin{equation}
-\vec{F}=\frac{d\vec{p}}{dt}=q(\vec{E}+\frac{\vec{v}}{c}\times\vec{B})
-\end{equation}
+The electron's equation of movement is completely described by the lorentz equation (\ref{eqn:Lorentz}), which can be further simplified.
 
 Similar to the assumptions made in par-axial optics the electron can be expected to 
-follow a straight trajectory in the absence of any deflecting or accelerating force and any small change in that trajectory 
-can be expressed in a number of linear changes. 
-As in par-axial optics this gives the possibility to describe the electron beam trajectory with linear transformations, represented by a matrix formalism.
-This idea can be extrapolated to the entire phase-space information of an electron, so that equation
+follow a straight line with no change in momentum in the absence of any deflecting or accelerating force and any small change in that trajectory 
+can be expressed as a finite number of linear changes. 
+Also as in par-axial optics this gives the possibility to describe the electron beam trajectory with linear transformations, represented by a matrix formalism.
+This idea can be extrapolated to a linear transformation of the entire phase space vector 
 \begin{equation}
 \label{eqn:R_Matrix}
 \begin{split}
@@ -330,24 +350,21 @@ z_\mathrm{i}\\
 \end{split}
 \end{equation}
 
-describes a complete linear transformation of an electron's phase space vector as a conservative force acts upon it, with the spatial components $x,y,z$, the transverse momenta $x'=\frac{p_\mathrm{x}}{p_\mathrm{z}},y'=\frac{p_\mathrm{y}}{p_\mathrm{z}}$ and the deviation  $\delta=\frac{\delta p_\mathrm{z}}{p_\mathrm{z}}$ from the design momentum $p_\mathrm{z}$
+as a conservative force acts upon it, with the spatial components $x,y,z$, the transverse momenta $x'=\frac{p_\mathrm{x}}{p_\mathrm{z}},y'=\frac{p_\mathrm{y}}{p_\mathrm{z}}$ and the deviation  $\delta=\frac{\delta p_\mathrm{z}}{p_\mathrm{z}}$ from the design momentum $p_\mathrm{z}$
 The matrix $\mathbf{R}_\mathrm{m,n}= \frac{\delta \Phi_\mathrm{n}}{\delta \Phi_\mathrm{n}}$ is the Jacobian of this transformation and as that it requires $\mathrm{det}(\hat{R})=1$.
 
-
-Wiedemann:\cite{Wiedemann_accelerator}
-
-
- Jamies book: \cite{Book_Fundamentals_Rosenzweig}
+A good description of linear beam optics can be found in \cite{Wiedemann_accelerator} or \cite{Book_Fundamentals_Rosenzweig}.
 \subsection{Liouville Theorem}
-When now considering an entire bunch of electrons it comes in handy to describe it as a smooth phase space distribution
-$f(\vec{r},\vec{p})$, which is conventionally normalized to ensure
+When now considering an entire bunch of electrons it comes in handy to describe it as a smooth distribution
+$f(\vec{r},\vec{p})$ in spatial ($\vec{r}$) and momentum ($\vec{p}$) coordinates. The entire  
 \begin{equation}
 \label{eqn:f_int_1}
 \int^{\infty}_{-\infty}f(\vec{r},\vec{p})d\vec{r}d\vec{p}=1 .
 \end{equation}
 
+
 The Liouville Theorem states that if only conservative forces are applied to the bunch the total phase volume occupied by the distribution stays constant. This is mathematically equivalent to any transformation that maintains condition (\ref{eqn:f_int_1}), which can be expressed by Jacobian transformations of the kind described by equation (\ref{eqn:R_Matrix}).
-Of course $\hat{R}$ does not need to act upon the entire 6D-Phase space. In fact it is common to reduce the analysis and describe only changes in the transverse phase space, the so called \textit{trace space}, as the planes are mathematically independent and often beam-optics that only influence one plane such as quadropoles or dipoles are applied.
+Of course $\hat{R}$ does not need to act upon the entire 6D-Phase space. In fact it is common to reduce the analysis and describe only changes in the trace space as the planes are mathematically independent and sometimes beam-optical devices do not change both  trace space planes as e.g. dipoles.
 
 In order to obtain a measure of the actual phase space volume the statistical moments of the distribution can be determined by evaluating the integral 
 \begin{equation}
@@ -359,7 +376,7 @@ In order to obtain a measure of the actual phase space volume the statistical mo
 %&=\frac{\partial f}{\partial t}+\sum_i()
 %\end{align}
 \subsection{Courant-Snyder coefficients, brightness and emittance}
-Courant and Snyder with their summary paper \cite{COURANT1958} have set the standard for defining the phase space volume in the trace space with an ellipse equation for its boundary
+Courant and Snyder in their summary paper \cite{COURANT1958} have set the standard for defining the phase space volume in the trace space with an ellipse equation for its boundary
 \begin{equation}
 \label{eqn:CourandSnyderEllipse}
 \gamma <x^2>+2\alpha <x> <x'>+\beta <x'^2> =\epsilon.
@@ -396,7 +413,7 @@ As in the forthcoming parts of this work we will have a look at numerical simula
 <x'>&=\frac{1}{n} \sum_{i=1}^{n}\Big(\frac{p_{x,i}}{p_{z,i}}\Big)^2-\frac{1}{n^2}\Big(\sum_{i=1}^{n}\frac{p_{x,i}}{p_{z,i}}\Big)^2\\
 <xx'>&=\Big(\frac{1}{n}\sum_{i=1}^{n}x_i\frac{p_{x,i}}{p_{z,i}}-\frac{1}{n^2}\sum_{i=1}^{n}x_i \sum_{j=1}^{n}\frac{p_{x,i}}{p_{z,j}}\Big)^2
 \end{align}
-
+\subsection{electron bunch focussing}
 
 
 \section{Electron Trapping in plasma accelerators}
@@ -409,7 +426,11 @@ In order to derive an expression for the trapping condition of a single electron
 \end{equation}
 with the electron charge $q$ electric field $\vec{E}$ and magnetic field $\vec{B}$
 
-This leads to the single particle electron hamiltonian $ H=\gamma m c^2+\Phi$ with the temporal derivative.
+This leads to the single particle electron hamiltonian 
+\begin{equation}
+ H=\gamma m c^2+\qE\Phi
+\end{equation}
+ with the temporal derivative.
 \begin{align}
 \frac{dH}{dt}&=\frac{d}{dt} (\gamma m_e c^2)+\frac{d}{dt}(q\Phi)\\
 &=\vec{v}\frac{d\vec{p}}{dt}+\frac{d}{dt}(q\Phi)\\
@@ -551,12 +572,20 @@ A complete description of velocity bunching as it occurs in wakefields is descri
 %\subsubsection{emittance preservation}
 %why don't you ... look at space charge effect to estimate required gamma/acceleration and focusing forces for emittance preservation ? Try looking at Pak's thesis and this emittance paper that claims one needs a fast acceleration, but knows nothing about Trojan Horse yet.
 \section{Acceleration methods in PWFA}
-The strong accelerating fields in PWFA can be harvested with a variety of methods. They differ in experimental complexity, demand towards drive beam 
+The strong accelerating fields in PWFA can be harvested with a variety of methods. They differ in experimental complexity and demand towards drive beam peak current.
 
 
 
 \subsection{External injection - Double bunch}
 External injection is the least complex PWFA setup and is also the method that has been demonstrated much earlier than other methods. The basic idea is that a plasma wake is set up by an electron beam, electrons - either from the same electron beam or by a trailing electron beam - are accelerated, if they are at the right phase with respect to the wake.
+Figure (\ref{img:DoubleBunch}) depicts a sketch of a double-bunch PWFA in the blowout regime.
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=1.0\textwidth]{simulations/images/edited/DoubleBunch.pdf}
+\end{center}
+\caption{Sketch of a double bunch acceleration. The driver electron beam excites a plasma wake, here in blowout regime and continuously looses energy due to the decelerating fields, while the electrons of the witness beam are trailing in the accelerating field gain energy}
+\label{img:DoubleBunch}
+\end{figure}
 
 The first experimental realization of a PWFA was established in 1988 at the Argonne advanced accelerator test facility (AATF)\cite{rosenzweig1988experimental}. With a method successfully applied to measure the wake fields in accelerating structures
 a $2-3\ \mathrm{nC}$ electron beam with a rms bunch length of $2.4 \mathrm{mm}$ was used to drive a wake in a $33\ \mathrm{cm} $ long plasma at a density of the order of $ 10^{13}\ \mathrm{cm}^{-3}$. The driving bunch was trailed by a low-charge witness beam with variable delay to scan the wake fields.
@@ -571,12 +600,78 @@ At FACET the double-bunches are produced by accelerating one long electron bunch
 While the chirped bunch is dispersed, the central part is cut out by a mask which results in a scrape in the current profile  \cite{hogan2010FACET}. This method has the advantage that the transport of the beam along the LINAC is only required for one bunch.
 Efficiency and beamloading effects were studied in \cite{litos2014high} and recently at FACET a double-bunch acceleration of positrons in a positron-driven wake was demonstrated by shaping the transverse plasma shape to a hollow channel, which effectively avoids any transverse fields that would otherwise defocus the positrons \cite{ThesisGessner}.
 \subsection{Density Downramp injection}
+%Injection of background plasma electrons into the wake in PWFA is not straightforwardly easy, because of the normally high plasma wave phase velocity $v_\phi=v_\mathrm{bunch}\approx c$ close to the speed of light., 
+%\cite{KatsouleasPRL1988WaveBreak}.
+
+
+As mentioned before the phase velocity of the plasma wake in PWFA is equal to the velocity of the driving electron bunch $v_\phi=v_\mathrm{bunch}$ in the case of a constant plasma density, which is normally close to the speed of light. This feature of PWFA makes dephasing, which is the effect of the witness beam approaching the drive beam in the co-moving frame due to velocity differences between the bunches, mostly negligible. But it also complicates the injection of low-energy background plasma electrons into the wake. 
+The injection can be made possible, by lowering the phase velocity. This is e.g. achieved when the driving bunch passes a region of negative plasma density gradient in beam propagation direction, a density downramp. 
+Since the plasma wavelength $\lP$ (eq. \ref{eqn:Plasma_wavelength}), which is the characteristic scale of the longitudinal blowout length, depends on the plasma density the blowout must expand and contract on a density downramp or upramp respectively.
+
+The phase position of the wake is
+\begin{equation}
+\phi=\kP\xi \propto \sqrt{\nE}\xi
+\end{equation}
+in the co-moving frame with $\xi=z-ct$.
+
+The phase velocity on a density gradient is 
+\begin{align}
+v_\phi(\xi,z)&=-c\frac{\frac{\partial \phi}{\partial (ct)}}{\frac{\partial \phi}{\partial z}}\\
+&=\frac{(\frac{\partial \kP}{\partial t}\xi+\frac{\partial \xi}{\partial t} \kP)}{\frac{\partial \kP}{\partial z}\xi + \frac{\partial x}{\partial z}\kP}\\
+&=\frac{c\kP}{\kP\frac{1}{2\nE}\frac{ \partial \nE}{\partial z}\xi+\kP }\\
+&=\frac{c}{\frac{1}{2\nE}\frac{ \partial \nE}{\partial z}\xi+1 }
+\end{align}
+
+
+
+In \cite{BulanovPRE98WaveBreak} the injection of electrons into the second trailing plasma wake from wave breaking on a density downramp longer than the plasma wavelength was studied.
+
+Injection into the first trailing plasma wake in PWFA from sharp density transitions has been studied by Suk et al.\cite{suk2001_PRL_DensityTransition}. With an 1D hamiltonian analysis and simulations they found as injection criteria for a linear density downramp with a scale length $\mathrm{L}_\mathrm{s} = \frac{\nE}{\partial \nE / \partial z}$
+\begin{equation}
+\kP \mathrm{L}_\mathrm{s}<1.
+\label{eqn:kpLs}
+\end{equation}
+In \cite{england2002PREDensityTransition} this description was refined and wave breaking as a criteria for injection was applied and injection of electrons originating from the high density region was observed.
+
+These works do not consider the highly nonlinear blowout regime in which wavebreaking and trajectory crossing of sheath electrons naturally occurs, even for a flat plasma density profile.
+This means that in blowout regime even for rather smooth density gradients trapping of sheath electrons is possible. Grebenyuk et al. investigated the density downramp injection capabilities specific for the drive electron beam at the FlashForward facility \cite{FlashForwardFacility2016}.
+They showed successful injection in PIC simulations for a drive beam of 2.5 kA peak current and at $\kP\mathrm{L}_\mathrm{s}\approx\ 3.3$ \cite{grebenyuk2014DownRamp} and little dependence of witness beam properties on downramp length variation when keeping the density gradient constant. 
+
+The interplay between drive beam current, sheath electron energy at the vortex and wake potential is what determines the trapped charge and and witness beam properties in this regime and is matter of ongoing research.
+
+
+Experimental realization of injection due to a density downramp has been successfully applied in laser driven wakefield acceleration \cite{GeddesDensityGradientInjectionPRL2008,schmid2010densityPRSTAB2010,gonsalves2011NatureTunableDensity}
+. 
+The first experimental realization in PWFA with an optically generated plasma density spike is part of this thesis. The concept is described here and the experimental results can be found in  chapter \ref{chap:experiment}.
 
 \subsection{Plasma Torch}
 \label{sec:PlaTo}
-\cite{PlaTo,PlaTo2}
+In laser-driven plasma wakefield acceleration schemes density gradients are normally generated hydrodynamically for example with razorblades or knife-edges as gas flow obstacles that are positioned on top of gas jets \cite{buck2013shock,schmid2010density}. Relying on hydrodynamic gradients is necessary, because the high electric fields of the driving laser pulse is normally capable of ionizing the medium in which it excites the wake. A pure electron density gradient generated prior to the laser pulse would be non-existing after the driving laser-pulse. This 
 
-\begin{figure}[h]
+In contrast to these hydrodynamic methods we have investigated the optical generation of a plasma density spike, also called \textit{Plasma Torch} \cite{PlaTo,PlaTo2} as means for an electron bunch injection.
+In PWFA for exciting a plasma wake in blowout regime neither the the electron bunch electric field nor the wake fields need to be so strong that they ionize He. Therefore the electron density shape can be determined by laser pulses, ionizing gas prior to the arrival of the driving electron bunch. The shape can be expected to be maintained over the plasma recombination time which is on the order of a few $ns$. Therefore picosecond control over relative time of arrival between electron beam and laser pulses is already sufficient to make sure that the electron bunch propagates through the desired density profile. A mixture of Hydrogen and Helium gas with its ionization gap (see figure \ref{img:Ionization_gap}) is convenient for the distinct generation of a density spike. 
+\begin{figure}[ht]
+\begin{center}
+\includegraphics[width=0.5\textwidth]{theory/images/edited/PlasmaTorchTheorySketch.pdf}
+\end{center}
+\caption{Sketch of Plasma Torch injection setup \cite{PlaTo2}.}
+\label{img:Plato_FF_setup_theory}
+\end{figure}
+Figure (\ref{img:Plato_FF_setup_theory}) demonstrates a sketch of the proposed setup. 
+A pre-ionization laser pulse ionizes a long plasma column and only ionizes the Hydrogen gas 
+to a homogeneous plasma along the electron beam orbit.
+A split-off laser arm, seperated by  a beam splitter, is focused down transverse to the beam orbit with higher intensity to ensure full He ionization in a confined region. Both laser arms need to ionize the gas prior to the electron beam.
+Due to the exponential dependence between ionization rate and electric field density downramps on the order of $10 \mu\mathrm{m}$ length can be formed and precise timing control ensures these profiles are contained until the electron beam arrives. 
+The gradients can be tuned very easily by changing the relative gas density of hydrogen and helium. For a gas density 
+
+In \cite{PlaTo} and \cite{PlaTo2} we used FACET-like driver bunches 
+
+
+
+
+
+
+\begin{figure}[ht]
 \begin{center}
 \includegraphics[width=0.5\textwidth]{simulations/images/edited/FF_torch.pdf}
 \end{center}
@@ -587,7 +682,7 @@ Efficiency and beamloading effects were studied in \cite{litos2014high} and rece
 %\subsection{Transverse injection ?}
 \subsection{ionization injection}
 In all previously outlined injection types, electrons to be accelerated in the wake are at a nonzero velocity when injected, which is an advantage as regards the requirements on the wakefield gradient. Ionization injected electrons are in a bound state until they are released to continuum inside the wake. This from a physics standpoint requires the plasma to only be partially ionized when the wake is excited and from an engineering stand point ionization levels that are sufficiently distinct in their ionization rates to ensure a controlled ionization. We will further use the term Low ionization threshold (LIT) medium for the part to be ionized in order to drive the wave in it and High ionization threshold (HIT) medium for the part that originates the injected witness beam electrons. Of course, HIT and LIT medium can be the same, by making use of different ionization levels. If, however, HIT and LIT are different gases as e.g. H$_2$ and He, their gas density ratio becomes a handy degree of freedom to control the injected charge.
-Experimentally in \cite{Navid_distributed_PRL} ionization ionjection was shown in a Rb oven. The electron beam head electric fields were used to ionize $Rb\rightarrow Rb^+$, while the drive beam tails' field overlapped with the wake electric fields were strong enough to ionize $Rb^+ \rightarrow Rb^{2+}$ and inject the. This method of injection electrons is conceptually comparable to ionization injection, where the driving laser pulse fields are strong enough to ionize several ionization levels with injection at the back of the laser or in other words the front of the wake\cite{Pak_Ion_InjectionPRL2010}.
+Experimentally in \cite{Navid_distributed_PRL} ionization ionjection was shown in a Rb oven. The electron beam head electric fields were used to ionize $Rb\rightarrow Rb^+$, while the drive beam tails' field overlapped with the wake electric fields were strong enough to ionize $Rb^+ \rightarrow Rb^{2+}$ and inject the electrons. This method of injection is conceptually comparable to ionization injection, where the driving laser pulse fields are strong enough to ionize several ionization levels with injection at the back of the laser or in other words the front of the wake\cite{Pak_Ion_InjectionPRL2010}.
 
 In \cite{Ossa_Rake_PRL2013} and \cite{MartinezdelaOssa2014231} with theory and simulations a setup was examined where only the back of the wake had sufficiently high fields to ionize the HIT medium and combined with the concept of the trapping potential as described in section (\ref{sec:Theory_Trapping}). It could be shown that the combined requirements for trapping, i.e. the overlap of the ionization region and the trapping region, confine the possible electron source which enables the generation of low emittance electron beams ($\epsilon_x=1.5\ \mathrm{\mu m}$) 
 
@@ -600,7 +695,7 @@ In \cite{Ossa_Rake_PRL2013} and \cite{MartinezdelaOssa2014231} with theory and s
 \subsection{Trojan Horse injection}
 \label{sec:Theory_TrojanHorse}
 The underdense photocathode or Trojan Horse injection is one of the most complex injection techniques. It was proposed by B. Hidding in \cite{Hidding_PRL_2012}. Neither the wake nor the beam electric fields are sufficient to ionize the HIT medium. Instead this is the duty of an additional short-pulse laser pulse, trailing the driving electron beam. Given full control over laser-to-electron beam alignment and synchronization, it is possible to ionize and release electrons wherever in the wake it deems necessary. It could be shown that a release in the potential minimum, i.e. the zero-crossing of the wake is particularly advantageous, because the electron acceleration to relativistic speed is extremely rapid ($\approx \frac{\lP}{2c}$) and the bunch compression is maximum at this injection position. Furthermore the emittance of Trojan Horse injected electron beams can be very low on the order of a few $\epsilon_\mathrm{rms}\approx 10^{-8}\ \mathrm{m rad}$. The reasons for that lie to one part in the ionization method. A typical $800\ \mathrm{nm}$ Ti:Sa few fs laserpulse only needs a peak intensity of $10^{15}\ \mathrm{W/cm^2}$ to ionize a HIT medium as e.g. $He \rightarrow He^+$. The normalized vector potential $a_0 = \frac{\qE E_0}{\mE c^2} = 0.022<<1$ implies that no ponderomotive force can be expected that would impose an inital transverse momentum to the released electron bunch wo that the transverse momentum is basically determined by the HIT gas temperature. 
-A detailed theoretically supported PIC simulation parameter scan in \cite{xi2013hybrid} examined scalings between witness emittance and brightness and laser beam parameters as beam waist $w_0$, pulse length and peak intensity. A indifference towards pulse length as well as an emittance increase with $w_0$ and intensity could be demonstrated.
+A detailed theoretically supported PIC simulation parameter scan in \cite{xi2013hybrid} examined scalings between witness emittance and brightness and laser beam parameters as beam waist $w_0$, pulse length and peak intensity. An indifference towards pulse length as well as an emittance increase with $w_0$ and intensity was found.
 
 In \cite{hidding2014ultrahigh} a detailed comparison between laser and electron beam driven wakefield acceleration is drawn out.
  
@@ -618,9 +713,11 @@ We saw in section (\ref{sec:Trap_pos_bunch_comp}) that the length and position o
 \caption{Ionization front from a}
 \label{img:ion_front_norm}
 \end{figure}
-Figure (\ref{img:ion_front_norm}) demonstrates the time-dependent ionization ratio in He during the propagation of a ??? fs long laser pulse with peak intensity ??? , according to equation (\ref{eqn:ADK_ionization_ratio}).
+Figure (\ref{img:ion_front_norm}) demonstrates the time-dependent ionization ratio in He during the propagation of a 100 fs long laser pulse with peak intensity $1\times10^{15}\ \frac{\mathrm{W}}{\mathrm{cm}^2}$ peak intensity , according to equation (\ref{eqn:ADK_ionization_ratio}).
 The ionization front is clearly visible as a rapid increase of the ionization ratio. 
-In Kim-ionfront-paper  it has been shown experimentally that the ADK formalism is in fact reliable as regards the prediction of the ionization front. From that we can calculate the inital electron release distribution
+In \cite{kim2002IonFrontOpticsexpress} the structure of the ionization front of short-pulse lasers in He has been measured with single-shot supercontinuum spectral interferometry. They had a well-known chirped low-intensity probe laser pulse co-propagating with the ionizing laser pulse. Interferrometry of the spectrally dispersed probe pulse then revealed the length of the ionization front. Their results have demonstrated a very good agreement with the ionization front as predicted by the ADK formalism. 
+
+From that we can calculate the inital electron release distribution
 
 \begin{align}
 \label{eqn:ADK_ionization_ratio_dt}

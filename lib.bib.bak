@@ -128,6 +128,19 @@
   publisher = {AIP Publishing}
 }
 
+@ARTICLE{buck2013shock,
+  author = {Buck, Alexander and Wenz, Johannes and Xu, Jiancai and Khrennikov,
+	Konstantin and Schmid, Karl and Heigoldt, Matthias and Mikhailova,
+	Julia M and Geissler, M and Shen, B and Krausz, Ferenc and others},
+  title = {Shock-front injector for high-quality laser-plasma acceleration},
+  journal = {Physical review letters},
+  year = {2013},
+  volume = {110},
+  pages = {185006},
+  number = {18},
+  publisher = {APS}
+}
+
 @ARTICLE{buck2010LANEX,
   author = {Buck, Alexander and Zeil, K and Popp, Antonia and Schmid, Karl and
 	Jochmann, A and Kraft, SD and Hidding, B and Kudyakov, T and Sears,
@@ -140,6 +153,22 @@
   pages = {033301},
   number = {3},
   publisher = {AIP Publishing}
+}
+
+@ARTICLE{BulanovPRE98WaveBreak,
+  author = {Bulanov, S. and Naumova, N. and Pegoraro, F. and Sakai, J.},
+  title = {Particle injection into the wave acceleration phase due to nonlinear
+	wake wave breaking},
+  journal = {Phys. Rev. E},
+  year = {1998},
+  volume = {58},
+  pages = {R5257--R5260},
+  month = {Nov},
+  doi = {10.1103/PhysRevE.58.R5257},
+  issue = {5},
+  numpages = {0},
+  publisher = {American Physical Society},
+  url = {http://link.aps.org/doi/10.1103/PhysRevE.58.R5257}
 }
 
 @BOOK{Chen_book_Plasma,
@@ -191,6 +220,17 @@
   doi = {http://dx.doi.org/10.1016/0003-4916(58)90012-5},
   issn = {0003-4916},
   url = {http://www.sciencedirect.com/science/article/pii/0003491658900125}
+}
+
+@ARTICLE{england2002PREDensityTransition,
+  author = {England, RJ and Rosenzweig, JB and Barov, N},
+  title = {Plasma electron fluid motion and wave breaking near a density transition},
+  journal = {Physical Review E},
+  year = {2002},
+  volume = {66},
+  pages = {016501},
+  number = {1},
+  publisher = {APS}
 }
 
 @ARTICLE{Esarey_trapping_nonlinear_waves,
@@ -263,13 +303,57 @@
   url = {http://link.aps.org/doi/10.1103/PhysRevE.73.026402}
 }
 
+@ARTICLE{GeddesDensityGradientInjectionPRL2008,
+  author = {Geddes, C. G. R. and Nakamura, K. and Plateau, G. R. and Toth, Cs.
+	and Cormier-Michel, E. and Esarey, E. and Schroeder, C. B. and Cary,
+	J. R. and Leemans, W. P.},
+  title = {Plasma-Density-Gradient Injection of Low Absolute-Momentum-Spread
+	Electron Bunches},
+  journal = {Phys. Rev. Lett.},
+  year = {2008},
+  volume = {100},
+  pages = {215004},
+  month = {May},
+  doi = {10.1103/PhysRevLett.100.215004},
+  issue = {21},
+  numpages = {4},
+  publisher = {American Physical Society},
+  url = {http://link.aps.org/doi/10.1103/PhysRevLett.100.215004}
+}
+
 @PHDTHESIS{ThesisGessner,
   author = {Spencer Gessner},
-  title = {Demonstration of the Hollow channel Plasma WakefWake Accelerator},
+  title = {Demonstration of the Hollow channel Plasma Wakefield Accelerator},
   school = {Stanford University},
   year = {2016},
   owner = {knetsch},
   timestamp = {2016.11.20}
+}
+
+@ARTICLE{gonsalves2011NatureTunableDensity,
+  author = {Gonsalves, AJ and Nakamura, Kei and Lin, Chen and Panasenko, Dmitriy
+	and Shiraishi, Satomi and Sokollik, Thomas and Benedetti, Carlo and
+	Schroeder, CB and Geddes, CGR and Van Tilborg, Jeroen and others},
+  title = {Tunable laser plasma accelerator based on longitudinal density tailoring},
+  journal = {Nature Physics},
+  year = {2011},
+  volume = {7},
+  pages = {862--866},
+  number = {11},
+  publisher = {Nature Publishing Group}
+}
+
+@ARTICLE{grebenyuk2014DownRamp,
+  author = {Grebenyuk, J and de la Ossa, A Martinez and Mehrling, T and Osterhoff,
+	J},
+  title = {Beam-driven plasma-based acceleration of electrons with density down-ramp
+	injection at FLASHForward},
+  journal = {Nuclear Instruments and Methods in Physics Research Section A: Accelerators,
+	Spectrometers, Detectors and Associated Equipment},
+  year = {2014},
+  volume = {740},
+  pages = {246--249},
+  publisher = {Elsevier}
 }
 
 @ARTICLE{Green_FACET_Laser_PIOP,
@@ -340,6 +424,22 @@
   publisher = {IOP Publishing}
 }
 
+@ARTICLE{KatsouleasPRL1988WaveBreak,
+  author = {Katsouleas, T. and Mori, W. B.},
+  title = {Wave-Breaking Amplitude of Relativistic Oscillations in a Thermal
+	Plasma},
+  journal = {Phys. Rev. Lett.},
+  year = {1988},
+  volume = {61},
+  pages = {90--93},
+  month = {Jul},
+  doi = {10.1103/PhysRevLett.61.90},
+  issue = {1},
+  numpages = {0},
+  publisher = {American Physical Society},
+  url = {http://link.aps.org/doi/10.1103/PhysRevLett.61.90}
+}
+
 @BOOK{Kelly_1982_Ion_Energies,
   title = {Atomic and ionic spectrum lines below 2000A: hydrogen through argon},
   year = {1982},
@@ -374,6 +474,18 @@
   numpages = {5},
   publisher = {American Physical Society},
   url = {http://link.aps.org/doi/10.1103/PhysRevE.69.026409}
+}
+
+@ARTICLE{kim2002IonFrontOpticsexpress,
+  author = {Kim, K and Alexeev, I and Milchberg, H},
+  title = {Single-shot measurement of laser-induced double step ionization of
+	helium},
+  journal = {Optics express},
+  year = {2002},
+  volume = {10},
+  pages = {1563--1572},
+  number = {26},
+  publisher = {Optical Society of America}
 }
 
 @PHDTHESIS{Kirby_PhD,
@@ -748,6 +860,34 @@
   priority = {2}
 }
 
+@ARTICLE{schmid2010density,
+  author = {Schmid, Karl and Buck, Alexander and Sears, Christopher MS and Mikhailova,
+	Julia M and Tautz, Raphael and Herrmann, Daniel and Geissler, Michael
+	and Krausz, Ferenc and Veisz, Laszlo},
+  title = {Density-transition based electron injector for laser driven wakefield
+	accelerators},
+  journal = {Physical Review Special Topics-Accelerators and Beams},
+  year = {2010},
+  volume = {13},
+  pages = {091301},
+  number = {9},
+  publisher = {APS}
+}
+
+@ARTICLE{schmid2010densityPRSTAB2010,
+  author = {Schmid, Karl and Buck, Alexander and Sears, Christopher MS and Mikhailova,
+	Julia M and Tautz, Raphael and Herrmann, Daniel and Geissler, Michael
+	and Krausz, Ferenc and Veisz, Laszlo},
+  title = {Density-transition based electron injector for laser driven wakefield
+	accelerators},
+  journal = {Physical Review Special Topics-Accelerators and Beams},
+  year = {2010},
+  volume = {13},
+  pages = {091301},
+  number = {9},
+  publisher = {APS}
+}
+
 @INPROCEEDINGS{serafini2001velocity,
   author = {Serafini, L and Ferrario, M},
   title = {Velocity bunching in photo-injectors},
@@ -768,6 +908,19 @@
   year = {2007},
   owner = {knetsch},
   timestamp = {2016.10.17}
+}
+
+@ARTICLE{suk2001_PRL_DensityTransition,
+  author = {Suk, Hyyong and Barov, Nick and Rosenzweig, James Benjamine and Esarey,
+	E},
+  title = {Plasma electron trapping and acceleration in a plasma wake field
+	using a density transition},
+  journal = {Physical review letters},
+  year = {2001},
+  volume = {86},
+  pages = {1011},
+  number = {6},
+  publisher = {APS}
 }
 
 @INPROCEEDINGS{Tzoufras_physpic_beamloading,
@@ -892,6 +1045,18 @@
   numpages = {0},
   publisher = {American Physical Society},
   url = {http://link.aps.org/doi/10.1103/PhysRevLett.85.3404}
+}
+
+@ARTICLE{zhang2011boilingTemp,
+  author = {Zhang, Yiming and Evans, Julian RG and Yang, Shoufeng},
+  title = {Corrected values for boiling points and enthalpies of vaporization
+	of elements in handbooks},
+  journal = {Journal of Chemical \& Engineering Data},
+  year = {2011},
+  volume = {56},
+  pages = {328--337},
+  number = {2},
+  publisher = {ACS Publications}
 }
 
 @MANUAL{GigE125_datasheet,

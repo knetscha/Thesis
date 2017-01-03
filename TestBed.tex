@@ -13,6 +13,15 @@
 \usepackage[german,german]{babel} % hiermit werden deutsche Bezeichnungen genutzt und 
                      % die W\"orter werden anhand der neue Rechtschreibung 
 		     % automatisch getrennt.  
+		     
+		     
+		     
+		     \newcommand{\mE}{m_\mathrm{e}} 
+\newcommand{\nE}{n_\mathrm{e}} 
+\newcommand{\qE}{q_\mathrm{e}}
+\newcommand{\wP}{\omega_\mathrm{p}}
+\newcommand{\lP}{\lambda_\mathrm{p}}
+\newcommand{\kP}{k_\mathrm{p}}
 \title{Trapping and Beamloading in hybrid Plasma Wakefield Accelerator schemes}
 \author{Alexander Knetsch}
 
@@ -27,23 +36,30 @@
 \maketitle
 \tableofcontents
 
-\cite{mulser2010Book}
-It is worth noting that the Debye Shielding assumes a thermalized plasma and is not the right idea of a plasma reaction to a rapid change in charge on a femtosecond timescale. 
-The more appropriate figure of merit in that case is the depth an electromagnetic wave 
 
-with frequency $\omega$ can permeate the plasma fluid.
+As mentioned before the phase velocity of the plasma wake in PWFA is equal to the velocity of the driving electron bunch $v_\phi=v_\mathrm{bunch}$ in the case of a constant plasma density, which is normally close to the speed of light. This feature of PWFA makes dephasing, which is the effect of the witness beam approaching the drive beam in the co-moving frame due to velocity differences between the bunches, mostly negligible. However, it also makes the injection of electrons into the wake particularly challenging.
+Since the plasma wavelength $\lP$ (eq. , which is the characteristic scale of the longitudinal blowout length, depends on the plasma density the blowout must expand and contract on a density downramp or upramp respectively.
 
-The transparency of a plasma to a electromagnetic wave can be calculated by applying the Maxwell equations \ref{eqn:Maxwell} so that one gets the differenctial equation.
-%\begin{equation}
-%\label{eqn:Laser_prop_DGL}
-%\vec{\nabla}\times\vec{\nabla}\times \vec{E}+c^{-2}\frac{\partial^2 \vec{E}}{\partial t^2}=-\frac{1}{\epsilon_0 c^2}\frac{\partial \vec{j}}{\partial t}
-%\end{equation}
-
-
-
+The phase position of the wake is
 \begin{equation}
-\frac{E_z}{E_0}=\frac{k_p}{2}\xi
+\phi=\kP\xi \propto \sqrt{\nE}\xi
 \end{equation}
+in the co-moving frame with $\xi=z-ct$.
+
+The phase velocity is 
+
+
+
+\begin{align}
+v_\phi(\xi,z)&=-c\frac{\frac{\partial \phi}{\partial (ct)}}{\frac{\partial \phi}{\partial z}}\\
+&=\frac{(\frac{\partial \kP}{\partial t}\xi+\frac{\partial \xi}{\partial t} \kP)}{\frac{\partial \kP}{\partial z}\xi + \frac{\partial x}{\partial z}\kP}\\
+&=\frac{c\kP}{\kP\frac{1}{2\nE}\frac{ \partial \nE}{\partial z}\xi+\kP }\\
+&=\frac{c}{\frac{1}{2\nE}\frac{ \partial \nE}{\partial z}\xi+1 }
+\end{align}
+
+
+
+
 
 \begin{equation}
 \frac{E_r-B_\theta}{E_0}=\frac{k_p}{2}r

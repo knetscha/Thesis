@@ -30,6 +30,12 @@ R.L. Kelly.
   argon}.
 \newblock Oct 1982.
 
+\bibitem{zhang2011boilingTemp}
+Yiming Zhang, Julian~RG Evans, and Shoufeng Yang.
+\newblock Corrected values for boiling points and enthalpies of vaporization of
+  elements in handbooks.
+\newblock {\em Journal of Chemical \& Engineering Data}, 56(2):328--337, 2011.
+
 \bibitem{RevModPhys.81.1229}
 E.~Esarey, C.~B. Schroeder, and W.~P. Leemans.
 \newblock Physics of laser-driven plasma-based electron accelerators.
@@ -157,9 +163,73 @@ M~Litos, E~Adli, W~An, CI~Clarke, CE~Clayton, S{\'e}bastien Corde, JP~Delahaye,
 
 \bibitem{ThesisGessner}
 Spencer Gessner.
-\newblock {\em Demonstration of the Hollow channel Plasma WakefWake
+\newblock {\em Demonstration of the Hollow channel Plasma Wakefield
   Accelerator}.
 \newblock PhD thesis, Stanford University, 2016.
+
+\bibitem{BulanovPRE98WaveBreak}
+S.~Bulanov, N.~Naumova, F.~Pegoraro, and J.~Sakai.
+\newblock Particle injection into the wave acceleration phase due to nonlinear
+  wake wave breaking.
+\newblock {\em Phys. Rev. E}, 58:R5257--R5260, Nov 1998.
+
+\bibitem{suk2001_PRL_DensityTransition}
+Hyyong Suk, Nick Barov, James~Benjamine Rosenzweig, and E~Esarey.
+\newblock Plasma electron trapping and acceleration in a plasma wake field
+  using a density transition.
+\newblock {\em Physical review letters}, 86(6):1011, 2001.
+
+\bibitem{england2002PREDensityTransition}
+RJ~England, JB~Rosenzweig, and N~Barov.
+\newblock Plasma electron fluid motion and wave breaking near a density
+  transition.
+\newblock {\em Physical Review E}, 66(1):016501, 2002.
+
+\bibitem{grebenyuk2014DownRamp}
+J~Grebenyuk, A~Martinez de~la Ossa, T~Mehrling, and J~Osterhoff.
+\newblock Beam-driven plasma-based acceleration of electrons with density
+  down-ramp injection at flashforward.
+\newblock {\em Nuclear Instruments and Methods in Physics Research Section A:
+  Accelerators, Spectrometers, Detectors and Associated Equipment},
+  740:246--249, 2014.
+
+\bibitem{GeddesDensityGradientInjectionPRL2008}
+C.~G.~R. Geddes, K.~Nakamura, G.~R. Plateau, Cs. Toth, E.~Cormier-Michel,
+  E.~Esarey, C.~B. Schroeder, J.~R. Cary, and W.~P. Leemans.
+\newblock Plasma-density-gradient injection of low absolute-momentum-spread
+  electron bunches.
+\newblock {\em Phys. Rev. Lett.}, 100:215004, May 2008.
+
+\bibitem{schmid2010densityPRSTAB2010}
+Karl Schmid, Alexander Buck, Christopher~MS Sears, Julia~M Mikhailova, Raphael
+  Tautz, Daniel Herrmann, Michael Geissler, Ferenc Krausz, and Laszlo Veisz.
+\newblock Density-transition based electron injector for laser driven wakefield
+  accelerators.
+\newblock {\em Physical Review Special Topics-Accelerators and Beams},
+  13(9):091301, 2010.
+
+\bibitem{gonsalves2011NatureTunableDensity}
+AJ~Gonsalves, Kei Nakamura, Chen Lin, Dmitriy Panasenko, Satomi Shiraishi,
+  Thomas Sokollik, Carlo Benedetti, CB~Schroeder, CGR Geddes, Jeroen
+  Van~Tilborg, et~al.
+\newblock Tunable laser plasma accelerator based on longitudinal density
+  tailoring.
+\newblock {\em Nature Physics}, 7(11):862--866, 2011.
+
+\bibitem{buck2013shock}
+Alexander Buck, Johannes Wenz, Jiancai Xu, Konstantin Khrennikov, Karl Schmid,
+  Matthias Heigoldt, Julia~M Mikhailova, M~Geissler, B~Shen, Ferenc Krausz,
+  et~al.
+\newblock Shock-front injector for high-quality laser-plasma acceleration.
+\newblock {\em Physical review letters}, 110(18):185006, 2013.
+
+\bibitem{schmid2010density}
+Karl Schmid, Alexander Buck, Christopher~MS Sears, Julia~M Mikhailova, Raphael
+  Tautz, Daniel Herrmann, Michael Geissler, Ferenc Krausz, and Laszlo Veisz.
+\newblock Density-transition based electron injector for laser driven wakefield
+  accelerators.
+\newblock {\em Physical Review Special Topics-Accelerators and Beams},
+  13(9):091301, 2010.
 
 \bibitem{PlaTo}
 G~Wittig, O~Karger, A~Knetsch, Y~Xi, A~Deng, JB~Rosenzweig, DL~Bruhwiler,
@@ -214,6 +284,12 @@ B~Hidding, GG~Manahan, O~Karger, A~Knetsch, G~Wittig, DA~Jaroszynski, ZM~Sheng,
   drivers of 5th generation light sources.
 \newblock {\em Journal of Physics B: Atomic, Molecular and Optical Physics},
   47(23):234010, 2014.
+
+\bibitem{kim2002IonFrontOpticsexpress}
+K~Kim, I~Alexeev, and H~Milchberg.
+\newblock Single-shot measurement of laser-induced double step ionization of
+  helium.
+\newblock {\em Optics express}, 10(26):1563--1572, 2002.
 
 \bibitem{Manahan_HotSpots_PRAB}
 G.~G. Manahan, A.~Deng, O.~Karger, Y.~Xi, A.~Knetsch, M.~Litos, G.~Wittig,
